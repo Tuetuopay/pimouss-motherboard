@@ -1,0 +1,39 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 88E1545
+D Quad Port 10/100/1000 Mbps Energy Efficient Ethernet Transceiver
+K ethernet phy qsgmii
+F https://www.marvell.com/documents/ymlgvtjaejhhxflojtro/
+$ENDCMP
+#
+$CMP AP7175SP
+D 3A Ultra Low Dropout Linear Regulator With Enable
+K ldo
+F https://www.diodes.com/assets/Datasheets/AP7175.pdf
+$ENDCMP
+#
+$CMP CH340T
+D USB to serial
+K UART
+F https://cdn.sparkfun.com/datasheets/Dev/Arduino/Other/CH340DS1.PDF
+$ENDCMP
+#
+$CMP DSC1122CE1-125
+D Low-Jitter Precision LVPECL Oscrillator
+K oscillator
+F http://ww1.microchip.com/downloads/en/DeviceDoc/DSC1102%20DSC1122%20Datasheet%20MKQBPD11041002-6.pdf
+$ENDCMP
+#
+$CMP ISL8033A
+D Dual 3A Low Quiescent Current Synchronous Buck Regulator
+K regulator buck
+F https://www.renesas.com/eu/en/doc/datasheet/isl8033-a.pdf
+$ENDCMP
+#
+$CMP USB-C-2.0-FEMALE
+D USB 2.0 Type-C Receptacle connector
+K usb universal serial bus type-C full-featured
+F https://www.usb.org/sites/default/files/documents/usb_type-c.zip
+$ENDCMP
+#
+#End Doc Library
