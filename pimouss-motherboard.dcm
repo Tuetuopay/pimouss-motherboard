@@ -1,5 +1,15 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP +1V8A
+D Power flag, +VphyVDDC
+K power-flag
+$ENDCMP
+#
+$CMP +3V3A
+D Power flag, +VphyVDDC
+K power-flag
+$ENDCMP
+#
 $CMP 88E1545
 D Quad Port 10/100/1000 Mbps Energy Efficient Ethernet Transceiver
 K ethernet phy qsgmii
@@ -34,6 +44,26 @@ $CMP USB-C-2.0-FEMALE
 D USB 2.0 Type-C Receptacle connector
 K usb universal serial bus type-C full-featured
 F https://www.usb.org/sites/default/files/documents/usb_type-c.zip
+$ENDCMP
+#
+$CMP VphyDVDD
+D Power flag, +VphyVDDC
+K power-flag
+$ENDCMP
+#
+$CMP VphyVDDC
+D Power flag, +VphyVDDC
+K power-flag
+$ENDCMP
+#
+$CMP Vrtc
+D Power flag, +VphyVDDC
+K power-flag
+$ENDCMP
+#
+$CMP VUSB
+D Power flag, +VphyVDDC
+K power-flag
 $ENDCMP
 #
 #End Doc Library
