@@ -4,12 +4,12 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 5
+Sheet 1 7
 Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
+Date "2019-03-19"
+Rev "0.1"
+Comp "Tuetuopay OSS Technologies"
+Comment1 "(Well it's not OSHW, the pimouss is confidential...)"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -19,6 +19,10 @@ S 4700 3800 800  900
 U 5C7D0D1E
 F0 "phy" 50
 F1 "phy.sch" 50
+F2 "nRST" I L 4700 4000 50
+F3 "MDIO" B L 4700 4200 50
+F4 "MDC" I L 4700 4300 50
+F5 "QSGMII" B L 4700 4500 50
 $EndSheet
 $Sheet
 S 4700 1700 800  1900
