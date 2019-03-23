@@ -196,7 +196,7 @@
   (pad 1 smd rect (at -17.247 2.865) (size 0.3 1.45) (layers F.Cu F.Paste F.Mask))
   (pad "" np_thru_hole circle (at -19.247 -2.67) (size 1.02 1.02) (drill 1.02) (layers *.Cu *.Mask))
   (pad "" np_thru_hole circle (at 19.247 -2.67) (size 1.02 1.02) (drill 1.02) (layers *.Cu *.Mask))
-  (model ${KIPRJMOD}/QSH-060-01-F-D.igs
+  (model ${KIPRJMOD}/3d/QSH-060-01-F-D.igs
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

@@ -91,7 +91,7 @@
   (pad 50 smd rect (at 23.5 -4.1) (size 0.6 2) (layers F.Cu F.Paste F.Mask))
   (pad 51 smd rect (at 23.9 4.1) (size 0.6 2) (layers F.Cu F.Paste F.Mask))
   (pad 52 smd rect (at 24.3 -4.1) (size 0.6 2) (layers F.Cu F.Paste F.Mask))
-  (model ${KIPRJMOD}/mpcie.igs
+  (model ${KIPRJMOD}/3d/mpcie.igs
     (offset (xyz 12.5 4.5 2))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 180))

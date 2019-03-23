@@ -101,7 +101,7 @@
   (pad B32 thru_hole circle (at -16.5 -3.26) (size 1.208 1.208) (drill 0.7) (layers *.Cu *.Mask))
   (pad Hole np_thru_hole circle (at 4.85 0) (size 2.35 2.35) (drill 2.35) (layers *.Cu *.Mask F.SilkS))
   (pad Hole np_thru_hole circle (at -18.3 0) (size 2.35 2.35) (drill 2.35) (layers *.Cu *.Mask F.SilkS))
-  (model ${KIPRJMOD}/PCIE-064-02-F-D-TH.igs
+  (model ${KIPRJMOD}/3d/PCIE-064-02-F-D-TH.igs
     (offset (xyz 7 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
