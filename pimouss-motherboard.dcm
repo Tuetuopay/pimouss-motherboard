@@ -16,6 +16,11 @@ K ethernet phy qsgmii
 F https://www.marvell.com/documents/ymlgvtjaejhhxflojtro/
 $ENDCMP
 #
+$CMP 89HPES4T4
+D 4-Lane 4-Port PCI Express Switch
+K pcie switch
+$ENDCMP
+#
 $CMP AP7175SP
 D 3A Ultra Low Dropout Linear Regulator With Enable
 K ldo
