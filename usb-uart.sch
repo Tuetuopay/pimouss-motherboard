@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 9
+Sheet 7 10
 Title "USB to UART conversion"
 Date "2019-03-19"
 Rev "0.1"
@@ -23,7 +23,7 @@ F 1 "GND" H 6905 4627 50  0000 C CNN
 F 2 "" H 6900 4800 50  0001 C CNN
 F 3 "" H 6900 4800 50  0001 C CNN
 	1    6900 4800
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	6900 4700 6900 4800
@@ -36,7 +36,7 @@ F 1 "CH340C" H 7400 2350 50  0000 R CNN
 F 2 "Package_SO:SSOP-20_5.3x7.2mm_P0.65mm" H 7300 1950 50  0001 C CNN
 F 3 "https://cdn.sparkfun.com/datasheets/Dev/Arduino/Other/CH340DS1.PDF" H 6400 3650 50  0001 C CNN
 	1    6400 3500
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L pimouss-motherboard:VUSB #PWR?
@@ -47,7 +47,7 @@ F 1 "VUSB" H 6815 3473 50  0000 C CNN
 F 2 "" H 6800 3300 50  0001 C CNN
 F 3 "" H 6800 3300 50  0001 C CNN
 	1    6800 3300
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	6800 3300 6800 3400
@@ -56,11 +56,11 @@ L Device:C C?
 U 1 1 5D27AF80
 P 7250 3200
 F 0 "C?" V 6998 3200 50  0000 C CNN
-F 1 "C" V 7089 3200 50  0000 C CNN
+F 1 "100n" V 7089 3200 50  0000 C CNN
 F 2 "" H 7288 3050 50  0001 C CNN
 F 3 "~" H 7250 3200 50  0001 C CNN
 	1    7250 3200
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 Wire Wire Line
 	7000 3400 7000 3200
@@ -75,7 +75,7 @@ F 1 "GND" H 7505 3127 50  0000 C CNN
 F 2 "" H 7500 3300 50  0001 C CNN
 F 3 "" H 7500 3300 50  0001 C CNN
 	1    7500 3300
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	7400 3200 7500 3200
@@ -90,7 +90,7 @@ F 1 "USB-C-2.0-FEMALE" H 3306 3174 50  0000 C CNN
 F 2 "pimouss-motherboard:USB-C-FEMALE" H 3550 1600 50  0001 C CNN
 F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 3450 2600 50  0001 C CNN
 	1    2800 3100
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L Device:R R?
@@ -101,7 +101,7 @@ F 1 "27" V 5334 3800 50  0000 C CNN
 F 2 "" V 5380 3800 50  0001 C CNN
 F 3 "~" H 5450 3800 50  0001 C CNN
 	1    5450 3800
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L Device:R R?
@@ -112,7 +112,7 @@ F 1 "27" V 5656 3900 50  0000 C CNN
 F 2 "" V 5380 3900 50  0001 C CNN
 F 3 "~" H 5450 3900 50  0001 C CNN
 	1    5450 3900
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 Wire Wire Line
 	5600 3800 6300 3800
@@ -164,7 +164,7 @@ F 1 "47p" H 5050 4200 50  0000 R BNN
 F 2 "" H 5138 4000 50  0001 C CNN
 F 3 "~" H 5100 4150 50  0001 C CNN
 	1    5100 4150
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 $Comp
 L Device:C C?
@@ -175,7 +175,7 @@ F 1 "47p" H 4750 4200 50  0000 R BNN
 F 2 "" H 4838 4000 50  0001 C CNN
 F 3 "~" H 4800 4150 50  0001 C CNN
 	1    4800 4150
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 Wire Wire Line
 	5100 4000 5100 3800
@@ -196,7 +196,7 @@ F 1 "GND" H 5105 4227 50  0000 C CNN
 F 2 "" H 5100 4400 50  0001 C CNN
 F 3 "" H 5100 4400 50  0001 C CNN
 	1    5100 4400
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L power:GND #PWR?
@@ -207,7 +207,7 @@ F 1 "GND" H 4805 4227 50  0000 C CNN
 F 2 "" H 4800 4400 50  0001 C CNN
 F 3 "" H 4800 4400 50  0001 C CNN
 	1    4800 4400
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	4800 4300 4800 4400
@@ -235,7 +235,7 @@ F 1 "GND" H 4405 3377 50  0000 C CNN
 F 2 "" H 4400 3550 50  0001 C CNN
 F 3 "" H 4400 3550 50  0001 C CNN
 	1    4400 3550
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	4400 3450 4400 3550
@@ -243,15 +243,15 @@ $Comp
 L Device:L L?
 U 1 1 5D2813FA
 P 4950 3050
-AR Path="/5C7D0D1E/5C7D3CAF/5D2813FA" Ref="L?"  Part="1" 
-AR Path="/5C7D0D1E/5C7D3CB2/5D2813FA" Ref="L?"  Part="1" 
-AR Path="/5D2774DB/5D2813FA" Ref="L?"  Part="1" 
+AR Path="/5C7D0D1E/5C7D3CAF/5D2813FA" Ref="L?"  Part="1"
+AR Path="/5C7D0D1E/5C7D3CB2/5D2813FA" Ref="L?"  Part="1"
+AR Path="/5D2774DB/5D2813FA" Ref="L?"  Part="1"
 F 0 "L?" V 5140 3050 50  0000 C CNN
 F 1 "600@100M" V 5049 3050 50  0000 C CNN
 F 2 "" H 4950 3050 50  0001 C CNN
 F 3 "~" H 4950 3050 50  0001 C CNN
 	1    4950 3050
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L Device:C C?
@@ -262,7 +262,7 @@ F 1 "47p" H 4650 3350 50  0000 R BNN
 F 2 "" H 4738 3150 50  0001 C CNN
 F 3 "~" H 4700 3300 50  0001 C CNN
 	1    4700 3300
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 Wire Wire Line
 	3900 3200 3900 3050
@@ -284,7 +284,7 @@ F 1 "GND" H 4705 3377 50  0000 C CNN
 F 2 "" H 4700 3550 50  0001 C CNN
 F 3 "" H 4700 3550 50  0001 C CNN
 	1    4700 3550
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	4700 3450 4700 3550
@@ -297,7 +297,7 @@ F 1 "VUSB" H 5215 3123 50  0000 C CNN
 F 2 "" H 5200 2950 50  0001 C CNN
 F 3 "" H 5200 2950 50  0001 C CNN
 	1    5200 2950
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	5100 3050 5200 3050
@@ -312,7 +312,7 @@ F 1 "10u" H 8650 4650 50  0000 R BNN
 F 2 "" H 8738 4450 50  0001 C CNN
 F 3 "~" H 8700 4600 50  0001 C CNN
 	1    8700 4600
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 $Comp
 L Device:C C?
@@ -323,7 +323,7 @@ F 1 "100n" H 8350 4650 50  0000 R BNN
 F 2 "" H 8438 4450 50  0001 C CNN
 F 3 "~" H 8400 4600 50  0001 C CNN
 	1    8400 4600
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 $Comp
 L pimouss-motherboard:VUSB #PWR?
@@ -334,7 +334,7 @@ F 1 "VUSB" H 8415 4523 50  0000 C CNN
 F 2 "" H 8400 4350 50  0001 C CNN
 F 3 "" H 8400 4350 50  0001 C CNN
 	1    8400 4350
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L power:GND #PWR?
@@ -345,7 +345,7 @@ F 1 "GND" H 8705 4677 50  0000 C CNN
 F 2 "" H 8700 4850 50  0001 C CNN
 F 3 "" H 8700 4850 50  0001 C CNN
 	1    8700 4850
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	8400 4350 8400 4400
@@ -396,7 +396,7 @@ F 1 "GND" H 3155 4427 50  0000 C CNN
 F 2 "" H 3150 4600 50  0001 C CNN
 F 3 "" H 3150 4600 50  0001 C CNN
 	1    3150 4600
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	3150 4600 3150 4550

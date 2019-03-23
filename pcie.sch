@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 9
+Sheet 8 10
 Title "PCI Express connectors"
 Date "2019-03-19"
 Rev "0.1"
@@ -249,7 +249,7 @@ Entry Wire Line
 	6450 2900 6550 3000
 Entry Wire Line
 	6450 3000 6550 3100
-Text Label 6100 2900 0    50   ~ 0
+Text Label 6050 2900 0    50   ~ 0
 PCIE_1X
 Wire Wire Line
 	7300 3400 6550 3400
@@ -283,7 +283,7 @@ Entry Wire Line
 	1950 3500 2050 3600
 Entry Wire Line
 	1950 3600 2050 3700
-Text Label 1600 3500 0    50   ~ 0
+Text Label 1550 3500 0    50   ~ 0
 PCIE_4X
 Wire Wire Line
 	4600 3800 5350 3800
@@ -299,7 +299,7 @@ Entry Wire Line
 	5450 3700 5350 3800
 Entry Wire Line
 	5450 3800 5350 3900
-Text Label 5800 3400 2    50   ~ 0
+Text Label 5850 3400 2    50   ~ 0
 PCIE_4X
 Text Label 5300 3500 2    50   ~ 0
 PCIE_X4_CLK_P
@@ -412,11 +412,11 @@ Entry Wire Line
 	2050 2400 1950 2300
 Wire Bus Line
 	10250 3000 10650 3000
-Text Label 10600 3000 2    50   ~ 0
+Text Label 10650 3000 2    50   ~ 0
 SMBUS
 Wire Bus Line
 	1950 2200 1550 2200
-Text Label 1600 2200 0    50   ~ 0
+Text Label 1550 2200 0    50   ~ 0
 SMBUS
 NoConn ~ 3800 2300
 NoConn ~ 3800 2400
@@ -424,11 +424,11 @@ NoConn ~ 3800 2500
 NoConn ~ 3800 2600
 Wire Wire Line
 	10150 3600 9400 3600
-Text Label 9850 3600 0    50   ~ 0
+Text Label 10150 3600 2    50   ~ 0
 nRST
 Wire Wire Line
-	4550 2900 3800 2900
-Text Label 4250 2900 0    50   ~ 0
+	4650 2900 3800 2900
+Text Label 4650 2900 2    50   ~ 0
 nRST
 NoConn ~ 2800 2900
 NoConn ~ 2800 3400
@@ -436,11 +436,11 @@ NoConn ~ 2800 2700
 NoConn ~ 2800 5600
 Wire Wire Line
 	2800 5700 2050 5700
-Text Label 2150 5700 0    50   ~ 0
+Text Label 2050 5700 0    50   ~ 0
 X4_PRSNT
 Wire Wire Line
-	3800 1900 4550 1900
-Text Label 4250 1900 0    50   ~ 0
+	3800 1900 4650 1900
+Text Label 4650 1900 2    50   ~ 0
 X4_PRSNT
 $Comp
 L Device:C C?
@@ -870,19 +870,19 @@ Text HLabel 2700 7300 0    50   Output ~ 0
 nRST
 Wire Bus Line
 	3100 7000 2700 7000
-Text Label 2750 7000 0    50   ~ 0
+Text Label 3100 7000 2    50   ~ 0
 PCIE_1X
 Wire Bus Line
 	3100 7100 2700 7100
-Text Label 2750 7100 0    50   ~ 0
+Text Label 3100 7100 2    50   ~ 0
 PCIE_4X
 Wire Bus Line
 	3100 7200 2700 7200
-Text Label 2750 7200 0    50   ~ 0
+Text Label 3100 7200 2    50   ~ 0
 SMBUS
 Wire Wire Line
 	2700 7300 3100 7300
-Text Label 2800 7300 0    50   ~ 0
+Text Label 3100 7300 2    50   ~ 0
 nRST
 $Comp
 L pimouss-motherboard:+1V5_PCI #PWR?

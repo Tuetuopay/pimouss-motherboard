@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP +1V5_PCI
+D Power flag, +1V5_PCI
+K power-flag
+$ENDCMP
+#
 $CMP +1V8A
 D Power flag, +1V8A
 K power-flag
@@ -7,6 +12,11 @@ $ENDCMP
 #
 $CMP +3V3A
 D Power flag, +3V3A
+K power-flag
+$ENDCMP
+#
+$CMP +3V3_PCI
+D Power flag, +3V3_PCI
 K power-flag
 $ENDCMP
 #
@@ -70,16 +80,6 @@ $ENDCMP
 #
 $CMP VUSB
 D Power flag, +VUSB
-K power-flag
-$ENDCMP
-#
-$CMP +3V3_PCI
-D Power flag, +3V3_PCI
-K power-flag
-$ENDCMP
-#
-$CMP +1V5_PCI
-D Power flag, +1V5_PCI
 K power-flag
 $ENDCMP
 #

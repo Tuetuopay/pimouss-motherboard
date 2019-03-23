@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 9
+Sheet 4 10
 Title "PHY control plane"
 Date "2019-03-19"
 Rev "0.1"
@@ -23,7 +23,7 @@ F 1 "88E1545" H 4500 1374 50  0000 C CNN
 F 2 "pimouss-motherboard:LQFP-128-1EP_14x20mm_P0.5mm_EP3.93x6.42mm" H 5450 -1100 50  0001 C CNN
 F 3 "https://www.marvell.com/documents/ymlgvtjaejhhxflojtro/" H 4000 1450 50  0001 C CNN
 	1    4000 1300
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L pimouss-motherboard:DSC1122CE1-125 U?
@@ -34,7 +34,7 @@ F 1 "DSC1122CE1-125" H 5000 5274 50  0000 C CNN
 F 2 "Package_DFN_QFN:DFN-6_2.5x2mm_P0.825mm" H 5650 4700 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/DSC1102%20DSC1122%20Datasheet%20MKQBPD11041002-6.pdf" H 4700 5350 50  0001 C CNN
 	1    4700 5200
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L Device:C C?
@@ -45,7 +45,7 @@ F 1 "NP" H 4315 5505 50  0000 L CNN
 F 2 "" H 4238 5400 50  0001 C CNN
 F 3 "~" H 4200 5550 50  0001 C CNN
 	1    4200 5550
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L Device:C C?
@@ -56,7 +56,7 @@ F 1 "100n" H 3900 5500 50  0000 L TNN
 F 2 "" H 3888 5400 50  0001 C CNN
 F 3 "~" H 3850 5550 50  0001 C CNN
 	1    3850 5550
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L Device:C C?
@@ -67,7 +67,7 @@ F 1 "1u" H 3650 5500 50  0000 L TNN
 F 2 "" H 3638 5400 50  0001 C CNN
 F 3 "~" H 3600 5550 50  0001 C CNN
 	1    3600 5550
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L Device:C C?
@@ -78,7 +78,7 @@ F 1 "1u" H 3015 5505 50  0000 L CNN
 F 2 "" H 2938 5400 50  0001 C CNN
 F 3 "~" H 2900 5550 50  0001 C CNN
 	1    2900 5550
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L Device:C C?
@@ -89,7 +89,7 @@ F 1 "100n" V 6489 5300 50  0000 C CNN
 F 2 "" H 6688 5150 50  0001 C CNN
 F 3 "~" H 6650 5300 50  0001 C CNN
 	1    6650 5300
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L Device:C C?
@@ -100,7 +100,7 @@ F 1 "100n" V 6901 5500 50  0000 C CNN
 F 2 "" H 6688 5350 50  0001 C CNN
 F 3 "~" H 6650 5500 50  0001 C CNN
 	1    6650 5500
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L Device:R R?
@@ -111,7 +111,7 @@ F 1 "249" H 5531 4905 50  0000 R CNN
 F 2 "" V 5530 4950 50  0001 C CNN
 F 3 "~" H 5600 4950 50  0001 C CNN
 	1    5600 4950
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L Device:R R?
@@ -122,7 +122,7 @@ F 1 "249" H 5870 4905 50  0000 L CNN
 F 2 "" V 5730 4950 50  0001 C CNN
 F 3 "~" H 5800 4950 50  0001 C CNN
 	1    5800 4950
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L Device:R R?
@@ -133,7 +133,7 @@ F 1 "62" H 5531 5705 50  0000 R CNN
 F 2 "" V 5530 5750 50  0001 C CNN
 F 3 "~" H 5600 5750 50  0001 C CNN
 	1    5600 5750
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L Device:R R?
@@ -144,7 +144,7 @@ F 1 "62" H 5870 5705 50  0000 L CNN
 F 2 "" V 5730 5750 50  0001 C CNN
 F 3 "~" H 5800 5750 50  0001 C CNN
 	1    5800 5750
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	5400 5300 5600 5300
@@ -197,7 +197,7 @@ F 1 "2k49" H 7431 4905 50  0000 R CNN
 F 2 "" V 7430 4950 50  0001 C CNN
 F 3 "~" H 7500 4950 50  0001 C CNN
 	1    7500 4950
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L Device:R R?
@@ -208,7 +208,7 @@ F 1 "2k49" H 7770 4905 50  0000 L CNN
 F 2 "" V 7630 4950 50  0001 C CNN
 F 3 "~" H 7700 4950 50  0001 C CNN
 	1    7700 4950
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L Device:R R?
@@ -219,7 +219,7 @@ F 1 "2k49" H 7431 5705 50  0000 R CNN
 F 2 "" V 7430 5750 50  0001 C CNN
 F 3 "~" H 7500 5750 50  0001 C CNN
 	1    7500 5750
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L Device:R R?
@@ -230,7 +230,7 @@ F 1 "2k49" H 7770 5705 50  0000 L CNN
 F 2 "" V 7630 5750 50  0001 C CNN
 F 3 "~" H 7700 5750 50  0001 C CNN
 	1    7700 5750
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	6800 5300 7500 5300
@@ -271,7 +271,7 @@ F 1 "GND" H 5705 5777 50  0000 C CNN
 F 2 "" H 5700 5950 50  0001 C CNN
 F 3 "" H 5700 5950 50  0001 C CNN
 	1    5700 5950
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Connection ~ 5700 5950
 Wire Wire Line
@@ -285,7 +285,7 @@ F 1 "GND" H 7605 5777 50  0000 C CNN
 F 2 "" H 7600 5950 50  0001 C CNN
 F 3 "" H 7600 5950 50  0001 C CNN
 	1    7600 5950
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Connection ~ 7600 5950
 Wire Wire Line
@@ -317,7 +317,7 @@ F 1 "600@100M" V 3349 5300 50  0000 C CNN
 F 2 "" H 3250 5300 50  0001 C CNN
 F 3 "~" H 3250 5300 50  0001 C CNN
 	1    3250 5300
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 Wire Wire Line
 	3400 5300 3600 5300
@@ -335,7 +335,7 @@ F 1 "+3V3" H 2915 5373 50  0000 C CNN
 F 2 "" H 2900 5200 50  0001 C CNN
 F 3 "" H 2900 5200 50  0001 C CNN
 	1    2900 5200
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	2900 5200 2900 5300
@@ -360,7 +360,7 @@ F 1 "GND" H 3855 5577 50  0000 C CNN
 F 2 "" H 3850 5750 50  0001 C CNN
 F 3 "" H 3850 5750 50  0001 C CNN
 	1    3850 5750
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L power:GND #PWR?
@@ -371,7 +371,7 @@ F 1 "GND" H 2905 5577 50  0000 C CNN
 F 2 "" H 2900 5750 50  0001 C CNN
 F 3 "" H 2900 5750 50  0001 C CNN
 	1    2900 5750
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	2900 5700 2900 5750
@@ -384,16 +384,16 @@ F 1 "VphyVDDC" H 7615 4923 50  0000 C CNN
 F 2 "" H 7600 4750 50  0001 C CNN
 F 3 "" H 7600 4750 50  0001 C CNN
 	1    7600 4750
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Connection ~ 7600 4750
 Wire Wire Line
 	7600 4750 7700 4750
 Wire Wire Line
 	5100 1400 5200 1400
-Text Label 5150 1700 0    50   ~ 0
+Text Label 5600 1700 2    50   ~ 0
 REF_CLK_P
-Text Label 5150 1800 0    50   ~ 0
+Text Label 5600 1800 2    50   ~ 0
 REF_CLK_N
 Wire Wire Line
 	5100 1700 5600 1700
@@ -450,7 +450,7 @@ F 1 "4k7" H 5950 1500 50  0000 L CNN
 F 2 "" V 5830 1650 50  0001 C CNN
 F 3 "~" H 5900 1650 50  0001 C CNN
 	1    5900 1650
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L Device:R R?
@@ -461,7 +461,7 @@ F 1 "4k7" H 6200 1500 50  0000 L CNN
 F 2 "" V 6080 1650 50  0001 C CNN
 F 3 "~" H 6150 1650 50  0001 C CNN
 	1    6150 1650
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L Device:R R?
@@ -472,7 +472,7 @@ F 1 "4k7" H 6450 1500 50  0000 L CNN
 F 2 "" V 6330 1650 50  0001 C CNN
 F 3 "~" H 6400 1650 50  0001 C CNN
 	1    6400 1650
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L Device:R R?
@@ -483,7 +483,7 @@ F 1 "4k7" H 6700 1500 50  0000 L CNN
 F 2 "" V 6580 1650 50  0001 C CNN
 F 3 "~" H 6650 1650 50  0001 C CNN
 	1    6650 1650
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	5900 1800 5900 2100
@@ -530,7 +530,7 @@ F 1 "+3V3" H 6165 1573 50  0000 C CNN
 F 2 "" H 6150 1400 50  0001 C CNN
 F 3 "" H 6150 1400 50  0001 C CNN
 	1    6150 1400
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L Connector:TestPoint TP?
@@ -541,7 +541,7 @@ F 1 "TestPoint" V 6895 2188 50  0001 L CNN
 F 2 "" H 7050 2000 50  0001 C CNN
 F 3 "~" H 7050 2000 50  0001 C CNN
 	1    6850 2000
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L Connector:TestPoint TP?
@@ -552,7 +552,7 @@ F 1 "TestPoint" V 6895 2288 50  0001 L CNN
 F 2 "" H 7050 2100 50  0001 C CNN
 F 3 "~" H 7050 2100 50  0001 C CNN
 	1    6850 2100
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L Connector:TestPoint TP?
@@ -563,7 +563,7 @@ F 1 "TestPoint" V 6895 2388 50  0001 L CNN
 F 2 "" H 7050 2200 50  0001 C CNN
 F 3 "~" H 7050 2200 50  0001 C CNN
 	1    6850 2200
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L Connector:TestPoint TP?
@@ -574,7 +574,7 @@ F 1 "TestPoint" V 6895 2488 50  0001 L CNN
 F 2 "" H 7050 2300 50  0001 C CNN
 F 3 "~" H 7050 2300 50  0001 C CNN
 	1    6850 2300
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L Connector:TestPoint TP?
@@ -585,7 +585,7 @@ F 1 "TestPoint" V 6895 2588 50  0001 L CNN
 F 2 "" H 7050 2400 50  0001 C CNN
 F 3 "~" H 7050 2400 50  0001 C CNN
 	1    6850 2400
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L Device:R R?
@@ -596,7 +596,7 @@ F 1 "NP" V 3400 2750 50  0000 L BNN
 F 2 "" V 3380 2600 50  0001 C CNN
 F 3 "~" H 3450 2600 50  0001 C CNN
 	1    3450 2600
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L Device:R R?
@@ -607,7 +607,7 @@ F 1 "4k7" V 3500 2850 50  0000 L TNN
 F 2 "" V 3380 2700 50  0001 C CNN
 F 3 "~" H 3450 2700 50  0001 C CNN
 	1    3450 2700
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 Wire Wire Line
 	3600 2600 3900 2600
@@ -631,7 +631,7 @@ F 1 "+3V3" H 3115 2673 50  0000 C CNN
 F 2 "" H 3100 2500 50  0001 C CNN
 F 3 "" H 3100 2500 50  0001 C CNN
 	1    3100 2500
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Text HLabel 3800 3400 0    50   BiDi ~ 0
 MDIO
@@ -662,7 +662,7 @@ F 1 "GND" H 2905 3127 50  0000 C CNN
 F 2 "" H 2900 3300 50  0001 C CNN
 F 3 "" H 2900 3300 50  0001 C CNN
 	1    2900 3300
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L power:+3V3 #PWR?
@@ -673,7 +673,7 @@ F 1 "+3V3" H 2815 2973 50  0000 C CNN
 F 2 "" H 2800 2800 50  0001 C CNN
 F 3 "" H 2800 2800 50  0001 C CNN
 	1    2800 2800
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	2900 2900 2900 3200
@@ -700,4 +700,19 @@ Text Notes 1050 1900 0    50   ~ 0
 Configuration:\nPHYAD[4:2] : 0\nPHY_ORDER : 0, keep default\nC_ANEG[1:0] : 11, advertise all\nENA_PAUSE : 1, advertise pauses\nPDOWN : 0, default UP\nDIS_SLEEP : 0, enrgy detect ON\nENA_XC : 1, detect crossover cables\nSEL_MS : 1, prefer master\nMODE[2:0] : 000, QSGMII to Copper\nS/Q_ANEG : 1, autoneg ON
 Text Label 2200 3100 0    50   ~ 0
 LED_P3_0
+$Comp
+L power:GND #PWR?
+U 1 1 5D465DF9
+P 4500 5750
+F 0 "#PWR?" H 4500 5500 50  0001 C CNN
+F 1 "GND" H 4505 5577 50  0000 C CNN
+F 2 "" H 4500 5750 50  0001 C CNN
+F 3 "" H 4500 5750 50  0001 C CNN
+	1    4500 5750
+	1    0    0    -1
+$EndComp
+Wire Wire Line
+	4600 5500 4500 5500
+Wire Wire Line
+	4500 5500 4500 5750
 $EndSCHEMATC
