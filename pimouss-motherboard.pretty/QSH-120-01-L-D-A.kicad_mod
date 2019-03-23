@@ -1,4 +1,4 @@
-(module QSH-120-01-L-D-A (layer F.Cu) (tedit 574B1990)
+(module QSH-120-01-L-D-A (layer F.Cu) (tedit 5C958774)
   (descr "2x120  header")
   (solder_mask_margin 0.05)
   (attr smd)
@@ -358,4 +358,9 @@
   (pad 236 smd rect (at 36.25 -2.865) (size 0.3 1.45) (layers F.Cu F.Paste F.Mask))
   (pad 238 smd rect (at 36.75 -2.865) (size 0.3 1.45) (layers F.Cu F.Paste F.Mask))
   (pad 240 smd rect (at 37.25 -2.865) (size 0.3 1.45) (layers F.Cu F.Paste F.Mask))
+  (model ${KIPRJMOD}/3d/QSH-120-01-F-D-A.stp
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
 )
