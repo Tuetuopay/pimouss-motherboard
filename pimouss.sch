@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 8
+Sheet 6 9
 Title "The Pimouss itself"
 Date "2019-03-19"
 Rev "0.1"
@@ -316,18 +316,6 @@ Wire Wire Line
 	3650 3700 2900 3700
 Wire Wire Line
 	3650 3800 2900 3800
-Wire Wire Line
-	3650 4000 2900 4000
-Wire Wire Line
-	3650 4100 2900 4100
-Wire Wire Line
-	3650 4200 2900 4200
-Wire Wire Line
-	3650 4300 2900 4300
-Wire Wire Line
-	3650 4400 2900 4400
-Wire Wire Line
-	3650 4500 2900 4500
 Text Label 1600 1700 0    50   ~ 0
 PCIE_X1_TX_P
 Text Label 1600 1800 0    50   ~ 0
@@ -344,18 +332,6 @@ Text Label 3050 3700 0    50   ~ 0
 PCIE_X1_RX_P
 Text Label 3050 3800 0    50   ~ 0
 PCIE_X1_RX_N
-Text Label 3050 4000 0    50   ~ 0
-SD_CMD
-Text Label 3050 4100 0    50   ~ 0
-SD_CLK
-Text Label 3050 4200 0    50   ~ 0
-SD_D2
-Text Label 3050 4300 0    50   ~ 0
-SD_D3
-Text Label 3050 4400 0    50   ~ 0
-SD_D1
-Text Label 3050 4500 0    50   ~ 0
-SD_D0
 Wire Wire Line
 	7550 2300 6800 2300
 Wire Wire Line
@@ -662,22 +638,6 @@ Entry Wire Line
 	5350 4200 5450 4300
 Entry Wire Line
 	5350 4300 5450 4400
-Wire Bus Line
-	4150 3900 3750 3900
-Text Label 3850 3900 0    50   ~ 0
-SDIO
-Entry Wire Line
-	3650 4200 3750 4100
-Entry Wire Line
-	3650 4300 3750 4200
-Entry Wire Line
-	3650 4000 3750 3900
-Entry Wire Line
-	3650 4100 3750 4000
-Entry Wire Line
-	3650 4400 3750 4300
-Entry Wire Line
-	3650 4500 3750 4400
 Text Label 1100 2500 0    50   ~ 0
 QSGMII
 Wire Bus Line
@@ -1164,15 +1124,55 @@ Connection ~ 8150 3750
 Wire Wire Line
 	8150 3750 8200 3750
 Wire Bus Line
-	3750 2200 3750 2400
-Wire Bus Line
-	1450 2500 1450 2900
-Wire Bus Line
-	3750 2700 3750 3000
-Wire Bus Line
-	3750 3900 3750 4400
+	5350 2400 5350 4300
 Wire Bus Line
 	7650 3400 7650 4000
 Wire Bus Line
-	5350 2400 5350 4300
+	3750 2700 3750 3000
+Wire Bus Line
+	1450 2500 1450 2900
+Wire Bus Line
+	3750 2200 3750 2400
+Wire Bus Line
+	3750 3900 3750 4400
+Entry Wire Line
+	3650 4500 3750 4400
+Entry Wire Line
+	3650 4400 3750 4300
+Entry Wire Line
+	3650 4100 3750 4000
+Entry Wire Line
+	3650 4000 3750 3900
+Entry Wire Line
+	3650 4300 3750 4200
+Entry Wire Line
+	3650 4200 3750 4100
+Text Label 3850 3900 0    50   ~ 0
+SDIO
+Wire Bus Line
+	4150 3900 3750 3900
+Text Label 3050 4500 0    50   ~ 0
+SD_D0
+Text Label 3050 4400 0    50   ~ 0
+SD_D1
+Text Label 3050 4300 0    50   ~ 0
+SD_D3
+Text Label 3050 4200 0    50   ~ 0
+SD_D2
+Text Label 3050 4100 0    50   ~ 0
+SD_CLK
+Text Label 3050 4000 0    50   ~ 0
+SD_CMD
+Wire Wire Line
+	3650 4500 2900 4500
+Wire Wire Line
+	3650 4400 2900 4400
+Wire Wire Line
+	3650 4300 2900 4300
+Wire Wire Line
+	3650 4200 2900 4200
+Wire Wire Line
+	3650 4100 2900 4100
+Wire Wire Line
+	3650 4000 2900 4000
 $EndSCHEMATC

@@ -4,8 +4,8 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 8
-Title ""
+Sheet 8 9
+Title "PCI Express connectors"
 Date "2019-03-19"
 Rev "0.1"
 Comp "Tuetuopay OSS Technologies"

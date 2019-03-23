@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 7
+Sheet 3 9
 Title "PHY data plane"
 Date "2019-03-19"
 Rev "0.1"
@@ -834,10 +834,6 @@ Entry Wire Line
 Text HLabel 4800 4400 2    50   Output ~ 0
 LEDS
 Wire Bus Line
-	4300 4400 4300 5800
-Wire Bus Line
-	1500 1700 1500 2400
-Wire Bus Line
 	1400 1700 1500 1700
 Text HLabel 1400 1700 0    50   BiDi ~ 0
 QSGMII
@@ -849,4 +845,8 @@ Entry Wire Line
 	1500 2100 1600 2200
 Entry Wire Line
 	1500 2200 1600 2300
+Wire Bus Line
+	1500 1700 1500 2400
+Wire Bus Line
+	4300 4400 4300 5800
 $EndSCHEMATC
