@@ -52,6 +52,11 @@ K usb universal serial bus type-C full-featured
 F https://www.usb.org/sites/default/files/documents/usb_type-c.zip
 $ENDCMP
 #
+$CMP VUSB
+D Power flag, +VphyVDDC
+K power-flag
+$ENDCMP
+#
 $CMP VphyDVDD
 D Power flag, +VphyVDDC
 K power-flag
@@ -63,11 +68,6 @@ K power-flag
 $ENDCMP
 #
 $CMP Vrtc
-D Power flag, +VphyVDDC
-K power-flag
-$ENDCMP
-#
-$CMP VUSB
 D Power flag, +VphyVDDC
 K power-flag
 $ENDCMP

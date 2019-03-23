@@ -1,0 +1,970 @@
+EESchema Schematic File Version 4
+LIBS:pimouss-motherboard-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 8 8
+Title ""
+Date "2019-03-19"
+Rev "0.1"
+Comp "Tuetuopay OSS Technologies"
+Comment1 "(Well it's not OSHW, the pimouss is confidential...)"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L pimouss-motherboard:PCIE-064-02 U?
+U 1 1 5C978539
+P 2900 1800
+F 0 "U?" H 3300 1965 50  0000 C CNN
+F 1 "PCIE-064-02" H 3300 1874 50  0000 C CNN
+F 2 "" H 2800 1850 50  0001 C CNN
+F 3 "" H 2900 1800 50  0001 C CNN
+	1    2900 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L pimouss-motherboard:PCIE-064-02 U?
+U 2 1 5C978540
+P 2900 3300
+F 0 "U?" H 3300 3465 50  0000 C CNN
+F 1 "PCIE-064-02" H 3300 3374 50  0000 C CNN
+F 2 "" H 2800 3350 50  0001 C CNN
+F 3 "" H 2900 3300 50  0001 C CNN
+	2    2900 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L pimouss-motherboard:PCIE-064-02 U?
+U 3 1 5C978547
+P 2900 4400
+F 0 "U?" H 3300 4565 50  0000 C CNN
+F 1 "PCIE-064-02" H 3300 4474 50  0000 C CNN
+F 2 "" H 2800 4450 50  0001 C CNN
+F 3 "" H 2900 4400 50  0001 C CNN
+	3    2900 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 2200 2700 2200
+Wire Wire Line
+	2700 2200 2700 2500
+Wire Wire Line
+	3800 2200 3900 2200
+Wire Wire Line
+	3900 2200 3900 3400
+$Comp
+L power:GND #PWR?
+U 1 1 5C978552
+P 2700 5900
+F 0 "#PWR?" H 2700 5650 50  0001 C CNN
+F 1 "GND" H 2705 5727 50  0000 C CNN
+F 2 "" H 2700 5900 50  0001 C CNN
+F 3 "" H 2700 5900 50  0001 C CNN
+	1    2700 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C978558
+P 3900 5900
+F 0 "#PWR?" H 3900 5650 50  0001 C CNN
+F 1 "GND" H 3905 5727 50  0000 C CNN
+F 2 "" H 3900 5900 50  0001 C CNN
+F 3 "" H 3900 5900 50  0001 C CNN
+	1    3900 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 2500 2700 2500
+Connection ~ 2700 2500
+Wire Wire Line
+	2700 2500 2700 3500
+Wire Wire Line
+	2800 3500 2700 3500
+Connection ~ 2700 3500
+Wire Wire Line
+	2700 3500 2700 3800
+Wire Wire Line
+	2800 3800 2700 3800
+Connection ~ 2700 3800
+Wire Wire Line
+	2700 3800 2700 4000
+Wire Wire Line
+	2800 4000 2700 4000
+Connection ~ 2700 4000
+Wire Wire Line
+	2700 4000 2700 4700
+Wire Wire Line
+	3800 3400 3900 3400
+Connection ~ 3900 3400
+Wire Wire Line
+	3900 3400 3900 3700
+Wire Wire Line
+	3800 3700 3900 3700
+Connection ~ 3900 3700
+Wire Wire Line
+	3900 3700 3900 4000
+Wire Wire Line
+	3800 4000 3900 4000
+Connection ~ 3900 4000
+Wire Wire Line
+	3900 4000 3900 4600
+Wire Wire Line
+	2800 4700 2700 4700
+Connection ~ 2700 4700
+Wire Wire Line
+	2700 4700 2700 4800
+Wire Wire Line
+	2700 4800 2800 4800
+Connection ~ 2700 4800
+Wire Wire Line
+	2700 4800 2700 5100
+Wire Wire Line
+	2800 5100 2700 5100
+Connection ~ 2700 5100
+Wire Wire Line
+	2700 5100 2700 5200
+Wire Wire Line
+	2700 5200 2800 5200
+Connection ~ 2700 5200
+Wire Wire Line
+	2700 5200 2700 5500
+Wire Wire Line
+	2800 5500 2700 5500
+Connection ~ 2700 5500
+Wire Wire Line
+	2700 5500 2700 5800
+Wire Wire Line
+	2700 5800 2800 5800
+Connection ~ 2700 5800
+Wire Wire Line
+	2700 5800 2700 5900
+Wire Wire Line
+	3800 4600 3900 4600
+Connection ~ 3900 4600
+Wire Wire Line
+	3900 4600 3900 4900
+Wire Wire Line
+	3800 4900 3900 4900
+Connection ~ 3900 4900
+Wire Wire Line
+	3900 4900 3900 5000
+Wire Wire Line
+	3800 5000 3900 5000
+Connection ~ 3900 5000
+Wire Wire Line
+	3900 5000 3900 5300
+Wire Wire Line
+	3800 5300 3900 5300
+Connection ~ 3900 5300
+Wire Wire Line
+	3900 5300 3900 5400
+Wire Wire Line
+	3800 5400 3900 5400
+Connection ~ 3900 5400
+Wire Wire Line
+	3900 5400 3900 5700
+Wire Wire Line
+	3800 5700 3900 5700
+Connection ~ 3900 5700
+Wire Wire Line
+	3900 5700 3900 5900
+Wire Wire Line
+	2800 2100 2700 2100
+Wire Wire Line
+	2700 2100 2700 2000
+Wire Wire Line
+	2800 1900 2700 1900
+Connection ~ 2700 1900
+Wire Wire Line
+	2700 1900 2700 1800
+Wire Wire Line
+	2700 2000 2800 2000
+Connection ~ 2700 2000
+Wire Wire Line
+	2700 2000 2700 1900
+Wire Wire Line
+	3800 2000 3900 2000
+Wire Wire Line
+	3900 2000 3900 1800
+Wire Wire Line
+	3800 2100 3900 2100
+Wire Wire Line
+	3900 2100 3900 2000
+Connection ~ 3900 2000
+Wire Wire Line
+	2800 2600 2500 2600
+Wire Wire Line
+	2500 2600 2500 1800
+$Comp
+L power:+12V #PWR?
+U 1 1 5C9785A6
+P 2700 1800
+F 0 "#PWR?" H 2700 1650 50  0001 C CNN
+F 1 "+12V" H 2715 1973 50  0000 C CNN
+F 2 "" H 2700 1800 50  0001 C CNN
+F 3 "" H 2700 1800 50  0001 C CNN
+	1    2700 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5C9785AC
+P 2500 1800
+F 0 "#PWR?" H 2500 1650 50  0001 C CNN
+F 1 "+3V3" H 2515 1973 50  0000 C CNN
+F 2 "" H 2500 1800 50  0001 C CNN
+F 3 "" H 2500 1800 50  0001 C CNN
+	1    2500 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 2800 2500 2800
+Wire Wire Line
+	2500 2800 2500 2600
+Connection ~ 2500 2600
+$Comp
+L power:+12V #PWR?
+U 1 1 5C9785B5
+P 3900 1800
+F 0 "#PWR?" H 3900 1650 50  0001 C CNN
+F 1 "+12V" H 3915 1973 50  0000 C CNN
+F 2 "" H 3900 1800 50  0001 C CNN
+F 3 "" H 3900 1800 50  0001 C CNN
+	1    3900 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5C9785BB
+P 4100 1800
+F 0 "#PWR?" H 4100 1650 50  0001 C CNN
+F 1 "+3V3" H 4115 1973 50  0000 C CNN
+F 2 "" H 4100 1800 50  0001 C CNN
+F 3 "" H 4100 1800 50  0001 C CNN
+	1    4100 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 2700 4100 2700
+Wire Wire Line
+	4100 2700 4100 1800
+Wire Wire Line
+	3800 2800 4100 2800
+Wire Wire Line
+	4100 2800 4100 2700
+Connection ~ 4100 2700
+Wire Wire Line
+	8100 3000 6550 3000
+Wire Wire Line
+	8100 3100 6550 3100
+Text Label 7400 3000 0    50   ~ 0
+PCIE_X1_TX_P
+Text Label 7400 3100 0    50   ~ 0
+PCIE_X1_TX_N
+Wire Bus Line
+	6450 2900 6050 2900
+Entry Wire Line
+	6450 2900 6550 3000
+Entry Wire Line
+	6450 3000 6550 3100
+Text Label 6100 2900 0    50   ~ 0
+PCIE_1X
+Wire Wire Line
+	7300 3400 6550 3400
+Wire Wire Line
+	7300 3500 6550 3500
+Text Label 6600 3400 0    50   ~ 0
+PCIE_X1_RX_P
+Text Label 6600 3500 0    50   ~ 0
+PCIE_X1_RX_N
+Entry Wire Line
+	6450 3300 6550 3400
+Entry Wire Line
+	6450 3400 6550 3500
+Text Label 6600 4100 0    50   ~ 0
+PCIE_X1_CLK_P
+Text Label 6600 4200 0    50   ~ 0
+PCIE_X1_CLK_N
+Entry Wire Line
+	6450 4000 6550 4100
+Wire Wire Line
+	2800 3600 2050 3600
+Wire Wire Line
+	2800 3700 2050 3700
+Text Label 2100 3600 0    50   ~ 0
+PCIE_X4_TX0_P
+Text Label 2100 3700 0    50   ~ 0
+PCIE_X4_TX0_N
+Wire Bus Line
+	1950 3500 1550 3500
+Entry Wire Line
+	1950 3500 2050 3600
+Entry Wire Line
+	1950 3600 2050 3700
+Text Label 1600 3500 0    50   ~ 0
+PCIE_4X
+Wire Wire Line
+	4600 3800 5350 3800
+Wire Wire Line
+	4600 3900 5350 3900
+Text Label 5300 3800 2    50   ~ 0
+PCIE_X4_RX0_P
+Text Label 5300 3900 2    50   ~ 0
+PCIE_X4_RX0_N
+Wire Bus Line
+	5450 3400 5850 3400
+Entry Wire Line
+	5450 3700 5350 3800
+Entry Wire Line
+	5450 3800 5350 3900
+Text Label 5800 3400 2    50   ~ 0
+PCIE_4X
+Text Label 5300 3500 2    50   ~ 0
+PCIE_X4_CLK_P
+Text Label 5300 3600 2    50   ~ 0
+PCIE_X4_CLK_N
+Entry Wire Line
+	5450 3400 5350 3500
+Entry Wire Line
+	5450 3500 5350 3600
+Wire Wire Line
+	2800 4500 2050 4500
+Wire Wire Line
+	2800 4600 2050 4600
+Text Label 2100 4500 0    50   ~ 0
+PCIE_X4_TX1_P
+Text Label 2100 4600 0    50   ~ 0
+PCIE_X4_TX1_N
+Entry Wire Line
+	1950 4400 2050 4500
+Entry Wire Line
+	1950 4500 2050 4600
+Wire Wire Line
+	2800 4900 2050 4900
+Wire Wire Line
+	2800 5000 2050 5000
+Text Label 2100 4900 0    50   ~ 0
+PCIE_X4_TX2_P
+Text Label 2100 5000 0    50   ~ 0
+PCIE_X4_TX2_N
+Entry Wire Line
+	1950 4800 2050 4900
+Entry Wire Line
+	1950 4900 2050 5000
+Wire Wire Line
+	2800 5300 2050 5300
+Wire Wire Line
+	2800 5400 2050 5400
+Text Label 2100 5300 0    50   ~ 0
+PCIE_X4_TX3_P
+Text Label 2100 5400 0    50   ~ 0
+PCIE_X4_TX3_N
+Entry Wire Line
+	1950 5200 2050 5300
+Entry Wire Line
+	1950 5300 2050 5400
+Wire Wire Line
+	4600 4700 5350 4700
+Wire Wire Line
+	4600 4800 5350 4800
+Text Label 5300 4700 2    50   ~ 0
+PCIE_X4_RX1_P
+Text Label 5300 4800 2    50   ~ 0
+PCIE_X4_RX1_N
+Entry Wire Line
+	5450 4600 5350 4700
+Entry Wire Line
+	5450 4700 5350 4800
+Wire Wire Line
+	4600 5100 5350 5100
+Wire Wire Line
+	4600 5200 5350 5200
+Text Label 5300 5100 2    50   ~ 0
+PCIE_X4_RX2_P
+Text Label 5300 5200 2    50   ~ 0
+PCIE_X4_RX2_N
+Entry Wire Line
+	5450 5000 5350 5100
+Entry Wire Line
+	5450 5100 5350 5200
+Wire Wire Line
+	4600 5500 5350 5500
+Wire Wire Line
+	4600 5600 5350 5600
+Text Label 5300 5500 2    50   ~ 0
+PCIE_X4_RX3_P
+Text Label 5300 5600 2    50   ~ 0
+PCIE_X4_RX3_N
+Entry Wire Line
+	5450 5400 5350 5500
+Entry Wire Line
+	5450 5500 5350 5600
+NoConn ~ 2800 3900
+Wire Wire Line
+	10150 3100 9400 3100
+Wire Wire Line
+	10150 3200 9400 3200
+Text Label 9850 3100 0    50   ~ 0
+SCL
+Text Label 9850 3200 0    50   ~ 0
+SDA
+Wire Bus Line
+	10250 3100 10250 3000
+Entry Wire Line
+	10150 3100 10250 3000
+Entry Wire Line
+	10150 3200 10250 3100
+Wire Wire Line
+	2050 2300 2800 2300
+Wire Wire Line
+	2050 2400 2800 2400
+Text Label 2350 2300 2    50   ~ 0
+SCL
+Text Label 2350 2400 2    50   ~ 0
+SDA
+Wire Bus Line
+	1950 2300 1950 2200
+Entry Wire Line
+	2050 2300 1950 2200
+Entry Wire Line
+	2050 2400 1950 2300
+Wire Bus Line
+	10250 3000 10650 3000
+Text Label 10600 3000 2    50   ~ 0
+SMBUS
+Wire Bus Line
+	1950 2200 1550 2200
+Text Label 1600 2200 0    50   ~ 0
+SMBUS
+NoConn ~ 3800 2300
+NoConn ~ 3800 2400
+NoConn ~ 3800 2500
+NoConn ~ 3800 2600
+Wire Wire Line
+	10150 3600 9400 3600
+Text Label 9850 3600 0    50   ~ 0
+nRST
+Wire Wire Line
+	4550 2900 3800 2900
+Text Label 4250 2900 0    50   ~ 0
+nRST
+NoConn ~ 2800 2900
+NoConn ~ 2800 3400
+NoConn ~ 2800 2700
+NoConn ~ 2800 5600
+Wire Wire Line
+	2800 5700 2050 5700
+Text Label 2150 5700 0    50   ~ 0
+X4_PRSNT
+Wire Wire Line
+	3800 1900 4550 1900
+Text Label 4150 1900 0    50   ~ 0
+X4_PRSNT
+$Comp
+L Device:C C?
+U 1 1 5CB9B9C8
+P 7450 3400
+F 0 "C?" V 7400 3350 50  0000 R BNN
+F 1 "100n" V 7400 3450 50  0000 L BNN
+F 2 "" H 7488 3250 50  0001 C CNN
+F 3 "~" H 7450 3400 50  0001 C CNN
+	1    7450 3400
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5CB9BA7C
+P 7450 3500
+F 0 "C?" V 7500 3450 50  0000 R TNN
+F 1 "100n" V 7500 3550 50  0000 L TNN
+F 2 "" H 7488 3350 50  0001 C CNN
+F 3 "~" H 7450 3500 50  0001 C CNN
+	1    7450 3500
+	0    -1   1    0   
+$EndComp
+Text Label 7950 3400 2    50   ~ 0
+X1_R_P
+Text Label 7950 3500 2    50   ~ 0
+X1_R_N
+Wire Wire Line
+	8100 4100 6550 4100
+Wire Wire Line
+	8100 4200 6550 4200
+Wire Wire Line
+	8100 3400 7600 3400
+Wire Wire Line
+	8100 3500 7600 3500
+$Comp
+L Device:C C?
+U 1 1 5CBFD901
+P 4450 3800
+F 0 "C?" V 4400 3750 50  0000 R BNN
+F 1 "100n" V 4400 3850 50  0000 L BNN
+F 2 "" H 4488 3650 50  0001 C CNN
+F 3 "~" H 4450 3800 50  0001 C CNN
+	1    4450 3800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5CBFD908
+P 4450 3900
+F 0 "C?" V 4500 3850 50  0000 R TNN
+F 1 "100n" V 4500 3950 50  0000 L TNN
+F 2 "" H 4488 3750 50  0001 C CNN
+F 3 "~" H 4450 3900 50  0001 C CNN
+	1    4450 3900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5CC03E7D
+P 4450 4700
+F 0 "C?" V 4400 4650 50  0000 R BNN
+F 1 "100n" V 4400 4750 50  0000 L BNN
+F 2 "" H 4488 4550 50  0001 C CNN
+F 3 "~" H 4450 4700 50  0001 C CNN
+	1    4450 4700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5CC03E84
+P 4450 4800
+F 0 "C?" V 4500 4750 50  0000 R TNN
+F 1 "100n" V 4500 4850 50  0000 L TNN
+F 2 "" H 4488 4650 50  0001 C CNN
+F 3 "~" H 4450 4800 50  0001 C CNN
+	1    4450 4800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5CC0A2C7
+P 4450 5100
+F 0 "C?" V 4400 5050 50  0000 R BNN
+F 1 "100n" V 4400 5150 50  0000 L BNN
+F 2 "" H 4488 4950 50  0001 C CNN
+F 3 "~" H 4450 5100 50  0001 C CNN
+	1    4450 5100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5CC0A2CE
+P 4450 5200
+F 0 "C?" V 4500 5150 50  0000 R TNN
+F 1 "100n" V 4500 5250 50  0000 L TNN
+F 2 "" H 4488 5050 50  0001 C CNN
+F 3 "~" H 4450 5200 50  0001 C CNN
+	1    4450 5200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5CC1070F
+P 4450 5500
+F 0 "C?" V 4400 5450 50  0000 R BNN
+F 1 "100n" V 4400 5550 50  0000 L BNN
+F 2 "" H 4488 5350 50  0001 C CNN
+F 3 "~" H 4450 5500 50  0001 C CNN
+	1    4450 5500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5CC10716
+P 4450 5600
+F 0 "C?" V 4500 5550 50  0000 R TNN
+F 1 "100n" V 4500 5650 50  0000 L TNN
+F 2 "" H 4488 5450 50  0001 C CNN
+F 3 "~" H 4450 5600 50  0001 C CNN
+	1    4450 5600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3800 3800 4300 3800
+Wire Wire Line
+	4300 3900 3800 3900
+Wire Wire Line
+	3800 4700 4300 4700
+Wire Wire Line
+	4300 4800 3800 4800
+Wire Wire Line
+	3800 5100 4300 5100
+Wire Wire Line
+	4300 5200 3800 5200
+Wire Wire Line
+	3800 5500 4300 5500
+Wire Wire Line
+	4300 5600 3800 5600
+Text Label 3950 3800 0    50   ~ 0
+X4_R0_P
+Text Label 3950 3900 0    50   ~ 0
+X4_R0_N
+Text Label 3950 4700 0    50   ~ 0
+X4_R1_P
+Text Label 3950 4800 0    50   ~ 0
+X4_R1_N
+Text Label 3950 5100 0    50   ~ 0
+X4_R2_P
+Text Label 3950 5200 0    50   ~ 0
+X4_R2_N
+Text Label 3950 5500 0    50   ~ 0
+X4_R3_P
+Text Label 3950 5600 0    50   ~ 0
+X4_R3_N
+$Comp
+L mpcie:MPCIE-Socket U?
+U 1 1 5CCDE0EF
+P 8750 3250
+F 0 "U?" H 8750 4687 60  0000 C CNN
+F 1 "MPCIE-Socket" H 8750 4581 60  0000 C CNN
+F 2 "" H 8850 2250 60  0000 C CNN
+F 3 "" H 8850 2250 60  0000 C CNN
+	1    8750 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8100 2500 8000 2500
+Wire Wire Line
+	8000 2500 8000 2800
+Wire Wire Line
+	9400 2200 9500 2200
+Wire Wire Line
+	9500 2200 9500 2700
+Wire Wire Line
+	8100 2800 8000 2800
+Connection ~ 8000 2800
+Wire Wire Line
+	8000 2800 8000 2900
+Wire Wire Line
+	8100 2900 8000 2900
+Connection ~ 8000 2900
+Wire Wire Line
+	8000 2900 8000 3200
+Wire Wire Line
+	8100 3200 8000 3200
+Connection ~ 8000 3200
+Wire Wire Line
+	8000 3200 8000 3300
+Wire Wire Line
+	8100 3300 8000 3300
+Connection ~ 8000 3300
+Wire Wire Line
+	8000 3300 8000 3600
+Wire Wire Line
+	8100 3600 8000 3600
+Connection ~ 8000 3600
+Wire Wire Line
+	8000 3600 8000 4000
+Wire Wire Line
+	8100 4000 8000 4000
+Connection ~ 8000 4000
+Wire Wire Line
+	8000 4000 8000 4300
+Wire Wire Line
+	8100 4300 8000 4300
+Connection ~ 8000 4300
+Wire Wire Line
+	8000 4300 8000 4800
+Wire Wire Line
+	9400 2700 9500 2700
+Connection ~ 9500 2700
+Wire Wire Line
+	9500 2700 9500 3000
+Wire Wire Line
+	9400 3000 9500 3000
+Connection ~ 9500 3000
+Wire Wire Line
+	9500 3000 9500 3400
+Wire Wire Line
+	9400 3400 9500 3400
+Connection ~ 9500 3400
+Wire Wire Line
+	9500 3400 9500 3800
+Wire Wire Line
+	9400 3800 9500 3800
+Connection ~ 9500 3800
+Wire Wire Line
+	9500 3800 9500 4600
+Wire Wire Line
+	9400 4600 9500 4600
+Connection ~ 9500 4600
+Wire Wire Line
+	9500 4600 9500 4800
+Wire Wire Line
+	3800 3500 5350 3500
+Wire Wire Line
+	3800 3600 5350 3600
+$Comp
+L power:GND #PWR?
+U 1 1 5CDAE52B
+P 8000 4800
+F 0 "#PWR?" H 8000 4550 50  0001 C CNN
+F 1 "GND" H 8005 4627 50  0000 C CNN
+F 2 "" H 8000 4800 50  0001 C CNN
+F 3 "" H 8000 4800 50  0001 C CNN
+	1    8000 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5CDAE5BE
+P 9500 4800
+F 0 "#PWR?" H 9500 4550 50  0001 C CNN
+F 1 "GND" H 9505 4627 50  0000 C CNN
+F 2 "" H 9500 4800 50  0001 C CNN
+F 3 "" H 9500 4800 50  0001 C CNN
+	1    9500 4800
+	1    0    0    -1  
+$EndComp
+NoConn ~ 9400 4000
+NoConn ~ 9400 4100
+NoConn ~ 9400 4200
+NoConn ~ 9400 4300
+NoConn ~ 9400 4400
+NoConn ~ 8100 4500
+NoConn ~ 8100 4600
+NoConn ~ 8100 4400
+NoConn ~ 8100 4700
+NoConn ~ 9400 2800
+NoConn ~ 9400 2900
+NoConn ~ 9400 3700
+Wire Wire Line
+	8100 2600 7900 2600
+Wire Wire Line
+	8100 2700 7900 2700
+Wire Wire Line
+	7900 2700 7900 2600
+Connection ~ 7900 2600
+Wire Wire Line
+	9400 2100 9600 2100
+Wire Wire Line
+	9600 2100 9600 2000
+Wire Wire Line
+	7900 2000 7900 2600
+Wire Wire Line
+	9400 3500 9600 3500
+Wire Wire Line
+	9600 3500 9600 2100
+Connection ~ 9600 2100
+Wire Wire Line
+	9400 4500 9600 4500
+Wire Wire Line
+	9600 4500 9600 4400
+Wire Wire Line
+	9800 4700 9800 4400
+Wire Wire Line
+	9400 4700 9800 4700
+Wire Wire Line
+	9400 2300 9800 2300
+Wire Wire Line
+	9800 2300 9800 2000
+Wire Wire Line
+	9400 3300 9800 3300
+Wire Wire Line
+	9800 3300 9800 2300
+Connection ~ 9800 2300
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5CE76BBF
+P 7900 2000
+F 0 "#PWR?" H 7900 1850 50  0001 C CNN
+F 1 "+3V3" H 7915 2173 50  0000 C CNN
+F 2 "" H 7900 2000 50  0001 C CNN
+F 3 "" H 7900 2000 50  0001 C CNN
+	1    7900 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5CE76C0A
+P 9600 2000
+F 0 "#PWR?" H 9600 1850 50  0001 C CNN
+F 1 "+3V3" H 9615 2173 50  0000 C CNN
+F 2 "" H 9600 2000 50  0001 C CNN
+F 3 "" H 9600 2000 50  0001 C CNN
+	1    9600 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5CE76DDC
+P 9800 4400
+F 0 "#PWR?" H 9800 4250 50  0001 C CNN
+F 1 "+3V3" H 9815 4573 50  0000 C CNN
+F 2 "" H 9800 4400 50  0001 C CNN
+F 3 "" H 9800 4400 50  0001 C CNN
+	1    9800 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+1V5 #PWR?
+U 1 1 5CE77015
+P 9600 4400
+F 0 "#PWR?" H 9600 4250 50  0001 C CNN
+F 1 "+1V5" H 9615 4573 50  0000 C CNN
+F 2 "" H 9600 4400 50  0001 C CNN
+F 3 "" H 9600 4400 50  0001 C CNN
+	1    9600 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+1V5 #PWR?
+U 1 1 5CE77060
+P 9800 2000
+F 0 "#PWR?" H 9800 1850 50  0001 C CNN
+F 1 "+1V5" H 9815 2173 50  0000 C CNN
+F 2 "" H 9800 2000 50  0001 C CNN
+F 3 "" H 9800 2000 50  0001 C CNN
+	1    9800 2000
+	1    0    0    -1  
+$EndComp
+NoConn ~ 8100 3700
+NoConn ~ 8100 3800
+$Comp
+L Device:LED D?
+U 1 1 5CEB332C
+P 10300 1750
+F 0 "D?" V 10338 1632 50  0000 R CNN
+F 1 "G" V 10247 1632 50  0000 R CNN
+F 2 "" H 10300 1750 50  0001 C CNN
+F 3 "~" H 10300 1750 50  0001 C CNN
+	1    10300 1750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5CEBD4A6
+P 10600 1750
+F 0 "D?" V 10638 1632 50  0000 R CNN
+F 1 "R" V 10547 1632 50  0000 R CNN
+F 2 "" H 10600 1750 50  0001 C CNN
+F 3 "~" H 10600 1750 50  0001 C CNN
+	1    10600 1750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5CEBD573
+P 10900 1750
+F 0 "D?" V 10938 1632 50  0000 R CNN
+F 1 "Y" V 10847 1632 50  0000 R CNN
+F 2 "" H 10900 1750 50  0001 C CNN
+F 3 "~" H 10900 1750 50  0001 C CNN
+	1    10900 1750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5CEC7AD2
+P 10300 2150
+F 0 "R?" H 10370 2196 50  0000 L CNN
+F 1 "270" H 10370 2105 50  0000 L CNN
+F 2 "" V 10230 2150 50  0001 C CNN
+F 3 "~" H 10300 2150 50  0001 C CNN
+	1    10300 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9400 2400 10300 2400
+Wire Wire Line
+	10300 2400 10300 2300
+Wire Wire Line
+	9400 2500 10600 2500
+Wire Wire Line
+	10600 2500 10600 2300
+Wire Wire Line
+	10900 2600 10900 2300
+Wire Wire Line
+	9400 2600 10900 2600
+Wire Wire Line
+	10300 1900 10300 2000
+Wire Wire Line
+	10600 1900 10600 2000
+Wire Wire Line
+	10900 1900 10900 2000
+Wire Wire Line
+	10300 1600 10300 1500
+Wire Wire Line
+	10900 1500 10900 1600
+Wire Wire Line
+	10600 1600 10600 1500
+Wire Wire Line
+	10300 1500 10600 1500
+Connection ~ 10600 1500
+Wire Wire Line
+	10600 1500 10900 1500
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5CF314C0
+P 10600 1400
+F 0 "#PWR?" H 10600 1250 50  0001 C CNN
+F 1 "+3V3" H 10615 1573 50  0000 C CNN
+F 2 "" H 10600 1400 50  0001 C CNN
+F 3 "" H 10600 1400 50  0001 C CNN
+	1    10600 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10600 1400 10600 1500
+$Comp
+L Device:R R?
+U 1 1 5CF52FF7
+P 10600 2150
+F 0 "R?" H 10670 2196 50  0000 L CNN
+F 1 "270" H 10670 2105 50  0000 L CNN
+F 2 "" V 10530 2150 50  0001 C CNN
+F 3 "~" H 10600 2150 50  0001 C CNN
+	1    10600 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5CF53043
+P 10900 2150
+F 0 "R?" H 10970 2196 50  0000 L CNN
+F 1 "270" H 10970 2105 50  0000 L CNN
+F 2 "" V 10830 2150 50  0001 C CNN
+F 3 "~" H 10900 2150 50  0001 C CNN
+	1    10900 2150
+	1    0    0    -1  
+$EndComp
+Entry Wire Line
+	6450 4100 6550 4200
+Text HLabel 2700 7000 0    50   BiDi ~ 0
+PCIE_1X
+Text HLabel 2700 7100 0    50   BiDi ~ 0
+PCIE_4X
+Text HLabel 2700 7200 0    50   BiDi ~ 0
+SMBUS
+Text HLabel 2700 7300 0    50   Output ~ 0
+nRST
+Wire Bus Line
+	3100 7000 2700 7000
+Text Label 2750 7000 0    50   ~ 0
+PCIE_1X
+Wire Bus Line
+	3100 7100 2700 7100
+Text Label 2750 7100 0    50   ~ 0
+PCIE_4X
+Wire Bus Line
+	3100 7200 2700 7200
+Text Label 2750 7200 0    50   ~ 0
+SMBUS
+Wire Wire Line
+	2700 7300 3100 7300
+Text Label 2800 7300 0    50   ~ 0
+nRST
+Wire Bus Line
+	6450 2900 6450 4100
+Wire Bus Line
+	1950 3500 1950 5300
+Wire Bus Line
+	5450 3400 5450 5500
+$EndSCHEMATC
