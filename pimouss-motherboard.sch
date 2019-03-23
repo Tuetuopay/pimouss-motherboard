@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 9
+Sheet 1 10
 Title "Global motherboard interconnections"
 Date "2019-03-19"
 Rev "0.1"
@@ -164,4 +164,10 @@ Wire Bus Line
 	7400 5200 7000 5200
 Text Label 7100 5200 0    50   ~ 0
 SDIO
+$Sheet
+S 2100 4700 800  1200
+U 5D0C4621
+F0 "power" 50
+F1 "power.sch" 50
+$EndSheet
 $EndSCHEMATC

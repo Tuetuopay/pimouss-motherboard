@@ -1,12 +1,12 @@
 EESchema-DOCLIB  Version 2.0
 #
 $CMP +1V8A
-D Power flag, +VphyVDDC
+D Power flag, +1V8A
 K power-flag
 $ENDCMP
 #
 $CMP +3V3A
-D Power flag, +VphyVDDC
+D Power flag, +3V3A
 K power-flag
 $ENDCMP
 #
@@ -53,12 +53,22 @@ F https://www.usb.org/sites/default/files/documents/usb_type-c.zip
 $ENDCMP
 #
 $CMP VUSB
-D Power flag, +VphyVDDC
+D Power flag, +VUSB
+K power-flag
+$ENDCMP
+#
+$CMP +3V3_PCI
+D Power flag, +3V3_PCI
+K power-flag
+$ENDCMP
+#
+$CMP +1V5_PCI
+D Power flag, +1V5_PCI
 K power-flag
 $ENDCMP
 #
 $CMP VphyDVDD
-D Power flag, +VphyVDDC
+D Power flag, +VphyDVDD
 K power-flag
 $ENDCMP
 #
@@ -68,7 +78,7 @@ K power-flag
 $ENDCMP
 #
 $CMP Vrtc
-D Power flag, +VphyVDDC
+D Power flag, +Vrtc
 K power-flag
 $ENDCMP
 #
