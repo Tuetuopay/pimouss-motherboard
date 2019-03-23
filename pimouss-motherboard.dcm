@@ -57,6 +57,11 @@ K regulator buck
 F https://www.renesas.com/eu/en/doc/datasheet/isl8033-a.pdf
 $ENDCMP
 #
+$CMP PI7C9X2G404SL
+D 4-Port 4-Lane PCIe Switch
+K pcie switch
+$ENDCMP
+#
 $CMP USB-C-2.0-FEMALE
 D USB 2.0 Type-C Receptacle connector
 K usb universal serial bus type-C full-featured
