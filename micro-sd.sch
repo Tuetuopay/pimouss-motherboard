@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 9 10
+Sheet 9 13
 Title "µSD Card storage"
 Date "2019-03-19"
 Rev "0.1"
@@ -23,7 +23,7 @@ F 1 "Micro_SD_Card_Det" H 5700 4576 50  0000 C CNN
 F 2 "" H 7800 4550 50  0001 C CNN
 F 3 "https://www.hirose.com/product/en/download_file/key_name/DM3/category/Catalog/doc_file_id/49662/?file_category_id=4&item_id=195&is_series=1" H 5750 3950 50  0001 C CNN
 	1    5750 3850
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:+3V3 #PWR?
@@ -34,7 +34,7 @@ F 1 "+3V3" H 4765 3523 50  0000 C CNN
 F 2 "" H 4750 3350 50  0001 C CNN
 F 3 "" H 4750 3350 50  0001 C CNN
 	1    4750 3350
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	4750 3350 4750 3750
@@ -57,7 +57,7 @@ F 1 "GND" H 4755 4277 50  0000 C CNN
 F 2 "" H 4750 4450 50  0001 C CNN
 F 3 "" H 4750 4450 50  0001 C CNN
 	1    4750 4450
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
@@ -68,7 +68,7 @@ F 1 "GND" H 6655 4277 50  0000 C CNN
 F 2 "" H 6650 4450 50  0001 C CNN
 F 3 "" H 6650 4450 50  0001 C CNN
 	1    6650 4450
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	4850 3650 4100 3650
@@ -123,7 +123,7 @@ F 1 "100n" H 8115 3705 50  0000 L CNN
 F 2 "" H 8038 3600 50  0001 C CNN
 F 3 "~" H 8000 3750 50  0001 C CNN
 	1    8000 3750
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
@@ -134,7 +134,7 @@ F 1 "GND" H 8005 3827 50  0000 C CNN
 F 2 "" H 8000 4000 50  0001 C CNN
 F 3 "" H 8000 4000 50  0001 C CNN
 	1    8000 4000
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:+3V3 #PWR?
@@ -145,7 +145,7 @@ F 1 "+3V3" H 8015 3673 50  0000 C CNN
 F 2 "" H 8000 3500 50  0001 C CNN
 F 3 "" H 8000 3500 50  0001 C CNN
 	1    8000 3500
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	8000 3500 8000 3600

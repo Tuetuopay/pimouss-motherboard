@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 10
+Sheet 6 13
 Title "The Pimouss itself"
 Date "2019-03-19"
 Rev "0.1"
@@ -24,7 +24,7 @@ F 2 "pimouss-motherboard:QSH-060-01-L-D-A" V 2700 -1100 39  0001 C CNN
 F 3 "" H 2600 800 60  0001 C CNN
 F 4 "Samtec" H 2600 -900 39  0001 C CNN "Manufacturer"
 	1    2400 1500
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L pimouss-motherboard:QSH-060-01-L-D-A P?
@@ -36,7 +36,7 @@ F 2 "pimouss-motherboard:QSH-060-01-L-D-A" V 6600 -1100 39  0001 C CNN
 F 3 "" H 6500 800 60  0001 C CNN
 F 4 "Samtec" H 6500 -900 39  0001 C CNN "Manufacturer"
 	2    6300 1500
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L pimouss-motherboard:QSH-060-01-L-D-A P?
@@ -48,7 +48,7 @@ F 2 "pimouss-motherboard:QSH-060-01-L-D-A" V 10100 -350 39  0001 C CNN
 F 3 "" H 10000 1550 60  0001 C CNN
 F 4 "Samtec" H 10000 -150 39  0001 C CNN "Manufacturer"
 	3    9800 2250
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
@@ -59,7 +59,7 @@ F 1 "GND" H 9605 2577 50  0000 C CNN
 F 2 "" H 9600 2750 50  0001 C CNN
 F 3 "" H 9600 2750 50  0001 C CNN
 	1    9600 2750
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
@@ -70,7 +70,7 @@ F 1 "GND" H 10405 2577 50  0000 C CNN
 F 2 "" H 10400 2750 50  0001 C CNN
 F 3 "" H 10400 2750 50  0001 C CNN
 	1    10400 2750
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	10300 2350 10400 2350
@@ -127,7 +127,7 @@ F 1 "GND" H 2205 4427 50  0000 C CNN
 F 2 "" H 2200 4600 50  0001 C CNN
 F 3 "" H 2200 4600 50  0001 C CNN
 	1    2200 4600
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
@@ -138,7 +138,7 @@ F 1 "GND" H 3005 4427 50  0000 C CNN
 F 2 "" H 3000 4600 50  0001 C CNN
 F 3 "" H 3000 4600 50  0001 C CNN
 	1    3000 4600
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	2300 1900 2200 1900
@@ -212,7 +212,7 @@ F 1 "GND" H 6105 4427 50  0000 C CNN
 F 2 "" H 6100 4600 50  0001 C CNN
 F 3 "" H 6100 4600 50  0001 C CNN
 	1    6100 4600
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
@@ -223,7 +223,7 @@ F 1 "GND" H 6905 4427 50  0000 C CNN
 F 2 "" H 6900 4600 50  0001 C CNN
 F 3 "" H 6900 4600 50  0001 C CNN
 	1    6900 4600
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	6200 2100 6100 2100
@@ -435,7 +435,7 @@ F 1 "+3V3" H 3215 1673 50  0000 C CNN
 F 2 "" H 3200 1500 50  0001 C CNN
 F 3 "" H 3200 1500 50  0001 C CNN
 	1    3200 1500
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	2900 1600 3000 1600
@@ -457,7 +457,7 @@ F 1 "Vrtc" H 3415 1673 50  0000 C CNN
 F 2 "" H 3400 1500 50  0001 C CNN
 F 3 "" H 3400 1500 50  0001 C CNN
 	1    3400 1500
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	2900 1800 3400 1800
@@ -472,7 +472,7 @@ F 1 "+5V" H 3615 1673 50  0000 C CNN
 F 2 "" H 3600 1500 50  0001 C CNN
 F 3 "" H 3600 1500 50  0001 C CNN
 	1    3600 1500
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R?
@@ -483,7 +483,7 @@ F 1 "4k7" H 8030 3905 50  0000 R CNN
 F 2 "" V 8030 3950 50  0001 C CNN
 F 3 "~" H 8100 3950 50  0001 C CNN
 	1    8100 3950
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	3600 1500 3600 1600
@@ -776,7 +776,7 @@ F 1 "+1V8" H 7315 4723 50  0000 C CNN
 F 2 "" H 7300 4550 50  0001 C CNN
 F 3 "" H 7300 4550 50  0001 C CNN
 	1    7300 4550
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	6800 4400 7100 4400
@@ -861,7 +861,7 @@ F 1 "47u" H 4350 1100 50  0000 L TNN
 F 2 "" H 4338 1000 50  0001 C CNN
 F 3 "~" H 4300 1150 50  0001 C CNN
 	1    4300 1150
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C?
@@ -872,7 +872,7 @@ F 1 "47u" H 4650 1100 50  0000 L TNN
 F 2 "" H 4638 1000 50  0001 C CNN
 F 3 "~" H 4600 1150 50  0001 C CNN
 	1    4600 1150
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C?
@@ -883,7 +883,7 @@ F 1 "100n" H 4950 1100 50  0000 L TNN
 F 2 "" H 4938 1000 50  0001 C CNN
 F 3 "~" H 4900 1150 50  0001 C CNN
 	1    4900 1150
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:+3V3 #PWR?
@@ -893,8 +893,8 @@ F 0 "#PWR?" H 4300 800 50  0001 C CNN
 F 1 "+3V3" H 4315 1123 50  0000 C CNN
 F 2 "" H 4300 950 50  0001 C CNN
 F 3 "" H 4300 950 50  0001 C CNN
-	1    4300 950
-	1    0    0    -1
+	1    4300 950 
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:+1V8 #PWR?
@@ -904,8 +904,8 @@ F 0 "#PWR?" H 4600 800 50  0001 C CNN
 F 1 "+1V8" H 4615 1123 50  0000 C CNN
 F 2 "" H 4600 950 50  0001 C CNN
 F 3 "" H 4600 950 50  0001 C CNN
-	1    4600 950
-	1    0    0    -1
+	1    4600 950 
+	1    0    0    -1  
 $EndComp
 $Comp
 L pimouss-motherboard:Vrtc #PWR?
@@ -915,8 +915,8 @@ F 0 "#PWR?" H 4900 800 50  0001 C CNN
 F 1 "Vrtc" H 4915 1123 50  0000 C CNN
 F 2 "" H 4900 950 50  0001 C CNN
 F 3 "" H 4900 950 50  0001 C CNN
-	1    4900 950
-	1    0    0    -1
+	1    4900 950 
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
@@ -927,7 +927,7 @@ F 1 "GND" H 4605 1227 50  0000 C CNN
 F 2 "" H 4600 1400 50  0001 C CNN
 F 3 "" H 4600 1400 50  0001 C CNN
 	1    4600 1400
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	4300 950  4300 1000
@@ -963,7 +963,7 @@ F 1 "SN74AUC1G19" H 4925 5774 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-6" H 4600 5750 50  0001 C CNN
 F 3 "" H 4700 5700 50  0001 C CNN
 	1    4700 5700
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:+1V8 #PWR?
@@ -974,7 +974,7 @@ F 1 "+1V8" H 4515 5873 50  0000 C CNN
 F 2 "" H 4500 5700 50  0001 C CNN
 F 3 "" H 4500 5700 50  0001 C CNN
 	1    4500 5700
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
@@ -985,7 +985,7 @@ F 1 "GND" H 4505 6227 50  0000 C CNN
 F 2 "" H 4500 6400 50  0001 C CNN
 F 3 "" H 4500 6400 50  0001 C CNN
 	1    4500 6400
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	4500 5700 4500 5800
@@ -1013,7 +1013,7 @@ F 1 "4k7" V 3934 6000 50  0000 C CNN
 F 2 "" V 3980 6000 50  0001 C CNN
 F 3 "~" H 4050 6000 50  0001 C CNN
 	1    4050 6000
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 $Comp
 L power:+1V8 #PWR?
@@ -1024,7 +1024,7 @@ F 1 "+1V8" H 3815 5873 50  0000 C CNN
 F 2 "" H 3800 5700 50  0001 C CNN
 F 3 "" H 3800 5700 50  0001 C CNN
 	1    3800 5700
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	3800 5700 3800 6000
@@ -1039,7 +1039,7 @@ F 1 "4k7" V 5434 6000 50  0000 C CNN
 F 2 "" V 5480 6000 50  0001 C CNN
 F 3 "~" H 5550 6000 50  0001 C CNN
 	1    5550 6000
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R?
@@ -1050,7 +1050,7 @@ F 1 "4k7" V 5756 6100 50  0000 C CNN
 F 2 "" V 5480 6100 50  0001 C CNN
 F 3 "~" H 5550 6100 50  0001 C CNN
 	1    5550 6100
-	0    1    1    0
+	0    1    1    0   
 $EndComp
 Wire Wire Line
 	5300 6000 5400 6000
@@ -1078,7 +1078,7 @@ F 1 "4k7" H 8270 3905 50  0000 L CNN
 F 2 "" V 8130 3950 50  0001 C CNN
 F 3 "~" H 8200 3950 50  0001 C CNN
 	1    8200 3950
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	8100 4100 8100 4200
@@ -1105,7 +1105,7 @@ F 1 "47k" H 3670 1705 50  0000 L CNN
 F 2 "" V 3530 1750 50  0001 C CNN
 F 3 "~" H 3600 1750 50  0001 C CNN
 	1    3600 1750
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:+3V3 #PWR?
@@ -1116,7 +1116,7 @@ F 1 "+3V3" H 8165 3873 50  0000 C CNN
 F 2 "" H 8150 3700 50  0001 C CNN
 F 3 "" H 8150 3700 50  0001 C CNN
 	1    8150 3700
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	8150 3700 8150 3750
