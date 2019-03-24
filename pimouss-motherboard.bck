@@ -72,6 +72,12 @@ D 4-Port 4-Lane PCIe Switch
 K pcie switch
 $ENDCMP
 #
+$CMP TMS-105-57-GD
+D Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers)
+K connector
+F ~
+$ENDCMP
+#
 $CMP USB-C-2.0-FEMALE
 D USB 2.0 Type-C Receptacle connector
 K usb universal serial bus type-C full-featured
