@@ -1163,6 +1163,81 @@ Wire Wire Line
 	3650 4100 2900 4100
 Wire Wire Line
 	3650 4000 2900 4000
+$Comp
+L pimouss-motherboard:TMS-105-57-GD J?
+U 1 1 5DAB4506
+P 8800 5200
+F 0 "J?" H 8900 5367 50  0000 C CNN
+F 1 "TMS-105-57-GD" H 8900 5276 50  0000 C CNN
+F 2 "pimouss-motherboard:TMS-105-57-G-D" H 8800 5100 50  0001 C CNN
+F 3 "~" H 8850 5000 50  0001 C CNN
+	1    8800 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5DAB4C7D
+P 8450 5200
+F 0 "#PWR?" H 8450 5050 50  0001 C CNN
+F 1 "+5V" H 8465 5373 50  0000 C CNN
+F 2 "" H 8450 5200 50  0001 C CNN
+F 3 "" H 8450 5200 50  0001 C CNN
+	1    8450 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DAB4CAB
+P 9350 5700
+F 0 "#PWR?" H 9350 5450 50  0001 C CNN
+F 1 "GND" H 9355 5527 50  0000 C CNN
+F 2 "" H 9350 5700 50  0001 C CNN
+F 3 "" H 9350 5700 50  0001 C CNN
+	1    9350 5700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8450 5200 8450 5300
+Wire Wire Line
+	8450 5600 8650 5600
+Wire Wire Line
+	8450 5500 8650 5500
+Connection ~ 8450 5500
+Wire Wire Line
+	8450 5500 8450 5600
+Wire Wire Line
+	8450 5400 8650 5400
+Connection ~ 8450 5400
+Wire Wire Line
+	8450 5400 8450 5500
+Wire Wire Line
+	8450 5300 8650 5300
+Connection ~ 8450 5300
+Wire Wire Line
+	8450 5300 8450 5400
+Wire Wire Line
+	9150 5300 9350 5300
+Wire Wire Line
+	9350 5300 9350 5400
+Wire Wire Line
+	9150 5400 9350 5400
+Connection ~ 9350 5400
+Wire Wire Line
+	9350 5400 9350 5500
+Wire Wire Line
+	9150 5500 9350 5500
+Connection ~ 9350 5500
+Wire Wire Line
+	9350 5500 9350 5600
+Wire Wire Line
+	9150 5600 9350 5600
+Connection ~ 9350 5600
+Wire Wire Line
+	9350 5600 9350 5700
+Text Notes 9400 6100 2    50   ~ 0
+Pimouss SoM power connector
+Text Notes 4200 6850 0    50   ~ 0
+Bootstrap and boot selection logic\n
 Wire Bus Line
 	3750 2200 3750 2400
 Wire Bus Line
