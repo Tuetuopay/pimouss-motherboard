@@ -1,10 +1,10 @@
 EESchema Schematic File Version 4
 LIBS:pimouss-motherboard-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 9 13
+Sheet 12 13
 Title "µSD Card storage"
 Date "2019-03-19"
 Rev "0.1"
@@ -14,17 +14,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L Connector:Micro_SD_Card_Det J?
-U 1 1 5D0A2A6B
-P 5750 3850
-F 0 "J?" H 5700 4667 50  0000 C CNN
-F 1 "Micro_SD_Card_Det" H 5700 4576 50  0000 C CNN
-F 2 "" H 7800 4550 50  0001 C CNN
-F 3 "https://www.hirose.com/product/en/download_file/key_name/DM3/category/Catalog/doc_file_id/49662/?file_category_id=4&item_id=195&is_series=1" H 5750 3950 50  0001 C CNN
-	1    5750 3850
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:+3V3 #PWR?
 U 1 1 5D0A2BBF
@@ -153,4 +142,15 @@ Wire Wire Line
 	8000 3900 8000 4000
 Wire Bus Line
 	4000 3350 4000 4050
+$Comp
+L Connector:Micro_SD_Card_Det J?
+U 1 1 5C97B7D0
+P 5750 3850
+F 0 "J?" H 5700 4667 50  0000 C CNN
+F 1 "Micro_SD_Card_Det" H 5700 4576 50  0000 C CNN
+F 2 "" H 7800 4550 50  0001 C CNN
+F 3 "https://www.hirose.com/product/en/download_file/key_name/DM3/category/Catalog/doc_file_id/49662/?file_category_id=4&item_id=195&is_series=1" H 5750 3950 50  0001 C CNN
+	1    5750 3850
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
