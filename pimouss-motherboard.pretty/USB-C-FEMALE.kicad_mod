@@ -1,4 +1,4 @@
-(module USB-C-FEMALE (layer F.Cu) (tedit 5C79AC97)
+(module USB-C-FEMALE (layer F.Cu) (tedit 5C97B065)
   (fp_text reference REF** (at 6 0 90) (layer F.SilkS)
     (effects (font (size 0.855 0.855) (thickness 0.0684)) (justify left bottom))
   )
@@ -55,4 +55,9 @@
   (pad "" np_thru_hole circle (at 4.32 -7.33) (size 0.6 0.6) (drill 0.6) (layers *.Cu *.Mask))
   (pad "" np_thru_hole circle (at 4.32 -7.055) (size 0.6 0.6) (drill 0.6) (layers *.Cu *.Mask))
   (pad "" np_thru_hole circle (at 4.32 -6.505) (size 0.6 0.6) (drill 0.6) (layers *.Cu *.Mask))
+  (model ${KIPRJMOD}/3d/USB-C-FEMALE.stp
+    (offset (xyz 0 4.5 1.5))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 180))
+  )
 )
