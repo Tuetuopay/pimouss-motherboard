@@ -120,8 +120,6 @@ Text HLabel 5700 1700 2    50   Output ~ 0
 TX_O1_P
 Text HLabel 5700 1800 2    50   Output ~ 0
 TX_O1_N
-Wire Wire Line
-	5700 2000 5450 2000
 Text HLabel 5700 1900 2    50   Output ~ 0
 CLK_O1_P
 Text HLabel 5700 2000 2    50   Output ~ 0
@@ -131,54 +129,48 @@ CLK_O1_P
 Text Label 4700 2000 2    50   ~ 0
 CLK_O1_N
 Wire Wire Line
-	5700 1900 5550 1900
-Wire Wire Line
 	5700 2100 3800 2100
 Text HLabel 5700 2100 2    50   Output ~ 0
 nRST_O1
 Text Label 4700 2100 2    50   ~ 0
 nRST_O1
 Wire Wire Line
-	3800 2300 4800 2300
-Text Label 4500 2300 2    50   ~ 0
+	3800 2300 4900 2300
+Text Label 4600 2300 2    50   ~ 0
 RX_O2_P
 Wire Wire Line
-	3800 2400 4800 2400
-Text Label 4500 2400 2    50   ~ 0
+	3800 2400 4900 2400
+Text Label 4600 2400 2    50   ~ 0
 RX_O2_N
 Wire Wire Line
-	4100 2500 4800 2500
+	4100 2500 4900 2500
 Text Label 4700 2500 2    50   ~ 0
 TX_O2_P
 Wire Wire Line
-	4100 2600 4800 2600
+	4100 2600 4900 2600
 Text Label 4700 2600 2    50   ~ 0
 TX_O2_N
-Text HLabel 4800 2300 2    50   Input ~ 0
+Text HLabel 4900 2300 2    50   Input ~ 0
 RX_O2_P
-Text HLabel 4800 2400 2    50   Input ~ 0
+Text HLabel 4900 2400 2    50   Input ~ 0
 RX_O2_N
-Text HLabel 4800 2500 2    50   Output ~ 0
+Text HLabel 4900 2500 2    50   Output ~ 0
 TX_O2_P
-Text HLabel 4800 2600 2    50   Output ~ 0
+Text HLabel 4900 2600 2    50   Output ~ 0
 TX_O2_N
-Wire Wire Line
-	4800 2800 4600 2800
-Text HLabel 4800 2700 2    50   Output ~ 0
+Text HLabel 4900 2700 2    50   Output ~ 0
 CLK_O2_P
-Text HLabel 4800 2800 2    50   Output ~ 0
+Text HLabel 4900 2800 2    50   Output ~ 0
 CLK_O2_N
-Text Label 4500 2700 2    50   ~ 0
+Text Label 4600 2700 2    50   ~ 0
 CLK_O2_P
-Text Label 4500 2800 2    50   ~ 0
+Text Label 4600 2800 2    50   ~ 0
 CLK_O2_N
 Wire Wire Line
-	4800 2700 4700 2700
-Wire Wire Line
-	4800 2900 3800 2900
-Text HLabel 4800 2900 2    50   Output ~ 0
+	4900 2900 3800 2900
+Text HLabel 4900 2900 2    50   Output ~ 0
 nRST_O2
-Text Label 4500 2900 2    50   ~ 0
+Text Label 4600 2900 2    50   ~ 0
 nRST_O2
 NoConn ~ 3800 3100
 NoConn ~ 3800 3200
@@ -1375,55 +1367,49 @@ Wire Wire Line
 $Comp
 L Device:R_Small R?
 U 1 1 5D930A7A
-P 4600 3200
-F 0 "R?" V 4550 3300 50  0000 L CNN
-F 1 "5k1" V 4550 3100 50  0000 R CNN
-F 2 "" H 4600 3200 50  0001 C CNN
-F 3 "~" H 4600 3200 50  0001 C CNN
-	1    4600 3200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small R?
-U 1 1 5D9310A8
 P 4700 3200
 F 0 "R?" V 4650 3300 50  0000 L CNN
-F 1 "5k1" V 4650 3100 50  0000 R CNN
+F 1 "49r9" V 4650 3100 50  0000 R CNN
 F 2 "" H 4700 3200 50  0001 C CNN
 F 3 "~" H 4700 3200 50  0001 C CNN
 	1    4700 3200
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5D9310A8
+P 4800 3200
+F 0 "R?" V 4750 3300 50  0000 L CNN
+F 1 "49r9" V 4750 3100 50  0000 R CNN
+F 2 "" H 4800 3200 50  0001 C CNN
+F 3 "~" H 4800 3200 50  0001 C CNN
+	1    4800 3200
+	-1   0    0    -1  
+$EndComp
 Wire Wire Line
-	4600 3100 4600 2800
-Connection ~ 4600 2800
+	4700 3100 4700 2800
 Wire Wire Line
-	4600 2800 3800 2800
+	4800 3100 4800 2700
 Wire Wire Line
-	4700 3100 4700 2700
-Connection ~ 4700 2700
+	4700 3300 4700 3450
 Wire Wire Line
-	4700 2700 3800 2700
+	4700 3450 4750 3450
 Wire Wire Line
-	4600 3300 4600 3450
+	4800 3450 4800 3300
 Wire Wire Line
-	4600 3450 4650 3450
+	4750 3450 4750 3500
+Connection ~ 4750 3450
 Wire Wire Line
-	4700 3450 4700 3300
-Wire Wire Line
-	4650 3450 4650 3500
-Connection ~ 4650 3450
-Wire Wire Line
-	4650 3450 4700 3450
+	4750 3450 4800 3450
 $Comp
 L power:GND #PWR?
 U 1 1 5D97FC67
-P 4650 3500
-F 0 "#PWR?" H 4650 3250 50  0001 C CNN
-F 1 "GND" H 4655 3327 50  0000 C CNN
-F 2 "" H 4650 3500 50  0001 C CNN
-F 3 "" H 4650 3500 50  0001 C CNN
-	1    4650 3500
+P 4750 3500
+F 0 "#PWR?" H 4750 3250 50  0001 C CNN
+F 1 "GND" H 4755 3327 50  0000 C CNN
+F 2 "" H 4750 3500 50  0001 C CNN
+F 3 "" H 4750 3500 50  0001 C CNN
+	1    4750 3500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1431,7 +1417,7 @@ L Device:R_Small R?
 U 1 1 5D99029B
 P 5450 2400
 F 0 "R?" V 5400 2500 50  0000 L CNN
-F 1 "5k1" V 5400 2300 50  0000 R CNN
+F 1 "49r9" V 5400 2300 50  0000 R CNN
 F 2 "" H 5450 2400 50  0001 C CNN
 F 3 "~" H 5450 2400 50  0001 C CNN
 	1    5450 2400
@@ -1442,11 +1428,11 @@ L Device:R_Small R?
 U 1 1 5D9902A2
 P 5550 2400
 F 0 "R?" V 5500 2500 50  0000 L CNN
-F 1 "5k1" V 5500 2300 50  0000 R CNN
+F 1 "49r9" V 5500 2300 50  0000 R CNN
 F 2 "" H 5550 2400 50  0001 C CNN
 F 3 "~" H 5550 2400 50  0001 C CNN
 	1    5550 2400
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	5450 2300 5450 2000
@@ -1474,10 +1460,82 @@ F 3 "" H 5500 2700 50  0001 C CNN
 	1    5500 2700
 	1    0    0    -1  
 $EndComp
+Text Notes 5700 2700 0    50   ~ 0
+Place close to\nend connector
+Text Notes 4950 3500 0    50   ~ 0
+Place close to\nend connector
+Wire Wire Line
+	5450 2000 4100 2000
+Wire Wire Line
+	5550 1900 4100 1900
+Wire Wire Line
+	5450 2000 5700 2000
+Wire Wire Line
+	5550 1900 5700 1900
 Connection ~ 5450 2000
-Wire Wire Line
-	5450 2000 3800 2000
 Connection ~ 5550 1900
+$Comp
+L Device:R_Small R?
+U 1 1 5DBCB726
+P 4000 2000
+F 0 "R?" V 3950 2100 50  0000 L CNN
+F 1 "0" V 3950 1900 50  0000 R CNN
+F 2 "" H 4000 2000 50  0001 C CNN
+F 3 "~" H 4000 2000 50  0001 C CNN
+	1    4000 2000
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5DBDCE29
+P 4000 1900
+F 0 "R?" V 3950 2000 50  0000 L CNN
+F 1 "0" V 3950 1800 50  0000 R CNN
+F 2 "" H 4000 1900 50  0001 C CNN
+F 3 "~" H 4000 1900 50  0001 C CNN
+	1    4000 1900
+	0    -1   1    0   
+$EndComp
 Wire Wire Line
-	5550 1900 3800 1900
+	3800 1900 3900 1900
+Wire Wire Line
+	3800 2000 3900 2000
+$Comp
+L Device:R_Small R?
+U 1 1 5DC36BA7
+P 4000 2700
+F 0 "R?" V 3950 2800 50  0000 L CNN
+F 1 "0" V 3950 2600 50  0000 R CNN
+F 2 "" H 4000 2700 50  0001 C CNN
+F 3 "~" H 4000 2700 50  0001 C CNN
+	1    4000 2700
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5DC36C3F
+P 4000 2800
+F 0 "R?" V 3950 2900 50  0000 L CNN
+F 1 "0" V 3950 2700 50  0000 R CNN
+F 2 "" H 4000 2800 50  0001 C CNN
+F 3 "~" H 4000 2800 50  0001 C CNN
+	1    4000 2800
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	3800 2800 3900 2800
+Wire Wire Line
+	3900 2700 3800 2700
+Connection ~ 4700 2800
+Wire Wire Line
+	4700 2800 4900 2800
+Connection ~ 4800 2700
+Wire Wire Line
+	4800 2700 4900 2700
+Wire Wire Line
+	4100 2800 4700 2800
+Wire Wire Line
+	4100 2700 4800 2700
+Text Notes 3850 1300 0    50   ~ 0
+Adjust clock series resistors\nbetween 10 and 30 ohms\nin case of overshoot / ringing
 $EndSCHEMATC

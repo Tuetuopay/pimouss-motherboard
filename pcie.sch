@@ -510,29 +510,29 @@ Wire Wire Line
 	8900 3200 10450 3200
 Wire Wire Line
 	8900 3300 10450 3300
-Text HLabel 7900 6000 0    50   BiDi ~ 0
+Text HLabel 1800 1100 0    50   BiDi ~ 0
 PCIE_1X
-Text HLabel 7900 6100 0    50   BiDi ~ 0
+Text HLabel 1800 1200 0    50   BiDi ~ 0
 PCIE_4X
-Text HLabel 7900 6200 0    50   BiDi ~ 0
+Text HLabel 1800 1300 0    50   BiDi ~ 0
 SMBUS
-Text HLabel 7900 6300 0    50   Output ~ 0
+Text HLabel 1800 1400 0    50   Output ~ 0
 nRST
 Wire Bus Line
-	8300 6000 7900 6000
-Text Label 8300 6000 2    50   ~ 0
+	2200 1100 1800 1100
+Text Label 2200 1100 2    50   ~ 0
 PCIE_1X
 Wire Bus Line
-	8300 6100 7900 6100
-Text Label 8300 6100 2    50   ~ 0
+	2200 1200 1800 1200
+Text Label 2200 1200 2    50   ~ 0
 PCIE_4X
 Wire Bus Line
-	8300 6200 7900 6200
-Text Label 8300 6200 2    50   ~ 0
+	2200 1300 1800 1300
+Text Label 2200 1300 2    50   ~ 0
 SMBUS
 Wire Wire Line
-	7900 6300 8300 6300
-Text Label 8300 6300 2    50   ~ 0
+	1800 1400 2200 1400
+Text Label 2200 1400 2    50   ~ 0
 nRST
 $Comp
 L pimouss-motherboard:+3V3_PCI #PWR?
@@ -757,6 +757,8 @@ Wire Bus Line
 	1550 4100 1150 4100
 Text Label 1150 4100 0    50   ~ 0
 SMBUS
+Text Notes 4200 5750 2    50   ~ 0
+PCIe switch to get 2 mini PCIe slots
 Wire Bus Line
 	1550 3200 1550 3700
 Wire Bus Line
