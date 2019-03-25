@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 12 13
+Sheet 8 12
 Title "µSD Card storage"
 Date "2019-03-19"
 Rev "0.1"
@@ -140,8 +140,6 @@ Wire Wire Line
 	8000 3500 8000 3600
 Wire Wire Line
 	8000 3900 8000 4000
-Wire Bus Line
-	4000 3350 4000 4050
 $Comp
 L Connector:Micro_SD_Card_Det J?
 U 1 1 5C97B7D0
@@ -153,4 +151,6 @@ F 3 "https://www.hirose.com/product/en/download_file/key_name/DM3/category/Catal
 	1    5750 3850
 	1    0    0    -1  
 $EndComp
+Wire Bus Line
+	4000 3350 4000 4050
 $EndSCHEMATC

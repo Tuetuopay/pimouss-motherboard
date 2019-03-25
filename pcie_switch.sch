@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 13
+Sheet 4 12
 Title "PCIe Switch"
 Date "2019-03-19"
 Rev "0.1"
@@ -48,26 +48,26 @@ F 3 "https://www.diodes.com/assets/Datasheets/PI7C9X2G404SL.pdf" H 3950 7100 50 
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2300 2600 1300 2600
-Text Label 1600 2600 0    50   ~ 0
+	2300 2600 1400 2600
+Text Label 1450 2600 0    50   ~ 0
 RX_I_P
 Wire Wire Line
-	2300 2700 1300 2700
-Text Label 1600 2700 0    50   ~ 0
+	2300 2700 1400 2700
+Text Label 1450 2700 0    50   ~ 0
 RX_I_N
 Wire Wire Line
-	1800 2800 1300 2800
-Text Label 1350 2800 0    50   ~ 0
+	1950 2800 1400 2800
+Text Label 1450 2800 0    50   ~ 0
 TX_I_P
 Wire Wire Line
-	1800 2900 1300 2900
-Text Label 1350 2900 0    50   ~ 0
+	1950 2900 1400 2900
+Text Label 1450 2900 0    50   ~ 0
 TX_I_N
-Text HLabel 1300 2600 0    50   Input ~ 0
+Text HLabel 1400 2600 0    50   Input ~ 0
 RX_I_P
-Text HLabel 1300 2700 0    50   Input ~ 0
+Text HLabel 1400 2700 0    50   Input ~ 0
 RX_I_N
-Text HLabel 1300 2800 0    50   Output ~ 0
+Text HLabel 1400 2800 0    50   Output ~ 0
 TX_I_P
 Text HLabel 1300 2900 0    50   Output ~ 0
 TX_I_N

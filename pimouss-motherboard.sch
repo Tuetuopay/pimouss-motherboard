@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 13
+Sheet 1 12
 Title "Global motherboard interconnections"
 Date "2019-03-19"
 Rev "0.1"
@@ -15,86 +15,56 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 2100 2400 800  1500
+S 2600 1450 800  1500
 U 5CE77C37
 F0 "pimouss" 50
 F1 "pimouss.sch" 50
-F2 "PCIE_1X" B R 2900 2600 50 
-F3 "PCIE_4X" B R 2900 2700 50 
-F4 "QSGMII" B R 2900 2900 50 
-F5 "MIIM" B R 2900 3000 50 
-F6 "UART" B R 2900 3200 50 
-F7 "SDIO" B R 2900 3300 50 
-F8 "SMBUS" B R 2900 3400 50 
-F9 "nRST" O R 2900 3600 50 
-F10 "nMR" I R 2900 3700 50 
-$EndSheet
-$Sheet
-S 7400 2200 800  900 
-U 5C7D0D1E
-F0 "phy" 50
-F1 "phy.sch" 50
-F2 "nRST" I L 7400 2400 50 
-F3 "MDIO" B L 7400 2600 50 
-F4 "MDC" I L 7400 2700 50 
-F5 "QSGMII" B L 7400 2900 50 
+F2 "PCIE_1X" B R 3400 1650 50 
+F3 "PCIE_4X" B R 3400 1750 50 
+F4 "QSGMII" B R 3400 1950 50 
+F5 "MIIM" B R 3400 2050 50 
+F6 "UART" B R 3400 2250 50 
+F7 "SDIO" B R 3400 2350 50 
+F8 "SMBUS" B R 3400 2450 50 
+F9 "nRST" O R 3400 2650 50 
+F10 "nMR" I R 3400 2750 50 
 $EndSheet
 Wire Bus Line
-	2900 2600 3300 2600
-Text Label 3300 2600 2    50   ~ 0
+	3400 1650 3800 1650
+Text Label 3800 1650 2    50   ~ 0
 PCIE_1X
 Wire Bus Line
-	2900 2700 3300 2700
-Text Label 3300 2700 2    50   ~ 0
+	3400 1750 3800 1750
+Text Label 3800 1750 2    50   ~ 0
 PCIE_4X
 Wire Bus Line
-	2900 2900 3300 2900
-Text Label 3300 2900 2    50   ~ 0
+	3400 1950 3800 1950
+Text Label 3800 1950 2    50   ~ 0
 QSGMII
 Wire Bus Line
-	3300 3000 2900 3000
-Text Label 3300 3000 2    50   ~ 0
+	3800 2050 3400 2050
+Text Label 3800 2050 2    50   ~ 0
 MIIM
 Wire Bus Line
-	2900 3200 3300 3200
-Text Label 3300 3200 2    50   ~ 0
+	3400 2250 3800 2250
+Text Label 3800 2250 2    50   ~ 0
 UART
 Wire Bus Line
-	2900 3300 3300 3300
-Text Label 3300 3300 2    50   ~ 0
+	3400 2350 3800 2350
+Text Label 3800 2350 2    50   ~ 0
 SDIO
 Wire Bus Line
-	2900 3400 3300 3400
-Text Label 3300 3400 2    50   ~ 0
+	3400 2450 3800 2450
+Text Label 3800 2450 2    50   ~ 0
 SMBUS
 Wire Wire Line
-	3300 3600 2900 3600
+	3800 2650 3400 2650
 Wire Wire Line
-	3300 3700 2900 3700
-Text Label 3300 3600 2    50   ~ 0
+	3800 2750 3400 2750
+Text Label 3800 2650 2    50   ~ 0
 nRST
-Text Label 3300 3700 2    50   ~ 0
+Text Label 3800 2750 2    50   ~ 0
 nMR
-Wire Wire Line
-	6500 2400 7400 2400
-Text Label 6500 2400 0    50   ~ 0
-nRST
-Wire Bus Line
-	7400 2900 6500 2900
-Text Label 6500 2900 0    50   ~ 0
-QSGMII
-Text Label 7100 2600 0    50   ~ 0
-MDIO
-Wire Bus Line
-	6900 2600 6900 2500
-Entry Wire Line
-	6900 2600 7000 2700
-Entry Wire Line
-	6900 2500 7000 2600
-Wire Bus Line
-	6500 2500 6900 2500
-Text Label 6500 2500 0    50   ~ 0
-MIIM
 $Sheet
 S 7400 3900 800  900 
 U 5C91A44F
@@ -132,12 +102,6 @@ Wire Bus Line
 	7400 3500 7000 3500
 Text Label 7000 3500 0    50   ~ 0
 UART
-Text Label 7100 2700 0    50   ~ 0
-MDC
-Wire Wire Line
-	7000 2700 7400 2700
-Wire Wire Line
-	7000 2600 7400 2600
 $Sheet
 S 7400 5000 800  400 
 U 5D0A0558
@@ -150,14 +114,62 @@ Wire Bus Line
 Text Label 7000 5200 0    50   ~ 0
 SDIO
 $Sheet
-S 2100 4700 800  1200
+S 7400 2500 800  600 
+U 5D05A5DB
+F0 "phy_data" 50
+F1 "phy_data.sch" 50
+F2 "QSGMII" B L 7400 2700 50 
+F3 "LEDS" O L 7400 2900 50 
+$EndSheet
+$Sheet
+S 7400 1400 800  900 
+U 5D05A5E1
+F0 "phy_adm" 50
+F1 "phy_adm.sch" 50
+F2 "nRST" I L 7400 1600 50 
+F3 "MDIO" B L 7400 1800 50 
+F4 "MDC" I L 7400 1900 50 
+F5 "LEDS" I L 7400 2100 50 
+$EndSheet
+Text HLabel 7000 1600 0    50   Input ~ 0
+nRST
+Wire Wire Line
+	7000 1600 7400 1600
+Text HLabel 7000 1800 0    50   BiDi ~ 0
+MDIO
+Text HLabel 7000 1900 0    50   Input ~ 0
+MDC
+Wire Wire Line
+	7000 1800 7400 1800
+Wire Wire Line
+	7400 1900 7000 1900
+Wire Bus Line
+	7400 2100 7000 2100
+Wire Bus Line
+	7400 2900 7000 2900
+Text Label 7050 2100 0    50   ~ 0
+LEDS
+Text Label 7050 2900 0    50   ~ 0
+LEDS
+Text HLabel 7000 2700 0    50   BiDi ~ 0
+QSGMII
+Wire Bus Line
+	7000 2700 7400 2700
+$Sheet
+S 2600 4550 800  700 
+U 5D05A5E3
+F0 "phy_psu" 50
+F1 "phy_psu.sch" 50
+$EndSheet
+Text Label 3800 3350 2    50   ~ 0
+nMR
+Wire Wire Line
+	3800 3350 3400 3350
+$Sheet
+S 2600 3150 800  1200
 U 5D0C4621
 F0 "power" 50
 F1 "power.sch" 50
-F2 "PG_PCI" O R 2900 4900 50 
+F2 "PG_PCI" O R 3400 3350 50 
 $EndSheet
-Wire Wire Line
-	3300 4900 2900 4900
-Text Label 3300 4900 2    50   ~ 0
-nMR
 $EndSCHEMATC

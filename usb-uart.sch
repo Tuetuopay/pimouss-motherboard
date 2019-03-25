@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 11 13
+Sheet 7 12
 Title "USB to UART conversion"
 Date "2019-03-19"
 Rev "0.1"
