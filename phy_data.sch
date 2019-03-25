@@ -849,4 +849,6 @@ Wire Bus Line
 	1500 1700 1500 2400
 Wire Bus Line
 	4300 4400 4300 5800
+Text Notes 3250 6500 0    50   ~ 0
+We need to get LEDs outside of this sheet\nas they are used for config
 $EndSCHEMATC

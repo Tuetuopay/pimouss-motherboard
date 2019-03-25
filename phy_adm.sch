@@ -715,4 +715,6 @@ Wire Wire Line
 	4600 5500 4500 5500
 Wire Wire Line
 	4500 5500 4500 5750
+Text Notes 4800 6400 0    50   ~ 0
+PHY reference clock
 $EndSCHEMATC

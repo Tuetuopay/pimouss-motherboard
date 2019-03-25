@@ -403,4 +403,6 @@ Wire Wire Line
 Connection ~ 3150 4550
 Wire Wire Line
 	3150 4550 3300 4550
+Text Notes 3500 5100 0    50   ~ 0
+Connect both USB data pins despite\nthe stubs it will create: at USB 2.0\nspeeds, this is not really an issue
 $EndSCHEMATC
