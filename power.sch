@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 12 13
+Sheet 13 13
 Title "Main board power supplies"
 Date "2019-03-19"
 Rev "0.1"

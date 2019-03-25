@@ -15,6 +15,21 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
+S 2100 2400 800  1500
+U 5CE77C37
+F0 "pimouss" 50
+F1 "pimouss.sch" 50
+F2 "PCIE_1X" B R 2900 2600 50 
+F3 "PCIE_4X" B R 2900 2700 50 
+F4 "QSGMII" B R 2900 2900 50 
+F5 "MIIM" B R 2900 3000 50 
+F6 "UART" B R 2900 3200 50 
+F7 "SDIO" B R 2900 3300 50 
+F8 "SMBUS" B R 2900 3400 50 
+F9 "nRST" O R 2900 3600 50 
+F10 "nMR" I R 2900 3700 50 
+$EndSheet
+$Sheet
 S 7400 2200 800  900 
 U 5C7D0D1E
 F0 "phy" 50
@@ -81,23 +96,6 @@ Wire Bus Line
 Text Label 6500 2500 0    50   ~ 0
 MIIM
 $Sheet
-S 7400 3300 800  400 
-U 5D2774DB
-F0 "usb-uart" 50
-F1 "usb-uart.sch" 50
-F2 "UART" B L 7400 3500 50 
-$EndSheet
-Wire Bus Line
-	7400 3500 7000 3500
-Text Label 7000 3500 0    50   ~ 0
-UART
-Text Label 7100 2700 0    50   ~ 0
-MDC
-Wire Wire Line
-	7000 2700 7400 2700
-Wire Wire Line
-	7000 2600 7400 2600
-$Sheet
 S 7400 3900 800  900 
 U 5C91A44F
 F0 "pcie" 50
@@ -124,6 +122,23 @@ Wire Wire Line
 Text Label 7000 4600 0    50   ~ 0
 nRST
 $Sheet
+S 7400 3300 800  400 
+U 5D2774DB
+F0 "usb-uart" 50
+F1 "usb-uart.sch" 50
+F2 "UART" B L 7400 3500 50 
+$EndSheet
+Wire Bus Line
+	7400 3500 7000 3500
+Text Label 7000 3500 0    50   ~ 0
+UART
+Text Label 7100 2700 0    50   ~ 0
+MDC
+Wire Wire Line
+	7000 2700 7400 2700
+Wire Wire Line
+	7000 2600 7400 2600
+$Sheet
 S 7400 5000 800  400 
 U 5D0A0558
 F0 "micro-sd" 50
@@ -145,19 +160,4 @@ Wire Wire Line
 	3300 4900 2900 4900
 Text Label 3300 4900 2    50   ~ 0
 nMR
-$Sheet
-S 2100 2400 800  1500
-U 5CE77C37
-F0 "pimouss" 50
-F1 "pimouss.sch" 50
-F2 "PCIE_1X" B R 2900 2600 50 
-F3 "PCIE_4X" B R 2900 2700 50 
-F4 "QSGMII" B R 2900 2900 50 
-F5 "MIIM" B R 2900 3000 50 
-F6 "UART" B R 2900 3200 50 
-F7 "SDIO" B R 2900 3300 50 
-F8 "SMBUS" B R 2900 3400 50 
-F9 "nRST" O R 2900 3600 50 
-F10 "nMR" I R 2900 3700 50 
-$EndSheet
 $EndSCHEMATC
