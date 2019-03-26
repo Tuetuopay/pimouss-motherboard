@@ -1539,6 +1539,10 @@ Wire Wire Line
 	6850 5600 6550 5600
 Text Label 6550 5600 0    50   ~ 0
 nRST
+Text Notes 9700 6400 0    50   ~ 0
+JTAG connector
+Text Notes 7000 6400 0    50   ~ 0
+Extension connector\n
 Wire Bus Line
 	1450 2500 1450 2900
 Wire Bus Line
@@ -1547,8 +1551,4 @@ Wire Bus Line
 	3750 3900 3750 4400
 Wire Bus Line
 	5350 2400 5350 4300
-Text Notes 9700 6400 0    50   ~ 0
-JTAG connector
-Text Notes 7000 6400 0    50   ~ 0
-Extension connector\n
 $EndSCHEMATC
