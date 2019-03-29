@@ -161,7 +161,7 @@ Wire Wire Line
 Text Label 5150 2000 0    50   ~ 0
 PHY_TDO
 Text Label 5150 2100 0    50   ~ 0
-PHY_TnRST
+PHY_nTRST
 Text Label 5150 2200 0    50   ~ 0
 PHY_TCK
 Text Label 5150 2300 0    50   ~ 0

@@ -131,28 +131,16 @@ F3 "MDIO" B L 7400 1800 50
 F4 "MDC" I L 7400 1900 50 
 F5 "LEDS" I L 7400 2100 50 
 $EndSheet
-Text HLabel 7000 1600 0    50   Input ~ 0
-nRST
 Wire Wire Line
 	7000 1600 7400 1600
-Text HLabel 7000 1800 0    50   BiDi ~ 0
-MDIO
-Text HLabel 7000 1900 0    50   Input ~ 0
-MDC
-Wire Wire Line
-	7000 1800 7400 1800
-Wire Wire Line
-	7400 1900 7000 1900
 Wire Bus Line
 	7400 2100 7000 2100
 Wire Bus Line
 	7400 2900 7000 2900
-Text Label 7050 2100 0    50   ~ 0
+Text Label 7000 2100 0    50   ~ 0
 LEDS
-Text Label 7050 2900 0    50   ~ 0
+Text Label 7000 2900 0    50   ~ 0
 LEDS
-Text HLabel 7000 2700 0    50   BiDi ~ 0
-QSGMII
 Wire Bus Line
 	7000 2700 7400 2700
 $Sheet
@@ -172,4 +160,16 @@ F0 "power" 50
 F1 "power.sch" 50
 F2 "PG_PCI" O R 3400 3350 50 
 $EndSheet
+Text Label 7000 2700 0    50   ~ 0
+QSGMII
+Wire Wire Line
+	7000 1800 7400 1800
+Wire Wire Line
+	7000 1900 7400 1900
+Text Label 7000 1800 0    50   ~ 0
+MDC
+Text Label 7000 1900 0    50   ~ 0
+MDIO
+Text Label 7000 1600 0    50   ~ 0
+nRST
 $EndSCHEMATC
