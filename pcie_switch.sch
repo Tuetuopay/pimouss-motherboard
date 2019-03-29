@@ -1674,4 +1674,6 @@ F 3 "~" H 4000 2000 50  0001 C CNN
 $EndComp
 NoConn ~ 9500 1500
 NoConn ~ 9500 1600
+Text Notes 750  1100 0    50   ~ 0
+The PI7C9X2G404SL has an integrated clock buffer and\nfan-out, whose input is REFCLK_I. Yet it still needs a\nreference clock to work. Thus we feed it one of its clock\noutput (REFCLKO_0) to its reference clock input (REFCLK).
 $EndSCHEMATC
