@@ -255,19 +255,9 @@ Wire Wire Line
 Wire Wire Line
 	8200 3700 7500 3700
 Text Label 7650 3600 0    50   ~ 0
-UART_TXD
+TXD
 Text Label 7650 3700 0    50   ~ 0
-UART_RXD
-Wire Bus Line
-	8300 3600 8300 3500
-Wire Bus Line
-	8300 3500 8500 3500
-Entry Wire Line
-	8200 3600 8300 3500
-Entry Wire Line
-	8200 3700 8300 3600
-Text HLabel 8500 3500 2    50   BiDi ~ 0
-UART
+RXD
 Wire Wire Line
 	3900 3450 4400 3450
 Wire Wire Line
@@ -401,4 +391,8 @@ F 3 "~" H 8700 4600 50  0001 C CNN
 	1    8700 4600
 	1    0    0    -1  
 $EndComp
+Text HLabel 8200 3600 2    50   Output ~ 0
+TXD
+Text HLabel 8200 3700 2    50   Input ~ 0
+RXD
 $EndSCHEMATC

@@ -251,13 +251,7 @@ Connection ~ 2900 3200
 Wire Wire Line
 	2900 3200 2900 3300
 Wire Wire Line
-	2050 3100 3900 3100
-Wire Bus Line
-	1950 3000 1850 3000
-Entry Wire Line
-	1950 3000 2050 3100
-Text HLabel 1850 3000 0    50   Input ~ 0
-LEDS
+	2200 3100 3900 3100
 Text Notes 1050 1900 0    50   ~ 0
 Configuration:\nPHYAD[4:2] : 0\nPHY_ORDER : 0, keep default\nC_ANEG[1:0] : 11, advertise all\nENA_PAUSE : 1, advertise pauses\nPDOWN : 0, default UP\nDIS_SLEEP : 0, enrgy detect ON\nENA_XC : 1, detect crossover cables\nSEL_MS : 1, prefer master\nMODE[2:0] : 000, QSGMII to Copper\nS/Q_ANEG : 1, autoneg ON
 Text Label 2200 3100 0    50   ~ 0
@@ -730,4 +724,6 @@ F 3 "~" H 3850 5500 50  0001 C CNN
 	1    3850 5500
 	-1   0    0    1   
 $EndComp
+Text HLabel 2200 3100 0    50   Input ~ 0
+LED_P3_0
 $EndSCHEMATC

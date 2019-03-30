@@ -624,106 +624,6 @@ F 3 "~" H 9600 6000 50  0001 C CNN
 	1    9600 6000
 	1    0    0    -1  
 $EndComp
-Text Label 3700 4600 0    50   ~ 0
-LED_P0_1
-Wire Wire Line
-	3700 4600 4200 4600
-Text Label 3700 4700 0    50   ~ 0
-LED_P0_2
-Wire Wire Line
-	3700 4700 4200 4700
-Text Label 3700 4800 0    50   ~ 0
-LED_P0_3
-Wire Wire Line
-	3700 4800 4200 4800
-Text Label 3700 4900 0    50   ~ 0
-LED_P1_0
-Wire Wire Line
-	3700 4900 4200 4900
-Text Label 3700 5000 0    50   ~ 0
-LED_P1_1
-Wire Wire Line
-	3700 5000 4200 5000
-Text Label 3700 5100 0    50   ~ 0
-LED_P1_2
-Wire Wire Line
-	3700 5100 4200 5100
-Text Label 3700 5200 0    50   ~ 0
-LED_P1_3
-Wire Wire Line
-	3700 5200 4200 5200
-Text Label 3700 5300 0    50   ~ 0
-LED_P2_0
-Wire Wire Line
-	3700 5300 4200 5300
-Text Label 3700 5400 0    50   ~ 0
-LED_P2_1
-Wire Wire Line
-	3700 5400 4200 5400
-Text Label 3700 5500 0    50   ~ 0
-LED_P2_2
-Wire Wire Line
-	3700 5500 4200 5500
-Text Label 3700 5600 0    50   ~ 0
-LED_P2_3
-Wire Wire Line
-	3700 5600 4200 5600
-Text Label 3700 5700 0    50   ~ 0
-LED_P3_0
-Wire Wire Line
-	3700 5700 4200 5700
-Text Label 3700 5800 0    50   ~ 0
-LED_P3_1
-Wire Wire Line
-	3700 5800 4200 5800
-Text Label 3700 5900 0    50   ~ 0
-LED_P3_2
-Wire Wire Line
-	3700 5900 4200 5900
-Wire Bus Line
-	4300 4400 4800 4400
-Entry Wire Line
-	4300 4500 4200 4600
-Entry Wire Line
-	4300 4600 4200 4700
-Entry Wire Line
-	4300 4700 4200 4800
-Entry Wire Line
-	4300 4800 4200 4900
-Entry Wire Line
-	4300 4900 4200 5000
-Entry Wire Line
-	4300 5000 4200 5100
-Entry Wire Line
-	4300 5100 4200 5200
-Entry Wire Line
-	4300 5200 4200 5300
-Entry Wire Line
-	4300 5300 4200 5400
-Entry Wire Line
-	4300 5400 4200 5500
-Entry Wire Line
-	4300 5500 4200 5600
-Entry Wire Line
-	4300 5600 4200 5700
-Entry Wire Line
-	4300 5700 4200 5800
-Entry Wire Line
-	4300 5800 4200 5900
-Text HLabel 4800 4400 2    50   Output ~ 0
-LEDS
-Wire Bus Line
-	1400 1700 1500 1700
-Text HLabel 1400 1700 0    50   BiDi ~ 0
-QSGMII
-Entry Wire Line
-	1500 2400 1600 2500
-Entry Wire Line
-	1500 2300 1600 2400
-Entry Wire Line
-	1500 2100 1600 2200
-Entry Wire Line
-	1500 2200 1600 2300
 Text Notes 3250 6500 0    50   ~ 0
 We need to get LEDs outside of this sheet\nas they are used for config
 $Comp
@@ -847,8 +747,14 @@ F 3 "~" H 2550 2300 50  0001 C CNN
 	1    2550 2300
 	0    1    1    0   
 $EndComp
-Wire Bus Line
-	1500 1700 1500 2400
-Wire Bus Line
-	4300 4400 4300 5800
+Text HLabel 1600 2200 0    50   Input ~ 0
+QSGMII_TX_P
+Text HLabel 1600 2300 0    50   Input ~ 0
+QSGMII_TX_N
+Text HLabel 1600 2400 0    50   Output ~ 0
+QSGMII_RX_P
+Text HLabel 1600 2500 0    50   Output ~ 0
+QSGMII_RX_N
+Text HLabel 2500 5700 2    50   Output ~ 0
+LED_P3_0
 $EndSCHEMATC

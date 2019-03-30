@@ -60,17 +60,17 @@ F 3 "" H 6650 4450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4850 3650 4100 3650
+	4850 3650 4250 3650
 Wire Wire Line
-	4850 3850 4100 3850
+	4850 3850 4250 3850
 Wire Wire Line
-	4850 3450 4100 3450
+	4850 3450 4250 3450
 Wire Wire Line
-	4850 3550 4100 3550
+	4850 3550 4250 3550
 Wire Wire Line
-	4850 4150 4100 4150
+	4850 4150 4250 4150
 Wire Wire Line
-	4850 4050 4100 4050
+	4850 4050 4250 4050
 Text Label 4250 3650 0    50   ~ 0
 SD_CMD
 Text Label 4250 3850 0    50   ~ 0
@@ -83,26 +83,8 @@ Text Label 4250 4150 0    50   ~ 0
 SD_D1
 Text Label 4250 4050 0    50   ~ 0
 SD_D0
-Wire Bus Line
-	3600 3350 4000 3350
-Text Label 3900 3350 2    50   ~ 0
-SDIO
-Entry Wire Line
-	4100 3650 4000 3550
-Entry Wire Line
-	4100 4050 4000 3950
-Entry Wire Line
-	4100 3450 4000 3350
-Entry Wire Line
-	4100 3550 4000 3450
-Entry Wire Line
-	4100 3850 4000 3750
-Entry Wire Line
-	4100 4150 4000 4050
 NoConn ~ 4850 4250
 NoConn ~ 4850 4350
-Text HLabel 3600 3350 0    50   BiDi ~ 0
-SDIO
 $Comp
 L power:GND #PWR?
 U 1 1 5D0AFE08
@@ -151,6 +133,40 @@ F 3 "~" H 8000 3750 50  0001 C CNN
 	1    8000 3750
 	1    0    0    -1  
 $EndComp
-Wire Bus Line
-	4000 3350 4000 4050
+Wire Wire Line
+	3500 3800 2600 3800
+Wire Wire Line
+	3500 3900 2600 3900
+Text Label 3500 3800 2    50   ~ 0
+SD_D2
+Text Label 3500 3900 2    50   ~ 0
+SD_D3
+Wire Wire Line
+	3500 3700 2600 3700
+Wire Wire Line
+	3500 3600 2600 3600
+Text Label 3500 3700 2    50   ~ 0
+SD_D1
+Text Label 3500 3600 2    50   ~ 0
+SD_D0
+Wire Wire Line
+	2600 4000 3500 4000
+Wire Wire Line
+	2600 4100 3500 4100
+Text Label 3500 4000 2    50   ~ 0
+SD_CMD
+Text Label 3500 4100 2    50   ~ 0
+SD_CLK
+Text HLabel 2600 4000 0    50   Input ~ 0
+SD_CMD
+Text HLabel 2600 4100 0    50   Input ~ 0
+SD_CLK
+Text HLabel 2600 3800 0    50   BiDi ~ 0
+SD_D2
+Text HLabel 2600 3900 0    50   BiDi ~ 0
+SD_D3
+Text HLabel 2600 3700 0    50   BiDi ~ 0
+SD_D1
+Text HLabel 2600 3600 0    50   BiDi ~ 0
+SD_D0
 $EndSCHEMATC

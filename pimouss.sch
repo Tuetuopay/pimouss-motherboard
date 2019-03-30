@@ -316,21 +316,21 @@ Wire Wire Line
 	3650 3700 2900 3700
 Wire Wire Line
 	3650 3800 2900 3800
-Text Label 1600 1700 0    50   ~ 0
+Text Label 1550 1700 0    50   ~ 0
 PCIE_X1_TX_P
-Text Label 1600 1800 0    50   ~ 0
+Text Label 1550 1800 0    50   ~ 0
 PCIE_X1_TX_N
-Text Label 1600 2600 0    50   ~ 0
+Text Label 1550 2600 0    50   ~ 0
 QSGMII_TX_P
-Text Label 1600 2700 0    50   ~ 0
+Text Label 1550 2700 0    50   ~ 0
 QSGMII_TX_N
-Text Label 1600 2900 0    50   ~ 0
+Text Label 1550 2900 0    50   ~ 0
 QSGMII_RX_P
-Text Label 1600 3000 0    50   ~ 0
+Text Label 1550 3000 0    50   ~ 0
 QSGMII_RX_N
-Text Label 3050 3700 0    50   ~ 0
+Text Label 3650 3700 2    50   ~ 0
 PCIE_X1_RX_P
-Text Label 3050 3800 0    50   ~ 0
+Text Label 3650 3800 2    50   ~ 0
 PCIE_X1_RX_N
 Wire Wire Line
 	7550 2300 6800 2300
@@ -376,49 +376,49 @@ Wire Wire Line
 	7550 2000 6800 2000
 Wire Wire Line
 	7550 2100 6800 2100
-Text Label 5500 2500 0    50   ~ 0
+Text Label 5450 2500 0    50   ~ 0
 PCIE_X4_RX0_P
-Text Label 5500 2600 0    50   ~ 0
+Text Label 5450 2600 0    50   ~ 0
 PCIE_X4_RX0_N
-Text Label 5500 2800 0    50   ~ 0
+Text Label 5450 2800 0    50   ~ 0
 PCIE_X4_TX0_P
-Text Label 5500 2900 0    50   ~ 0
+Text Label 5450 2900 0    50   ~ 0
 PCIE_X4_TX0_N
-Text Label 5500 3100 0    50   ~ 0
+Text Label 5450 3100 0    50   ~ 0
 PCIE_X4_TX1_P
-Text Label 5500 3200 0    50   ~ 0
+Text Label 5450 3200 0    50   ~ 0
 PCIE_X4_TX1_N
-Text Label 5500 3400 0    50   ~ 0
+Text Label 5450 3400 0    50   ~ 0
 PCIE_X4_RX1_P
-Text Label 5500 3500 0    50   ~ 0
+Text Label 5450 3500 0    50   ~ 0
 PCIE_X4_RX1_N
-Text Label 5500 3700 0    50   ~ 0
+Text Label 5450 3700 0    50   ~ 0
 PCIE_X4_RX2_P
-Text Label 5500 3800 0    50   ~ 0
+Text Label 5450 3800 0    50   ~ 0
 PCIE_X4_RX2_N
-Text Label 5500 4000 0    50   ~ 0
+Text Label 5450 4000 0    50   ~ 0
 PCIE_X4_TX2_P
-Text Label 5500 4100 0    50   ~ 0
+Text Label 5450 4100 0    50   ~ 0
 PCIE_X4_TX2_N
-Text Label 5500 4300 0    50   ~ 0
+Text Label 5450 4300 0    50   ~ 0
 PCIE_X4_TX3_P
-Text Label 5500 4400 0    50   ~ 0
+Text Label 5450 4400 0    50   ~ 0
 PCIE_X4_TX3_N
-Text Label 6950 2000 0    50   ~ 0
+Text Label 7550 2000 2    50   ~ 0
 PCIE_X4_CLK_N
-Text Label 6950 2100 0    50   ~ 0
+Text Label 7550 2100 2    50   ~ 0
 PCIE_X4_CLK_P
-Text Label 6950 2300 0    50   ~ 0
+Text Label 7550 2300 2    50   ~ 0
 PCIE_X1_CLK_N
-Text Label 6950 2400 0    50   ~ 0
+Text Label 7550 2400 2    50   ~ 0
 PCIE_X1_CLK_P
-Text Label 6950 2700 0    50   ~ 0
+Text Label 7550 2700 2    50   ~ 0
 UART_RXD
-Text Label 6950 2800 0    50   ~ 0
+Text Label 7550 2800 2    50   ~ 0
 UART_TXD
-Text Label 6950 3100 0    50   ~ 0
+Text Label 7550 3100 2    50   ~ 0
 PCIE_X4_RX3_P
-Text Label 6950 3200 0    50   ~ 0
+Text Label 7550 3200 2    50   ~ 0
 PCIE_X4_RX3_N
 Wire Wire Line
 	3650 2600 2900 2600
@@ -499,9 +499,9 @@ NoConn ~ 2300 4100
 NoConn ~ 2300 4200
 NoConn ~ 2300 4400
 NoConn ~ 2300 4500
-Text Label 3050 2600 0    50   ~ 0
+Text Label 3650 2600 2    50   ~ 0
 MDC
-Text Label 3050 2700 0    50   ~ 0
+Text Label 3650 2700 2    50   ~ 0
 MDIO
 Wire Wire Line
 	3650 2400 2900 2400
@@ -521,106 +521,6 @@ Wire Wire Line
 	2900 2200 3650 2200
 Text Label 3650 2200 2    50   ~ 0
 nMR
-Wire Bus Line
-	1450 2500 1050 2500
-Entry Wire Line
-	1450 2500 1550 2600
-Entry Wire Line
-	1450 2600 1550 2700
-Entry Wire Line
-	1450 2800 1550 2900
-Entry Wire Line
-	1450 2900 1550 3000
-Wire Bus Line
-	1450 1700 1450 1600
-Wire Bus Line
-	1450 1600 1050 1600
-Entry Wire Line
-	1450 1600 1550 1700
-Entry Wire Line
-	1450 1700 1550 1800
-Text Label 1050 1600 0    50   ~ 0
-PCIE_1X
-Wire Bus Line
-	3750 3700 3750 3600
-Wire Bus Line
-	4150 3600 3750 3600
-Text Label 4150 3600 2    50   ~ 0
-PCIE_1X
-Entry Wire Line
-	3650 3700 3750 3600
-Entry Wire Line
-	3650 3800 3750 3700
-Wire Bus Line
-	7650 2300 7650 2200
-Wire Bus Line
-	8050 2200 7650 2200
-Text Label 8050 2200 2    50   ~ 0
-PCIE_1X
-Entry Wire Line
-	7550 2300 7650 2200
-Entry Wire Line
-	7550 2400 7650 2300
-Wire Bus Line
-	7650 2000 7650 1900
-Wire Bus Line
-	8050 1900 7650 1900
-Text Label 8050 1900 2    50   ~ 0
-PCIE_4X
-Entry Wire Line
-	7550 2000 7650 1900
-Entry Wire Line
-	7550 2100 7650 2000
-Wire Bus Line
-	7650 3100 7650 3000
-Wire Bus Line
-	8050 3000 7650 3000
-Text Label 8050 3000 2    50   ~ 0
-PCIE_4X
-Entry Wire Line
-	7550 3100 7650 3000
-Entry Wire Line
-	7550 3200 7650 3100
-Wire Bus Line
-	5350 2400 4950 2400
-Entry Wire Line
-	5350 2400 5450 2500
-Entry Wire Line
-	5350 2500 5450 2600
-Text Label 4950 2400 0    50   ~ 0
-PCIE_4X
-Entry Wire Line
-	5350 2700 5450 2800
-Entry Wire Line
-	5350 2800 5450 2900
-Entry Wire Line
-	5350 3000 5450 3100
-Entry Wire Line
-	5350 3100 5450 3200
-Entry Wire Line
-	5350 3300 5450 3400
-Entry Wire Line
-	5350 3400 5450 3500
-Entry Wire Line
-	5350 3600 5450 3700
-Entry Wire Line
-	5350 3700 5450 3800
-Entry Wire Line
-	5350 3900 5450 4000
-Entry Wire Line
-	5350 4000 5450 4100
-Entry Wire Line
-	5350 4200 5450 4300
-Entry Wire Line
-	5350 4300 5450 4400
-Text Label 1050 2500 0    50   ~ 0
-QSGMII
-Entry Wire Line
-	3650 2600 3750 2500
-Wire Bus Line
-	3750 2600 3750 2500
-Wire Bus Line
-	3750 2500 4150 2500
 NoConn ~ 2900 3200
 NoConn ~ 2900 3400
 NoConn ~ 2900 3500
@@ -640,16 +540,6 @@ Text Label 7550 1700 2    50   ~ 0
 BSTRAP_H
 NoConn ~ 6800 2900
 NoConn ~ 6800 2600
-Wire Bus Line
-	7650 2700 7650 2600
-Wire Bus Line
-	8050 2600 7650 2600
-Text Label 8050 2600 2    50   ~ 0
-UART
-Entry Wire Line
-	7550 2700 7650 2600
-Entry Wire Line
-	7550 2800 7650 2700
 Wire Wire Line
 	7550 3500 6800 3500
 Wire Wire Line
@@ -664,56 +554,24 @@ Wire Wire Line
 	7550 4000 6800 4000
 Wire Wire Line
 	7550 4100 6800 4100
-Text Label 6950 3500 0    50   ~ 0
+Text Label 7550 3500 2    50   ~ 0
 JTMS_CPU
-Text Label 6950 3600 0    50   ~ 0
+Text Label 7550 3600 2    50   ~ 0
 nJSRST
-Text Label 6950 3700 0    50   ~ 0
+Text Label 7550 3700 2    50   ~ 0
 JTDI
-Text Label 6950 3800 0    50   ~ 0
+Text Label 7550 3800 2    50   ~ 0
 JTDO
-Text Label 6950 3900 0    50   ~ 0
+Text Label 7550 3900 2    50   ~ 0
 nJTRST
-Text Label 6950 4000 0    50   ~ 0
+Text Label 7550 4000 2    50   ~ 0
 JTCK
-Text Label 6950 4100 0    50   ~ 0
+Text Label 7550 4100 2    50   ~ 0
 JTMS_CORE
-Wire Wire Line
-	8450 4200 8100 4200
-Wire Wire Line
-	8450 4300 8200 4300
 Text Label 6950 4200 0    50   ~ 0
 SCL
 Text Label 6950 4300 0    50   ~ 0
 SDA
-Wire Bus Line
-	8550 4200 8550 4100
-Wire Bus Line
-	8950 4100 8550 4100
-Text Label 8950 4100 2    50   ~ 0
-SMBUS
-Entry Wire Line
-	8450 4200 8550 4100
-Entry Wire Line
-	8450 4300 8550 4200
-Wire Bus Line
-	8050 3400 7650 3400
-Text Label 8050 3400 2    50   ~ 0
-JTAG
-Entry Wire Line
-	7550 3500 7650 3400
-Entry Wire Line
-	7550 3600 7650 3500
-Entry Wire Line
-	7550 3700 7650 3600
-Entry Wire Line
-	7550 3800 7650 3700
-Entry Wire Line
-	7550 3900 7650 3800
-Entry Wire Line
-	7550 4000 7650 3900
-Entry Wire Line
-	7550 4100 7650 4000
 $Comp
 L power:+1V8 #PWR?
 U 1 1 5D101B7A
@@ -733,52 +591,10 @@ Wire Wire Line
 	6800 4500 7100 4500
 Wire Wire Line
 	7100 4500 7100 4400
-Text HLabel 1500 5600 0    50   BiDi ~ 0
-PCIE_1X
-Text HLabel 1500 5700 0    50   BiDi ~ 0
-PCIE_4X
-Text HLabel 1500 5900 0    50   BiDi ~ 0
-QSGMII
-Text HLabel 1500 6000 0    50   BiDi ~ 0
-MIIM
-Text HLabel 1500 6200 0    50   BiDi ~ 0
-UART
-Text HLabel 1500 6300 0    50   BiDi ~ 0
-SDIO
-Text HLabel 1500 6400 0    50   BiDi ~ 0
-SMBUS
 Text HLabel 1500 6600 0    50   Output ~ 0
 nRST
 Text HLabel 1500 6700 0    50   Input ~ 0
 nMR
-Wire Bus Line
-	1900 5600 1500 5600
-Text Label 1900 5600 2    50   ~ 0
-PCIE_1X
-Wire Bus Line
-	1900 5700 1500 5700
-Text Label 1900 5700 2    50   ~ 0
-PCIE_4X
-Wire Bus Line
-	1900 5900 1500 5900
-Text Label 1900 5900 2    50   ~ 0
-QSGMII
-Wire Bus Line
-	1500 6000 1900 6000
-Text Label 1900 6000 2    50   ~ 0
-MIIM
-Wire Bus Line
-	1900 6200 1500 6200
-Text Label 1900 6200 2    50   ~ 0
-UART
-Wire Bus Line
-	1900 6300 1500 6300
-Text Label 1900 6300 2    50   ~ 0
-SDIO
-Wire Bus Line
-	1900 6400 1500 6400
-Text Label 1900 6400 2    50   ~ 0
-SMBUS
 Wire Wire Line
 	1500 6600 1900 6600
 Wire Wire Line
@@ -933,64 +749,42 @@ Wire Wire Line
 	7100 4650 7300 4650
 Connection ~ 7100 4500
 Wire Wire Line
-	8100 4100 8100 4200
-Connection ~ 8100 4200
+	7900 4100 7900 4200
 Wire Wire Line
-	8100 4200 6800 4200
+	8000 4100 8000 4300
 Wire Wire Line
-	8200 4100 8200 4300
-Connection ~ 8200 4300
+	7900 3900 7900 3850
 Wire Wire Line
-	8200 4300 6800 4300
+	7900 3850 7950 3850
 Wire Wire Line
-	8100 3900 8100 3850
-Wire Wire Line
-	8100 3850 8150 3850
-Wire Wire Line
-	8200 3850 8200 3900
+	8000 3850 8000 3900
 $Comp
 L power:+3V3 #PWR?
 U 1 1 5CCBA231
-P 8150 3800
-F 0 "#PWR?" H 8150 3650 50  0001 C CNN
-F 1 "+3V3" H 8165 3973 50  0000 C CNN
-F 2 "" H 8150 3800 50  0001 C CNN
-F 3 "" H 8150 3800 50  0001 C CNN
-	1    8150 3800
+P 7950 3800
+F 0 "#PWR?" H 7950 3650 50  0001 C CNN
+F 1 "+3V3" H 7965 3973 50  0000 C CNN
+F 2 "" H 7950 3800 50  0001 C CNN
+F 3 "" H 7950 3800 50  0001 C CNN
+	1    7950 3800
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8150 3800 8150 3850
-Connection ~ 8150 3850
+	7950 3800 7950 3850
+Connection ~ 7950 3850
 Wire Wire Line
-	8150 3850 8200 3850
-Entry Wire Line
-	3650 4500 3750 4400
-Entry Wire Line
-	3650 4400 3750 4300
-Entry Wire Line
-	3650 4100 3750 4000
-Entry Wire Line
-	3650 4000 3750 3900
-Entry Wire Line
-	3650 4300 3750 4200
-Entry Wire Line
-	3650 4200 3750 4100
-Text Label 4150 3900 2    50   ~ 0
-SDIO
-Wire Bus Line
-	4150 3900 3750 3900
-Text Label 3050 4500 0    50   ~ 0
+	7950 3850 8000 3850
+Text Label 3650 4500 2    50   ~ 0
 SD_D0
-Text Label 3050 4400 0    50   ~ 0
+Text Label 3650 4400 2    50   ~ 0
 SD_D1
-Text Label 3050 4300 0    50   ~ 0
+Text Label 3650 4300 2    50   ~ 0
 SD_D3
-Text Label 3050 4200 0    50   ~ 0
+Text Label 3650 4200 2    50   ~ 0
 SD_D2
-Text Label 3050 4100 0    50   ~ 0
+Text Label 3650 4100 2    50   ~ 0
 SD_CLK
-Text Label 3050 4000 0    50   ~ 0
+Text Label 3650 4000 2    50   ~ 0
 SD_CMD
 Wire Wire Line
 	3650 4500 2900 4500
@@ -1000,10 +794,6 @@ Wire Wire Line
 	3650 4300 2900 4300
 Wire Wire Line
 	3650 4200 2900 4200
-Wire Wire Line
-	3650 4100 2900 4100
-Wire Wire Line
-	3650 4000 2900 4000
 $Comp
 L pimouss-motherboard:TMS-105-57-GD J?
 U 1 1 5DAB4506
@@ -1291,8 +1081,8 @@ Wire Wire Line
 Text Label 8950 5900 0    50   ~ 0
 nJSRST
 Wire Wire Line
-	9550 6000 8500 6000
-Text Label 8500 6000 0    50   ~ 0
+	9550 6000 8950 6000
+Text Label 8950 6000 0    50   ~ 0
 nMR
 $Comp
 L Connector_Generic:Conn_02x10_Odd_Even J?
@@ -1344,8 +1134,6 @@ Wire Wire Line
 Connection ~ 6750 6100
 Wire Wire Line
 	6750 6100 6750 6000
-Entry Wire Line
-	3650 2700 3750 2600
 Text Label 3650 2300 2    50   ~ 0
 MPP44
 Text Label 3650 2400 2    50   ~ 0
@@ -1360,8 +1148,6 @@ Text Label 3650 3000 2    50   ~ 0
 MPP49
 Text Label 3650 3100 2    50   ~ 0
 MPP47
-Text Label 4150 2500 2    50   ~ 0
-MIIM
 Wire Wire Line
 	7750 5300 7350 5300
 Wire Wire Line
@@ -1491,23 +1277,23 @@ $EndComp
 $Comp
 L Device:R_Small R?
 U 1 1 5D3AA715
-P 8100 4000
-F 0 "R?" V 7904 4000 50  0000 C CNN
-F 1 "4k7" V 7995 4000 50  0000 C CNN
-F 2 "" H 8100 4000 50  0001 C CNN
-F 3 "~" H 8100 4000 50  0001 C CNN
-	1    8100 4000
+P 7900 4000
+F 0 "R?" V 7704 4000 50  0000 C CNN
+F 1 "4k7" V 7795 4000 50  0000 C CNN
+F 2 "" H 7900 4000 50  0001 C CNN
+F 3 "~" H 7900 4000 50  0001 C CNN
+	1    7900 4000
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R_Small R?
 U 1 1 5D3AA71B
-P 8200 4000
-F 0 "R?" V 8304 4000 50  0000 C CNN
-F 1 "4k7" V 8395 4000 50  0000 C CNN
-F 2 "" H 8200 4000 50  0001 C CNN
-F 3 "~" H 8200 4000 50  0001 C CNN
-	1    8200 4000
+P 8000 4000
+F 0 "R?" V 8104 4000 50  0000 C CNN
+F 1 "4k7" V 8195 4000 50  0000 C CNN
+F 2 "" H 8000 4000 50  0001 C CNN
+F 3 "~" H 8000 4000 50  0001 C CNN
+	1    8000 4000
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1543,12 +1329,98 @@ F 3 "~" H 4900 1200 50  0001 C CNN
 	1    4900 1200
 	1    0    0    -1  
 $EndComp
-Wire Bus Line
-	1450 2500 1450 2900
-Wire Bus Line
-	7650 3400 7650 4000
-Wire Bus Line
-	3750 3900 3750 4400
-Wire Bus Line
-	5350 2400 5350 4300
+Connection ~ 7900 4200
+Wire Wire Line
+	7900 4200 6800 4200
+Connection ~ 8000 4300
+Wire Wire Line
+	8000 4300 6800 4300
+Wire Wire Line
+	7900 4200 8250 4200
+Wire Wire Line
+	8000 4300 8250 4300
+Text HLabel 1550 2600 0    50   Output ~ 0
+QSGMII_TX_P
+Text HLabel 1550 2700 0    50   Output ~ 0
+QSGMII_TX_N
+Text HLabel 1550 2900 0    50   Input ~ 0
+QSGMII_RX_P
+Text HLabel 1550 3000 0    50   Input ~ 0
+QSGMII_RX_N
+Text HLabel 3650 3700 2    50   Input ~ 0
+PCIE_X1_RX_P
+Text HLabel 3650 3800 2    50   Input ~ 0
+PCIE_X1_RX_N
+Wire Wire Line
+	3650 4100 2900 4100
+Wire Wire Line
+	3650 4000 2900 4000
+Text HLabel 3650 4100 2    50   Output ~ 0
+SD_CLK
+Text HLabel 3650 4000 2    50   Output ~ 0
+SD_CMD
+Text HLabel 5450 2500 0    50   Input ~ 0
+PCIE_X4_RX0_P
+Text HLabel 5450 2600 0    50   Input ~ 0
+PCIE_X4_RX0_N
+Text HLabel 5450 2800 0    50   Output ~ 0
+PCIE_X4_TX0_P
+Text HLabel 5450 2900 0    50   Output ~ 0
+PCIE_X4_TX0_N
+Text HLabel 5450 3100 0    50   Output ~ 0
+PCIE_X4_TX1_P
+Text HLabel 5450 3200 0    50   Output ~ 0
+PCIE_X4_TX1_N
+Text HLabel 5450 3400 0    50   Input ~ 0
+PCIE_X4_RX1_P
+Text HLabel 5450 3500 0    50   Input ~ 0
+PCIE_X4_RX1_N
+Text HLabel 5450 3700 0    50   Input ~ 0
+PCIE_X4_RX2_P
+Text HLabel 5450 3800 0    50   Input ~ 0
+PCIE_X4_RX2_N
+Text HLabel 5450 4000 0    50   Output ~ 0
+PCIE_X4_TX2_P
+Text HLabel 5450 4100 0    50   Output ~ 0
+PCIE_X4_TX2_N
+Text HLabel 5450 4300 0    50   Output ~ 0
+PCIE_X4_TX3_P
+Text HLabel 5450 4400 0    50   Output ~ 0
+PCIE_X4_TX3_N
+Text HLabel 7550 2100 2    50   Output ~ 0
+PCIE_X4_CLK_P
+Text HLabel 7550 2000 2    50   Output ~ 0
+PCIE_X4_CLK_N
+Text HLabel 7550 2400 2    50   Output ~ 0
+PCIE_X1_CLK_P
+Text HLabel 7550 2300 2    50   Output ~ 0
+PCIE_X1_CLK_N
+Text HLabel 7550 2800 2    50   Output ~ 0
+UART_TXD
+Text HLabel 7550 2700 2    50   Input ~ 0
+UART_RXD
+Text HLabel 7550 3100 2    50   Input ~ 0
+PCIE_X4_RX3_P
+Text HLabel 7550 3200 2    50   Input ~ 0
+PCIE_X4_RX3_N
+Text HLabel 8250 4200 2    50   Output ~ 0
+SMB_CLK
+Text HLabel 8250 4300 2    50   BiDi ~ 0
+SMB_DATA
+Text HLabel 3650 4200 2    50   BiDi ~ 0
+SD_D2
+Text HLabel 3650 4300 2    50   BiDi ~ 0
+SD_D3
+Text HLabel 3650 4400 2    50   BiDi ~ 0
+SD_D1
+Text HLabel 3650 4500 2    50   BiDi ~ 0
+SD_D0
+Text HLabel 3650 2600 2    50   Output ~ 0
+MIIM_MDC
+Text HLabel 3650 2700 2    50   BiDi ~ 0
+MIIM_MDIO
+Text HLabel 1550 1800 0    50   Output ~ 0
+PCIE_X1_TX_N
+Text HLabel 1550 1700 0    50   Output ~ 0
+PCIE_X1_TX_P
 $EndSCHEMATC
