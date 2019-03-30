@@ -50,21 +50,6 @@ Wire Wire Line
 	4800 3900 4250 3900
 Wire Wire Line
 	4800 4000 4250 4000
-$Comp
-L mpcie:MPCIE-Socket U?
-U 1 1 5D4896C2
-P 5450 3750
-AR Path="/5C91A44F/5D4896C2" Ref="U?"  Part="1" 
-AR Path="/5C91A44F/5D489567/5D4896C2" Ref="U?"  Part="1" 
-AR Path="/5C91A44F/5D9DAD5B/5D4896C2" Ref="U?"  Part="1" 
-AR Path="/5C91A44F/5D9F9D59/5D4896C2" Ref="U?"  Part="1" 
-F 0 "U?" H 5450 5187 60  0000 C CNN
-F 1 "MPCIE-Socket" H 5450 5081 60  0000 C CNN
-F 2 "" H 5550 2750 60  0000 C CNN
-F 3 "" H 5550 2750 60  0000 C CNN
-	1    5450 3750
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4800 3000 4700 3000
 Wire Wire Line
@@ -458,5 +443,16 @@ F 2 "" H 4150 3900 50  0001 C CNN
 F 3 "~" H 4150 3900 50  0001 C CNN
 	1    4150 3900
 	0    -1   1    0   
+$EndComp
+$Comp
+L pimouss-motherboard:MPCIE-Socket U?
+U 1 1 5E649649
+P 5450 3750
+F 0 "U?" H 5450 5293 60  0000 C CNN
+F 1 "MPCIE-Socket" H 5450 5187 60  0000 C CNN
+F 2 "pimouss-motherboard:mpcie-socket" H 5450 5081 60  0000 C CNN
+F 3 "" H 5550 2750 60  0000 C CNN
+	1    5450 3750
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
