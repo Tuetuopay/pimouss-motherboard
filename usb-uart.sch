@@ -395,4 +395,16 @@ Text HLabel 8200 3600 2    50   Output ~ 0
 TXD
 Text HLabel 8200 3700 2    50   Input ~ 0
 RXD
+$Comp
+L pimouss-motherboard:DummySupply DS?
+U 1 1 5E40E77B
+P 5200 3150
+F 0 "DS?" H 5200 3150 50  0001 C CNN
+F 1 "DummySupply" H 5200 3150 50  0001 C CNN
+F 2 "" H 5200 3150 50  0001 C CNN
+F 3 "" H 5200 3150 50  0001 C CNN
+	1    5200 3150
+	0    1    1    0   
+$EndComp
+Connection ~ 5200 3150
 $EndSCHEMATC

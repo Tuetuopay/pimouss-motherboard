@@ -1423,4 +1423,47 @@ Text HLabel 1550 1800 0    50   Output ~ 0
 PCIE_X1_TX_N
 Text HLabel 1550 1700 0    50   Output ~ 0
 PCIE_X1_TX_P
+$Comp
+L pimouss-motherboard:DummySupply DS?
+U 1 1 5DE0B5A3
+P 7100 4400
+AR Path="/5DE0B5A3" Ref="DS?"  Part="1" 
+AR Path="/5CE77C37/5DE0B5A3" Ref="DS?"  Part="1" 
+F 0 "DS?" H 7100 4400 50  0001 C CNN
+F 1 "DummySupply" H 7100 4400 50  0001 C CNN
+F 2 "" H 7100 4400 50  0001 C CNN
+F 3 "" H 7100 4400 50  0001 C CNN
+	1    7100 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L pimouss-motherboard:DummySupply DS?
+U 1 1 5DE20D38
+P 3000 1800
+AR Path="/5DE20D38" Ref="DS?"  Part="1" 
+AR Path="/5CE77C37/5DE20D38" Ref="DS?"  Part="1" 
+F 0 "DS?" H 3000 1800 50  0001 C CNN
+F 1 "DummySupply" H 3000 1800 50  0001 C CNN
+F 2 "" H 3000 1800 50  0001 C CNN
+F 3 "" H 3000 1800 50  0001 C CNN
+	1    3000 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L pimouss-motherboard:DummySupply DS?
+U 1 1 5DE48D70
+P 3000 1600
+AR Path="/5DE48D70" Ref="DS?"  Part="1" 
+AR Path="/5CE77C37/5DE48D70" Ref="DS?"  Part="1" 
+F 0 "DS?" H 3000 1600 50  0001 C CNN
+F 1 "DummySupply" H 3000 1600 50  0001 C CNN
+F 2 "" H 3000 1600 50  0001 C CNN
+F 3 "" H 3000 1600 50  0001 C CNN
+	1    3000 1600
+	1    0    0    -1  
+$EndComp
+Connection ~ 3000 1800
+Wire Wire Line
+	3000 1800 3400 1800
+Connection ~ 7100 4400
 $EndSCHEMATC

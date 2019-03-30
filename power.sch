@@ -1442,4 +1442,80 @@ Wire Wire Line
 Connection ~ 4500 3800
 Wire Wire Line
 	4500 3800 5100 3800
+$Comp
+L pimouss-motherboard:DummySupply DS?
+U 1 1 5DE84E2B
+P 2900 6700
+AR Path="/5DE84E2B" Ref="DS?"  Part="1" 
+AR Path="/5D0C4621/5DE84E2B" Ref="DS?"  Part="1" 
+F 0 "DS?" H 2900 6700 50  0001 C CNN
+F 1 "DummySupply" H 2900 6700 50  0001 C CNN
+F 2 "" H 2900 6700 50  0001 C CNN
+F 3 "" H 2900 6700 50  0001 C CNN
+	1    2900 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L pimouss-motherboard:DummySupply DS?
+U 1 1 5DEDED3F
+P 4900 1800
+AR Path="/5DEDED3F" Ref="DS?"  Part="1" 
+AR Path="/5D0C4621/5DEDED3F" Ref="DS?"  Part="1" 
+F 0 "DS?" H 4900 1800 50  0001 C CNN
+F 1 "DummySupply" H 4900 1800 50  0001 C CNN
+F 2 "" H 4900 1800 50  0001 C CNN
+F 3 "" H 4900 1800 50  0001 C CNN
+	1    4900 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L pimouss-motherboard:DummySupply DS?
+U 1 1 5DEEC95C
+P 4300 2800
+AR Path="/5DEEC95C" Ref="DS?"  Part="1" 
+AR Path="/5D0C4621/5DEEC95C" Ref="DS?"  Part="1" 
+F 0 "DS?" H 4300 2800 50  0001 C CNN
+F 1 "DummySupply" H 4300 2800 50  0001 C CNN
+F 2 "" H 4300 2800 50  0001 C CNN
+F 3 "" H 4300 2800 50  0001 C CNN
+	1    4300 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L pimouss-motherboard:DummySupply DS?
+U 1 1 5DEFA4BC
+P 6800 1700
+AR Path="/5DEFA4BC" Ref="DS?"  Part="1" 
+AR Path="/5D0C4621/5DEFA4BC" Ref="DS?"  Part="1" 
+F 0 "DS?" H 6800 1700 50  0001 C CNN
+F 1 "DummySupply" H 6800 1700 50  0001 C CNN
+F 2 "" H 6800 1700 50  0001 C CNN
+F 3 "" H 6800 1700 50  0001 C CNN
+	1    6800 1700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L pimouss-motherboard:DummySupply DS?
+U 1 1 5DF17E48
+P 1900 6800
+AR Path="/5DF17E48" Ref="DS?"  Part="1" 
+AR Path="/5D0C4621/5DF17E48" Ref="DS?"  Part="1" 
+F 0 "DS?" H 1900 6800 50  0001 C CNN
+F 1 "DummySupply" H 1900 6800 50  0001 C CNN
+F 2 "" H 1900 6800 50  0001 C CNN
+F 3 "" H 1900 6800 50  0001 C CNN
+	1    1900 6800
+	1    0    0    -1  
+$EndComp
+Connection ~ 2900 6700
+Wire Wire Line
+	2900 6700 3000 6700
+Wire Wire Line
+	2700 6700 2900 6700
+Connection ~ 1900 6800
+Wire Wire Line
+	6800 1600 6800 1700
+Connection ~ 6800 1700
+Wire Wire Line
+	6800 1700 6800 2800
 $EndSCHEMATC

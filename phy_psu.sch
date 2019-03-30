@@ -1763,4 +1763,48 @@ $EndComp
 Wire Wire Line
 	8600 2900 8600 2950
 Connection ~ 8600 2900
+$Comp
+L pimouss-motherboard:DummySupply DS?
+U 1 1 5E44288B
+P 2400 1600
+F 0 "DS?" H 2400 1600 50  0001 C CNN
+F 1 "DummySupply" H 2400 1600 50  0001 C CNN
+F 2 "" H 2400 1600 50  0001 C CNN
+F 3 "" H 2400 1600 50  0001 C CNN
+	1    2400 1600
+	0    1    1    0   
+$EndComp
+$Comp
+L pimouss-motherboard:DummySupply DS?
+U 1 1 5E443971
+P 2400 2800
+F 0 "DS?" H 2400 2800 50  0001 C CNN
+F 1 "DummySupply" H 2400 2800 50  0001 C CNN
+F 2 "" H 2400 2800 50  0001 C CNN
+F 3 "" H 2400 2800 50  0001 C CNN
+	1    2400 2800
+	0    1    1    0   
+$EndComp
+$Comp
+L pimouss-motherboard:DummySupply DS?
+U 1 1 5E444394
+P 2400 4000
+F 0 "DS?" H 2400 4000 50  0001 C CNN
+F 1 "DummySupply" H 2400 4000 50  0001 C CNN
+F 2 "" H 2400 4000 50  0001 C CNN
+F 3 "" H 2400 4000 50  0001 C CNN
+	1    2400 4000
+	0    1    1    0   
+$EndComp
+$Comp
+L pimouss-motherboard:DummySupply DS?
+U 1 1 5E444BDF
+P 2400 5200
+F 0 "DS?" H 2400 5200 50  0001 C CNN
+F 1 "DummySupply" H 2400 5200 50  0001 C CNN
+F 2 "" H 2400 5200 50  0001 C CNN
+F 3 "" H 2400 5200 50  0001 C CNN
+	1    2400 5200
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC

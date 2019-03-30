@@ -1672,8 +1672,99 @@ F 3 "~" H 4000 2000 50  0001 C CNN
 	1    4000 2000
 	0    -1   1    0   
 $EndComp
-NoConn ~ 9500 1500
-NoConn ~ 9500 1600
+NoConn ~ 9500 1750
+NoConn ~ 9500 1850
 Text Notes 750  1100 0    50   ~ 0
 The PI7C9X2G404SL has an integrated clock buffer and\nfan-out, whose input is REFCLK_I. Yet it still needs a\nreference clock to work. Thus we feed it one of its clock\noutput (REFCLKO_0) to its reference clock input (REFCLK).
+$Comp
+L pimouss-motherboard:DummySupply DS?
+U 1 1 5E03E9D7
+P 1400 4800
+AR Path="/5D0C4621/5E03E9D7" Ref="DS?"  Part="1" 
+AR Path="/5D05A5E3/5E03E9D7" Ref="DS?"  Part="1" 
+AR Path="/5E03E9D7" Ref="DS?"  Part="1" 
+AR Path="/5C91A44F/5D5418D5/5E03E9D7" Ref="DS?"  Part="1" 
+F 0 "DS?" H 1400 4800 50  0001 C CNN
+F 1 "DummySupply" H 1400 4800 50  0001 C CNN
+F 2 "" H 1400 4800 50  0001 C CNN
+F 3 "" H 1400 4800 50  0001 C CNN
+	1    1400 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L pimouss-motherboard:DummySupply DS?
+U 1 1 5E407473
+P 1400 5900
+AR Path="/5D0C4621/5E407473" Ref="DS?"  Part="1" 
+AR Path="/5D05A5E3/5E407473" Ref="DS?"  Part="1" 
+AR Path="/5E407473" Ref="DS?"  Part="1" 
+AR Path="/5C91A44F/5D5418D5/5E407473" Ref="DS?"  Part="1" 
+F 0 "DS?" H 1400 5900 50  0001 C CNN
+F 1 "DummySupply" H 1400 5900 50  0001 C CNN
+F 2 "" H 1400 5900 50  0001 C CNN
+F 3 "" H 1400 5900 50  0001 C CNN
+	1    1400 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L pimouss-motherboard:DummySupply DS?
+U 1 1 5E407C3E
+P 1400 7000
+AR Path="/5D0C4621/5E407C3E" Ref="DS?"  Part="1" 
+AR Path="/5D05A5E3/5E407C3E" Ref="DS?"  Part="1" 
+AR Path="/5E407C3E" Ref="DS?"  Part="1" 
+AR Path="/5C91A44F/5D5418D5/5E407C3E" Ref="DS?"  Part="1" 
+F 0 "DS?" H 1400 7000 50  0001 C CNN
+F 1 "DummySupply" H 1400 7000 50  0001 C CNN
+F 2 "" H 1400 7000 50  0001 C CNN
+F 3 "" H 1400 7000 50  0001 C CNN
+	1    1400 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L pimouss-motherboard:DummySupply DS?
+U 1 1 5E40880E
+P 2700 6900
+AR Path="/5D0C4621/5E40880E" Ref="DS?"  Part="1" 
+AR Path="/5D05A5E3/5E40880E" Ref="DS?"  Part="1" 
+AR Path="/5E40880E" Ref="DS?"  Part="1" 
+AR Path="/5C91A44F/5D5418D5/5E40880E" Ref="DS?"  Part="1" 
+F 0 "DS?" H 2700 6900 50  0001 C CNN
+F 1 "DummySupply" H 2700 6900 50  0001 C CNN
+F 2 "" H 2700 6900 50  0001 C CNN
+F 3 "" H 2700 6900 50  0001 C CNN
+	1    2700 6900
+	1    0    0    -1  
+$EndComp
+Connection ~ 2700 6900
+$Comp
+L pimouss-motherboard:DummySupply DS?
+U 1 1 5E40910D
+P 2700 5900
+AR Path="/5D0C4621/5E40910D" Ref="DS?"  Part="1" 
+AR Path="/5D05A5E3/5E40910D" Ref="DS?"  Part="1" 
+AR Path="/5E40910D" Ref="DS?"  Part="1" 
+AR Path="/5C91A44F/5D5418D5/5E40910D" Ref="DS?"  Part="1" 
+F 0 "DS?" H 2700 5900 50  0001 C CNN
+F 1 "DummySupply" H 2700 5900 50  0001 C CNN
+F 2 "" H 2700 5900 50  0001 C CNN
+F 3 "" H 2700 5900 50  0001 C CNN
+	1    2700 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L pimouss-motherboard:DummySupply DS?
+U 1 1 5E409AA0
+P 2700 4800
+AR Path="/5D0C4621/5E409AA0" Ref="DS?"  Part="1" 
+AR Path="/5D05A5E3/5E409AA0" Ref="DS?"  Part="1" 
+AR Path="/5E409AA0" Ref="DS?"  Part="1" 
+AR Path="/5C91A44F/5D5418D5/5E409AA0" Ref="DS?"  Part="1" 
+F 0 "DS?" H 2700 4800 50  0001 C CNN
+F 1 "DummySupply" H 2700 4800 50  0001 C CNN
+F 2 "" H 2700 4800 50  0001 C CNN
+F 3 "" H 2700 4800 50  0001 C CNN
+	1    2700 4800
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
