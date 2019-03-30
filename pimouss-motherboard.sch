@@ -393,4 +393,57 @@ Wire Wire Line
 	9700 3750 8950 3750
 Text Label 8950 3750 0    50   ~ 0
 LED_P3_0
+$Comp
+L power:GND #PWR?
+U 1 1 5E474FB1
+P 4000 6700
+F 0 "#PWR?" H 4000 6450 50  0001 C CNN
+F 1 "GND" H 4005 6527 50  0000 C CNN
+F 2 "" H 4000 6700 50  0001 C CNN
+F 3 "" H 4000 6700 50  0001 C CNN
+	1    4000 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR?
+U 1 1 5E475AA8
+P 4400 6700
+F 0 "#PWR?" H 4400 6450 50  0001 C CNN
+F 1 "Earth" H 4400 6550 50  0001 C CNN
+F 2 "" H 4400 6700 50  0001 C CNN
+F 3 "~" H 4400 6700 50  0001 C CNN
+	1    4400 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L pimouss-motherboard:DummySupply DS?
+U 1 1 5E47640A
+P 4400 6600
+F 0 "DS?" H 4400 6600 50  0001 C CNN
+F 1 "DummySupply" H 4400 6600 50  0001 C CNN
+F 2 "" H 4400 6600 50  0001 C CNN
+F 3 "" H 4400 6600 50  0001 C CNN
+	1    4400 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5E476DB3
+P 4200 6600
+F 0 "R?" V 4004 6600 50  0000 C CNN
+F 1 "1M" V 4095 6600 50  0000 C CNN
+F 2 "" H 4200 6600 50  0001 C CNN
+F 3 "~" H 4200 6600 50  0001 C CNN
+	1    4200 6600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4000 6700 4000 6600
+Wire Wire Line
+	4000 6600 4100 6600
+Wire Wire Line
+	4300 6600 4400 6600
+Wire Wire Line
+	4400 6600 4400 6700
+Connection ~ 4400 6600
 $EndSCHEMATC

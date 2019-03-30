@@ -460,7 +460,7 @@ F 3 "" H 3400 1500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2900 1800 3400 1800
+	2900 1800 3000 1800
 Wire Wire Line
 	3400 1800 3400 1500
 $Comp

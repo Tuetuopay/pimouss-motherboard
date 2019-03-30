@@ -418,18 +418,6 @@ NoConn ~ 9500 2200
 NoConn ~ 9500 2300
 NoConn ~ 9500 2400
 NoConn ~ 9500 2500
-Wire Wire Line
-	10100 2550 10100 2600
-Wire Wire Line
-	9500 2600 10100 2600
-Connection ~ 10100 2600
-Wire Wire Line
-	10100 2600 10100 2800
-Wire Wire Line
-	9500 2800 10100 2800
-Connection ~ 10100 2800
-Wire Wire Line
-	10100 2800 10100 3000
 $Comp
 L power:GND #PWR?
 U 1 1 5D5721DA
@@ -441,8 +429,6 @@ F 3 "" H 10200 2750 50  0001 C CNN
 	1    10200 2750
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9500 2700 10200 2700
 Wire Wire Line
 	10200 2700 10200 2750
 Wire Wire Line
@@ -1672,8 +1658,6 @@ F 3 "~" H 4000 2000 50  0001 C CNN
 	1    4000 2000
 	0    -1   1    0   
 $EndComp
-NoConn ~ 9500 1750
-NoConn ~ 9500 1850
 Text Notes 750  1100 0    50   ~ 0
 The PI7C9X2G404SL has an integrated clock buffer and\nfan-out, whose input is REFCLK_I. Yet it still needs a\nreference clock to work. Thus we feed it one of its clock\noutput (REFCLKO_0) to its reference clock input (REFCLK).
 $Comp
@@ -1767,4 +1751,59 @@ F 3 "" H 2700 4800 50  0001 C CNN
 	1    2700 4800
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	10100 2550 10100 2600
+$Comp
+L Device:R_Small R?
+U 1 1 5E506E4F
+P 9800 2600
+F 0 "R?" V 9750 2700 50  0000 L CNN
+F 1 "10k" V 9750 2500 50  0000 R CNN
+F 2 "" H 9800 2600 50  0001 C CNN
+F 3 "~" H 9800 2600 50  0001 C CNN
+	1    9800 2600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5E531554
+P 9800 2700
+F 0 "R?" V 9750 2800 50  0000 L CNN
+F 1 "10k" V 9750 2600 50  0000 R CNN
+F 2 "" H 9800 2700 50  0001 C CNN
+F 3 "~" H 9800 2700 50  0001 C CNN
+	1    9800 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5E531846
+P 9800 2800
+F 0 "R?" V 9750 2900 50  0000 L CNN
+F 1 "10k" V 9750 2700 50  0000 R CNN
+F 2 "" H 9800 2800 50  0001 C CNN
+F 3 "~" H 9800 2800 50  0001 C CNN
+	1    9800 2800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9500 2600 9700 2600
+Wire Wire Line
+	9700 2700 9500 2700
+Wire Wire Line
+	9500 2800 9700 2800
+Wire Wire Line
+	9900 2600 10100 2600
+Connection ~ 10100 2600
+Wire Wire Line
+	10100 2600 10100 2800
+Wire Wire Line
+	9900 2700 10200 2700
+Wire Wire Line
+	9900 2800 10100 2800
+Connection ~ 10100 2800
+Wire Wire Line
+	10100 2800 10100 3000
+NoConn ~ 9500 1500
+NoConn ~ 9500 1600
 $EndSCHEMATC

@@ -162,21 +162,6 @@ F 3 "~" H 3250 1800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	2900 1800 3000 1800
-Wire Wire Line
-	2900 1900 3000 1900
-Wire Wire Line
-	3000 1900 3000 1800
-Connection ~ 3000 1800
-Wire Wire Line
-	3000 1800 3100 1800
-Wire Wire Line
-	2900 2100 3000 2100
-Wire Wire Line
-	3000 2100 3000 2200
-Wire Wire Line
-	3000 2200 2900 2200
-Wire Wire Line
 	5100 1800 5100 1700
 $Comp
 L Device:R R?
@@ -226,7 +211,6 @@ Wire Wire Line
 Connection ~ 4900 2400
 Wire Wire Line
 	4900 2400 5100 2400
-Connection ~ 3000 2100
 Wire Wire Line
 	2900 2400 4900 2400
 Wire Wire Line
@@ -243,21 +227,6 @@ F 3 "~" H 3250 2800 50  0001 C CNN
 	1    3250 2800
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	2900 2800 3000 2800
-Wire Wire Line
-	2900 2900 3000 2900
-Wire Wire Line
-	3000 2900 3000 2800
-Connection ~ 3000 2800
-Wire Wire Line
-	3000 2800 3100 2800
-Wire Wire Line
-	2900 3100 3000 3100
-Wire Wire Line
-	3000 3100 3000 3200
-Wire Wire Line
-	3000 3200 2900 3200
 Wire Wire Line
 	4500 2800 4500 2700
 $Comp
@@ -308,7 +277,6 @@ Wire Wire Line
 Connection ~ 4300 3400
 Wire Wire Line
 	4300 3400 4500 3400
-Connection ~ 3000 3100
 Wire Wire Line
 	2900 3400 4300 3400
 Wire Wire Line
@@ -403,26 +371,6 @@ Wire Wire Line
 Connection ~ 5700 3350
 Wire Wire Line
 	5700 3350 5800 3350
-Wire Wire Line
-	2900 3900 3000 3900
-Wire Wire Line
-	3000 3900 3000 4000
-Wire Wire Line
-	2900 4000 3000 4000
-Connection ~ 3000 4000
-Wire Wire Line
-	3000 4000 3000 4100
-$Comp
-L power:GND #PWR?
-U 1 1 5D10C724
-P 3000 4100
-F 0 "#PWR?" H 3000 3850 50  0001 C CNN
-F 1 "GND" H 3005 3927 50  0000 C CNN
-F 2 "" H 3000 4100 50  0001 C CNN
-F 3 "" H 3000 4100 50  0001 C CNN
-	1    3000 4100
-	1    0    0    -1  
-$EndComp
 $Comp
 L pimouss-motherboard:LTC3633 U?
 U 1 1 5D19DF15
@@ -448,18 +396,9 @@ $EndComp
 Wire Wire Line
 	7700 2600 7800 2600
 Wire Wire Line
-	7800 2700 7700 2700
-Wire Wire Line
-	7700 2700 7700 2800
-Wire Wire Line
-	7700 2800 7800 2800
-Wire Wire Line
-	7700 2800 7300 2800
-Wire Wire Line
 	7300 2800 7300 2600
 Wire Wire Line
 	7300 2600 7400 2600
-Connection ~ 7700 2800
 $Comp
 L Device:L L?
 U 1 1 5D1A3BCC
@@ -518,7 +457,7 @@ Wire Wire Line
 Wire Wire Line
 	7700 1600 7700 2000
 Wire Wire Line
-	6800 1600 6800 2800
+	6800 1600 6800 1700
 $Comp
 L power:+5V #PWR?
 U 1 1 5D1BD3CA
@@ -740,18 +679,9 @@ $EndComp
 Wire Wire Line
 	9500 2600 9400 2600
 Wire Wire Line
-	9400 2700 9500 2700
-Wire Wire Line
-	9500 2700 9500 2800
-Wire Wire Line
-	9500 2800 9400 2800
-Wire Wire Line
-	9500 2800 9900 2800
-Wire Wire Line
 	9900 2800 9900 2600
 Wire Wire Line
 	9900 2600 9800 2600
-Connection ~ 9500 2800
 $Comp
 L Device:L L?
 U 1 1 5D207818
@@ -1058,8 +988,6 @@ F 3 "https://www.diodes.com/assets/Datasheets/DMP2040USS.pdf" H 3700 6800 50  00
 	1    3700 6800
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	3000 6700 3500 6700
 $Comp
 L power:GND #PWR?
 U 1 1 5D2EFEF0
@@ -1106,8 +1034,6 @@ F 3 "" H 4200 6600 50  0001 C CNN
 	1    4200 6600
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3900 6700 4200 6700
 Wire Wire Line
 	4200 6700 4200 6600
 Wire Wire Line
@@ -1344,8 +1270,6 @@ F 3 "~" H 3700 1950 50  0001 C CNN
 	1    3700 1950
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3000 2100 3500 2100
 $Comp
 L Device:C_Small C?
 U 1 1 5D682EA3
@@ -1377,9 +1301,7 @@ Wire Wire Line
 Wire Wire Line
 	3700 2050 3700 2100
 Wire Wire Line
-	3000 3100 3700 3100
-Wire Wire Line
-	3400 2800 4300 2800
+	3400 2800 3500 2800
 $Comp
 L Device:C_Small C?
 U 1 1 5D6C30F8
@@ -1444,19 +1366,6 @@ Wire Wire Line
 	4500 3800 5100 3800
 $Comp
 L pimouss-motherboard:DummySupply DS?
-U 1 1 5DE84E2B
-P 2900 6700
-AR Path="/5DE84E2B" Ref="DS?"  Part="1" 
-AR Path="/5D0C4621/5DE84E2B" Ref="DS?"  Part="1" 
-F 0 "DS?" H 2900 6700 50  0001 C CNN
-F 1 "DummySupply" H 2900 6700 50  0001 C CNN
-F 2 "" H 2900 6700 50  0001 C CNN
-F 3 "" H 2900 6700 50  0001 C CNN
-	1    2900 6700
-	1    0    0    -1  
-$EndComp
-$Comp
-L pimouss-motherboard:DummySupply DS?
 U 1 1 5DEDED3F
 P 4900 1800
 AR Path="/5DEDED3F" Ref="DS?"  Part="1" 
@@ -1497,25 +1406,59 @@ $EndComp
 $Comp
 L pimouss-motherboard:DummySupply DS?
 U 1 1 5DF17E48
-P 1900 6800
+P 3100 6800
 AR Path="/5DF17E48" Ref="DS?"  Part="1" 
 AR Path="/5D0C4621/5DF17E48" Ref="DS?"  Part="1" 
-F 0 "DS?" H 1900 6800 50  0001 C CNN
-F 1 "DummySupply" H 1900 6800 50  0001 C CNN
-F 2 "" H 1900 6800 50  0001 C CNN
-F 3 "" H 1900 6800 50  0001 C CNN
-	1    1900 6800
+F 0 "DS?" H 3100 6800 50  0001 C CNN
+F 1 "DummySupply" H 3100 6800 50  0001 C CNN
+F 2 "" H 3100 6800 50  0001 C CNN
+F 3 "" H 3100 6800 50  0001 C CNN
+	1    3100 6800
 	1    0    0    -1  
 $EndComp
-Connection ~ 2900 6700
-Wire Wire Line
-	2900 6700 3000 6700
-Wire Wire Line
-	2700 6700 2900 6700
-Connection ~ 1900 6800
-Wire Wire Line
-	6800 1600 6800 1700
 Connection ~ 6800 1700
 Wire Wire Line
 	6800 1700 6800 2800
+Wire Wire Line
+	2900 1800 3100 1800
+Wire Wire Line
+	2900 2100 3500 2100
+Wire Wire Line
+	2900 2800 3100 2800
+Wire Wire Line
+	2900 3100 3500 3100
+Connection ~ 3500 3100
+Wire Wire Line
+	3500 3100 3700 3100
+Connection ~ 3500 2800
+Wire Wire Line
+	3500 2800 3700 2800
+Connection ~ 3700 2800
+Wire Wire Line
+	3700 2800 4300 2800
+Wire Wire Line
+	9400 2800 9900 2800
+Wire Wire Line
+	7300 2800 7800 2800
+Wire Wire Line
+	3900 6700 4050 6700
+$Comp
+L pimouss-motherboard:DummySupply DS?
+U 1 1 5DE84E2B
+P 4050 6700
+AR Path="/5DE84E2B" Ref="DS?"  Part="1" 
+AR Path="/5D0C4621/5DE84E2B" Ref="DS?"  Part="1" 
+F 0 "DS?" H 4050 6700 50  0001 C CNN
+F 1 "DummySupply" H 4050 6700 50  0001 C CNN
+F 2 "" H 4050 6700 50  0001 C CNN
+F 3 "" H 4050 6700 50  0001 C CNN
+	1    4050 6700
+	1    0    0    -1  
+$EndComp
+Connection ~ 4050 6700
+Wire Wire Line
+	4050 6700 4200 6700
+Wire Wire Line
+	3000 6700 3500 6700
+Connection ~ 3100 6800
 $EndSCHEMATC

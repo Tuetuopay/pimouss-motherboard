@@ -726,4 +726,15 @@ F 3 "~" H 3850 5500 50  0001 C CNN
 $EndComp
 Text HLabel 2200 3100 0    50   Input ~ 0
 LED_P3_0
+$Comp
+L pimouss-motherboard:DummySupply DS?
+U 1 1 5E49E098
+P 3600 5300
+F 0 "DS?" H 3600 5300 50  0001 C CNN
+F 1 "DummySupply" H 3600 5300 50  0001 C CNN
+F 2 "" H 3600 5300 50  0001 C CNN
+F 3 "" H 3600 5300 50  0001 C CNN
+	1    3600 5300
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

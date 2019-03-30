@@ -757,4 +757,12 @@ Text HLabel 1600 2500 0    50   Output ~ 0
 QSGMII_RX_N
 Text HLabel 2500 5700 2    50   Output ~ 0
 LED_P3_0
+NoConn ~ 2500 4600
+NoConn ~ 2500 4700
+NoConn ~ 2500 5000
+NoConn ~ 2500 5100
+NoConn ~ 2500 5400
+NoConn ~ 2500 5500
+NoConn ~ 2500 5800
+NoConn ~ 2500 5900
 $EndSCHEMATC
