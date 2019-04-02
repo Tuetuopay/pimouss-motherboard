@@ -15,10 +15,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L pimouss-motherboard:PCIE-064-02 U2
+L pimouss-motherboard:PCIE-064-02 P2
 U 1 1 5C978539
 P 8000 1500
-F 0 "U2" H 8400 1665 50  0000 C CNN
+F 0 "P2" H 8400 1665 50  0000 C CNN
 F 1 "PCIE-064-02" H 8400 1574 50  0000 C CNN
 F 2 "pimouss-motherboard:SAMTEC_PCIE-064-02-F-D-TH" H 7900 1550 50  0001 C CNN
 F 3 "" H 8000 1500 50  0001 C CNN
@@ -26,10 +26,10 @@ F 3 "" H 8000 1500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L pimouss-motherboard:PCIE-064-02 U2
+L pimouss-motherboard:PCIE-064-02 P2
 U 2 1 5C978540
 P 8000 3000
-F 0 "U2" H 8400 3165 50  0000 C CNN
+F 0 "P2" H 8400 3165 50  0000 C CNN
 F 1 "PCIE-064-02" H 8400 3074 50  0000 C CNN
 F 2 "pimouss-motherboard:SAMTEC_PCIE-064-02-F-D-TH" H 7900 3050 50  0001 C CNN
 F 3 "" H 8000 3000 50  0001 C CNN
@@ -37,10 +37,10 @@ F 3 "" H 8000 3000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L pimouss-motherboard:PCIE-064-02 U2
+L pimouss-motherboard:PCIE-064-02 P2
 U 3 1 5C978547
 P 8000 4100
-F 0 "U2" H 8400 4265 50  0000 C CNN
+F 0 "P2" H 8400 4265 50  0000 C CNN
 F 1 "PCIE-064-02" H 8400 4174 50  0000 C CNN
 F 2 "pimouss-motherboard:SAMTEC_PCIE-064-02-F-D-TH" H 7900 4150 50  0001 C CNN
 F 3 "" H 8000 4100 50  0001 C CNN

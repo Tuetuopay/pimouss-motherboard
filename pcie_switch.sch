@@ -15,10 +15,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L pimouss-motherboard:PI7C9X2G404SL U3
+L pimouss-motherboard:PI7C9X2G404SL U2
 U 1 1 5D541909
 P 2400 1400
-F 0 "U3" H 3050 1565 50  0000 C CNN
+F 0 "U2" H 3050 1565 50  0000 C CNN
 F 1 "PI7C9X2G404SL" H 3050 1474 50  0000 C CNN
 F 2 "pimouss-motherboard:LQFP-128_1EP_14x14mm_P0.4mm_EP6x6mm" H 2300 1450 50  0001 C CNN
 F 3 "https://www.diodes.com/assets/Datasheets/PI7C9X2G404SL.pdf" H 2400 1550 50  0001 C CNN
@@ -26,10 +26,10 @@ F 3 "https://www.diodes.com/assets/Datasheets/PI7C9X2G404SL.pdf" H 2400 1550 50 
 	1    0    0    -1  
 $EndComp
 $Comp
-L pimouss-motherboard:PI7C9X2G404SL U3
+L pimouss-motherboard:PI7C9X2G404SL U2
 U 3 1 5D5419FE
 P 4500 4600
-F 0 "U3" H 5050 4765 50  0000 C CNN
+F 0 "U2" H 5050 4765 50  0000 C CNN
 F 1 "PI7C9X2G404SL" H 5050 4674 50  0000 C CNN
 F 2 "pimouss-motherboard:LQFP-128_1EP_14x14mm_P0.4mm_EP6x6mm" H 4400 4650 50  0001 C CNN
 F 3 "https://www.diodes.com/assets/Datasheets/PI7C9X2G404SL.pdf" H 4500 4750 50  0001 C CNN
@@ -37,10 +37,10 @@ F 3 "https://www.diodes.com/assets/Datasheets/PI7C9X2G404SL.pdf" H 4500 4750 50 
 	1    0    0    -1  
 $EndComp
 $Comp
-L pimouss-motherboard:PI7C9X2G404SL U3
+L pimouss-motherboard:PI7C9X2G404SL U2
 U 4 1 5D541A5B
 P 3950 6950
-F 0 "U3" H 5150 7115 50  0000 C CNN
+F 0 "U2" H 5150 7115 50  0000 C CNN
 F 1 "PI7C9X2G404SL" H 5150 7024 50  0000 C CNN
 F 2 "pimouss-motherboard:LQFP-128_1EP_14x14mm_P0.4mm_EP6x6mm" H 3850 7000 50  0001 C CNN
 F 3 "https://www.diodes.com/assets/Datasheets/PI7C9X2G404SL.pdf" H 3950 7100 50  0001 C CNN
@@ -288,10 +288,10 @@ F 3 "~" H 9800 3000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L pimouss-motherboard:PI7C9X2G404SL U3
+L pimouss-motherboard:PI7C9X2G404SL U2
 U 2 1 5D5419B0
 P 8100 1400
-F 0 "U3" H 9250 1565 50  0000 C CNN
+F 0 "U2" H 9250 1565 50  0000 C CNN
 F 1 "PI7C9X2G404SL" H 9250 1474 50  0000 C CNN
 F 2 "pimouss-motherboard:LQFP-128_1EP_14x14mm_P0.4mm_EP6x6mm" H 8000 1450 50  0001 C CNN
 F 3 "https://www.diodes.com/assets/Datasheets/PI7C9X2G404SL.pdf" H 8100 1550 50  0001 C CNN

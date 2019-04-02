@@ -15,10 +15,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L pimouss-motherboard:88E1545 U7
+L pimouss-motherboard:88E1545 U4
 U 4 1 5C7D3D27
 P 3400 2100
-F 0 "U7" H 3828 1796 50  0000 L CNN
+F 0 "U4" H 3828 1796 50  0000 L CNN
 F 1 "88E1545" H 3828 1705 50  0000 L CNN
 F 2 "pimouss-motherboard:LQFP-128-1EP_14x20mm_P0.5mm_EP3.93x6.42mm" H 4850 -300 50  0001 C CNN
 F 3 "https://www.marvell.com/documents/ymlgvtjaejhhxflojtro/" H 3400 2250 50  0001 C CNN
@@ -26,10 +26,10 @@ F 3 "https://www.marvell.com/documents/ymlgvtjaejhhxflojtro/" H 3400 2250 50  00
 	1    0    0    -1  
 $EndComp
 $Comp
-L pimouss-motherboard:88E1545 U7
+L pimouss-motherboard:88E1545 U4
 U 5 1 5C7D3D6F
 P 1300 4400
-F 0 "U7" H 1656 4565 50  0000 C CNN
+F 0 "U4" H 1656 4565 50  0000 C CNN
 F 1 "88E1545" H 1656 4474 50  0000 C CNN
 F 2 "pimouss-motherboard:LQFP-128-1EP_14x20mm_P0.5mm_EP3.93x6.42mm" H 2750 2000 50  0001 C CNN
 F 3 "https://www.marvell.com/documents/ymlgvtjaejhhxflojtro/" H 1300 4550 50  0001 C CNN
@@ -37,10 +37,10 @@ F 3 "https://www.marvell.com/documents/ymlgvtjaejhhxflojtro/" H 1300 4550 50  00
 	1    0    0    -1  
 $EndComp
 $Comp
-L pimouss-motherboard:88E1545 U7
+L pimouss-motherboard:88E1545 U4
 U 6 1 5C7D3DC1
 P 6300 2000
-F 0 "U7" H 6656 2165 50  0000 C CNN
+F 0 "U4" H 6656 2165 50  0000 C CNN
 F 1 "88E1545" H 6656 2074 50  0000 C CNN
 F 2 "pimouss-motherboard:LQFP-128-1EP_14x20mm_P0.5mm_EP3.93x6.42mm" H 7750 -400 50  0001 C CNN
 F 3 "https://www.marvell.com/documents/ymlgvtjaejhhxflojtro/" H 6300 2150 50  0001 C CNN
@@ -89,10 +89,10 @@ Wire Wire Line
 Wire Wire Line
 	2350 2700 2350 2800
 $Comp
-L Connector:RJ45_LED_Shielded J7
+L Connector:RJ45_LED_Shielded J6
 U 1 1 5C7D8260
 P 9600 1300
-F 0 "J7" H 9600 1967 50  0000 C CNN
+F 0 "J6" H 9600 1967 50  0000 C CNN
 F 1 "RJ45_LED_Shielded" H 9600 1876 50  0000 C CNN
 F 2 "Connector_RJ:RJ45_Amphenol_RJHSE538X" V 9600 1325 50  0001 C CNN
 F 3 "~" V 9600 1325 50  0001 C CNN
@@ -100,10 +100,10 @@ F 3 "~" V 9600 1325 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Connector:RJ45_LED_Shielded J8
+L Connector:RJ45_LED_Shielded J7
 U 1 1 5C7D8531
 P 9600 2700
-F 0 "J8" H 9600 3367 50  0000 C CNN
+F 0 "J7" H 9600 3367 50  0000 C CNN
 F 1 "RJ45_LED_Shielded" H 9600 3276 50  0000 C CNN
 F 2 "Connector_RJ:RJ45_Amphenol_RJHSE538X" V 9600 2725 50  0001 C CNN
 F 3 "~" V 9600 2725 50  0001 C CNN
@@ -111,10 +111,10 @@ F 3 "~" V 9600 2725 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Connector:RJ45_LED_Shielded J9
+L Connector:RJ45_LED_Shielded J8
 U 1 1 5C7D8561
 P 9600 4100
-F 0 "J9" H 9600 4767 50  0000 C CNN
+F 0 "J8" H 9600 4767 50  0000 C CNN
 F 1 "RJ45_LED_Shielded" H 9600 4676 50  0000 C CNN
 F 2 "Connector_RJ:RJ45_Amphenol_RJHSE538X" V 9600 4125 50  0001 C CNN
 F 3 "~" V 9600 4125 50  0001 C CNN
@@ -122,10 +122,10 @@ F 3 "~" V 9600 4125 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Connector:RJ45_LED_Shielded J10
+L Connector:RJ45_LED_Shielded J9
 U 1 1 5C7D858F
 P 9600 5500
-F 0 "J10" H 9600 6167 50  0000 C CNN
+F 0 "J9" H 9600 6167 50  0000 C CNN
 F 1 "RJ45_LED_Shielded" H 9600 6076 50  0000 C CNN
 F 2 "Connector_RJ:RJ45_Amphenol_RJHSE538X" V 9600 5525 50  0001 C CNN
 F 3 "~" V 9600 5525 50  0001 C CNN

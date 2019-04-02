@@ -15,10 +15,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L pimouss-motherboard:ISL8033A U9
+L pimouss-motherboard:ISL8033A U6
 U 1 1 5D0C46C4
 P 2000 1700
-F 0 "U9" H 2400 1865 50  0000 C CNN
+F 0 "U6" H 2400 1865 50  0000 C CNN
 F 1 "ISL8033A" H 2400 1774 50  0000 C CNN
 F 2 "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm" H 3200 -800 50  0001 C CNN
 F 3 "https://www.renesas.com/eu/en/doc/datasheet/isl8033-a.pdf" H 2000 1850 50  0001 C CNN
@@ -372,10 +372,10 @@ Connection ~ 5700 3350
 Wire Wire Line
 	5700 3350 5800 3350
 $Comp
-L pimouss-motherboard:LTC3633 U11
+L pimouss-motherboard:LTC3633 U8
 U 1 1 5D19DF15
 P 7900 1900
-F 0 "U11" H 7900 2050 50  0000 L CNN
+F 0 "U8" H 7900 2050 50  0000 L CNN
 F 1 "LTC3633" H 7900 1950 50  0000 L CNN
 F 2 "Package_DFN_QFN:QFN-28-1EP_4x5mm_P0.5mm_EP2.65x3.65mm_ThermalVias" H 7800 1950 50  0001 C CNN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/3633fd.pdf" H 7900 2050 50  0001 C CNN
@@ -947,10 +947,10 @@ On ISL8033, PG pins are open-drains and pull down\nwhen not good. PG_PCI will be
 Text HLabel 2900 5300 2    50   Output ~ 0
 PG_PCI
 $Comp
-L Connector:Barrel_Jack_Switch J11
+L Connector:Barrel_Jack_Switch J10
 U 1 1 5D2C9CDF
 P 2700 6800
-F 0 "J11" H 2755 7117 50  0000 C CNN
+F 0 "J10" H 2755 7117 50  0000 C CNN
 F 1 "Barrel_Jack_Switch" H 2755 7026 50  0000 C CNN
 F 2 "Connector_BarrelJack:BarrelJack_Horizontal" H 2750 6760 50  0001 C CNN
 F 3 "~" H 2750 6760 50  0001 C CNN
@@ -1042,10 +1042,10 @@ Connection ~ 4200 6700
 Wire Wire Line
 	4200 7000 4200 7100
 $Comp
-L pimouss-motherboard:TPS74401_VQFN U10
+L pimouss-motherboard:TPS74401_VQFN U7
 U 1 1 5CE43F9B
 P 5450 4950
-F 0 "U10" H 5750 5100 50  0000 C CNN
+F 0 "U7" H 5750 5100 50  0000 C CNN
 F 1 "TPS74401_VQFN" H 5750 5000 50  0000 C CNN
 F 2 "Package_DFN_QFN:Texas_S-PVQFN-N20_EP3.15x3.15mm_ThermalVias" H 6250 4350 50  0001 C CNN
 F 3 "http://www.ti.com/general/docs/lit/getliterature.tsp?genericPartNumber=tps74401&fileType=pdf" H 5450 5450 50  0001 C CNN

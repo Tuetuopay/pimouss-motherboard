@@ -455,12 +455,12 @@ F 3 "~" H 4150 3900 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L pimouss-motherboard:MPCIE-Socket U4
+L pimouss-motherboard:MPCIE-Socket P3
 U 1 1 5E649649
 P 5450 3750
-AR Path="/5C91A44F/5D489567/5E649649" Ref="U4"  Part="1" 
-AR Path="/5C91A44F/5D9F9D59/5E649649" Ref="U5"  Part="1" 
-F 0 "U4" H 5450 5293 60  0000 C CNN
+AR Path="/5C91A44F/5D489567/5E649649" Ref="P3"  Part="1" 
+AR Path="/5C91A44F/5D9F9D59/5E649649" Ref="P4"  Part="1" 
+F 0 "P3" H 5450 5293 60  0000 C CNN
 F 1 "MPCIE-Socket" H 5450 5187 60  0000 C CNN
 F 2 "pimouss-motherboard:mpcie-socket" H 5450 5081 60  0000 C CNN
 F 3 "" H 5550 2750 60  0000 C CNN

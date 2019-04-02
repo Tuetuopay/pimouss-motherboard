@@ -746,8 +746,8 @@ ENDDEF
 #
 # pimouss-motherboard_MPCIE-Socket
 #
-DEF pimouss-motherboard_MPCIE-Socket U 0 40 Y Y 1 F N
-F0 "U" -400 1300 60 H V C CNN
+DEF pimouss-motherboard_MPCIE-Socket P 0 40 Y Y 1 F N
+F0 "P" -400 1300 60 H V C CNN
 F1 "pimouss-motherboard_MPCIE-Socket" 100 -1550 60 H V C CNN
 F2 "pimouss-motherboard:mpcie-socket" 100 -1000 60 H V C CNN
 F3 "" 100 -1000 60 H V C CNN
@@ -812,8 +812,8 @@ ENDDEF
 #
 # pimouss-motherboard_PCIE-064-02
 #
-DEF pimouss-motherboard_PCIE-064-02 U 0 40 Y Y 3 L N
-F0 "U" 0 150 50 H V L CNN
+DEF pimouss-motherboard_PCIE-064-02 P 0 40 Y Y 3 L N
+F0 "P" 0 150 50 H V L CNN
 F1 "pimouss-motherboard_PCIE-064-02" 0 50 50 H V L CNN
 F2 "pimouss-motherboard:SAMTEC_PCIE-064-02-F-D-TH" -100 50 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
@@ -1263,8 +1263,8 @@ ENDDEF
 #
 # pimouss-motherboard_USB-C-2.0-FEMALE
 #
-DEF pimouss-motherboard_USB-C-2.0-FEMALE J 0 40 Y Y 1 F N
-F0 "J" 0 150 50 H V L CNN
+DEF pimouss-motherboard_USB-C-2.0-FEMALE P 0 40 Y Y 1 F N
+F0 "P" 0 150 50 H V L CNN
 F1 "pimouss-motherboard_USB-C-2.0-FEMALE" 0 50 50 H V L CNN
 F2 "pimouss-motherboard:USB-C-FEMALE" 750 -1500 50 H I C CNN
 F3 "" 650 -500 50 H I C CNN

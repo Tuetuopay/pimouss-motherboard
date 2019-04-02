@@ -28,10 +28,10 @@ $EndComp
 Wire Wire Line
 	6900 4700 6900 4800
 $Comp
-L pimouss-motherboard:CH340C U6
+L pimouss-motherboard:CH340C U3
 U 1 1 5D2790CD
 P 6400 3500
-F 0 "U6" H 6400 2350 50  0000 L CNN
+F 0 "U3" H 6400 2350 50  0000 L CNN
 F 1 "CH340C" H 7400 2350 50  0000 R CNN
 F 2 "Package_SO:SSOP-20_5.3x7.2mm_P0.65mm" H 7300 1950 50  0001 C CNN
 F 3 "https://cdn.sparkfun.com/datasheets/Dev/Arduino/Other/CH340DS1.PDF" H 6400 3650 50  0001 C CNN
@@ -67,10 +67,10 @@ $EndComp
 Wire Wire Line
 	7500 3200 7500 3300
 $Comp
-L pimouss-motherboard:USB-C-2.0-FEMALE J5
+L pimouss-motherboard:USB-C-2.0-FEMALE P5
 U 1 1 5D27BBAF
 P 2800 3100
-F 0 "J5" H 3306 3265 50  0000 C CNN
+F 0 "P5" H 3306 3265 50  0000 C CNN
 F 1 "USB-C-2.0-FEMALE" H 3306 3174 50  0000 C CNN
 F 2 "pimouss-motherboard:USB-C-FEMALE" H 3550 1600 50  0001 C CNN
 F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 3450 2600 50  0001 C CNN
