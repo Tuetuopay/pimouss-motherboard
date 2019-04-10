@@ -443,7 +443,7 @@ Text HLabel 10050 1900 2    50   Input ~ 0
 SMBDATA
 Text Label 9950 1900 2    50   ~ 0
 SMBDATA
-Text Notes 7900 5850 0    50   ~ 0
+Text Notes 6800 1350 0    50   ~ 0
 Settings:\nCLKBUF_PD = 0, enable internal clock buffer & fanout\nVC1_EN = 0, disable virtual channel 1\nRXPOLINV_DIS = 0, keep polarity inversion detection enabled\nPS_512B = 0, keep 256B packets\nSLOTCLK = 1, use global clock\nPWR_SAV = 0, disable power saving mode\nPRSNT[3:1] = 4, device present in slots 1 and 2\nSLOT_IMP[3:1] = 3, slots 1 and 2 are implemented\nGPIO[7:5] = 5 = SMBus address
 $Comp
 L Device:R_Small R28
@@ -1834,4 +1834,723 @@ Wire Wire Line
 	5250 2800 5450 2800
 Wire Wire Line
 	5350 2700 5450 2700
+$Comp
+L Device:C_Small C119
+U 1 1 5CAF2FA3
+P 6950 4850
+F 0 "C119" H 6950 4900 50  0000 R BNN
+F 1 "10u" H 6950 4800 50  0000 R TNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6950 4850 50  0001 C CNN
+F 3 "~" H 6950 4850 50  0001 C CNN
+	1    6950 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C121
+U 1 1 5CB37511
+P 7150 4850
+F 0 "C121" H 7150 4900 50  0000 R BNN
+F 1 "100n" H 7150 4800 50  0000 R TNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7150 4850 50  0001 C CNN
+F 3 "~" H 7150 4850 50  0001 C CNN
+	1    7150 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C123
+U 1 1 5CB38126
+P 7350 4850
+F 0 "C123" H 7350 4900 50  0000 R BNN
+F 1 "100n" H 7350 4800 50  0000 R TNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7350 4850 50  0001 C CNN
+F 3 "~" H 7350 4850 50  0001 C CNN
+	1    7350 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C125
+U 1 1 5CB38628
+P 7550 4850
+F 0 "C125" H 7550 4900 50  0000 R BNN
+F 1 "100n" H 7550 4800 50  0000 R TNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7550 4850 50  0001 C CNN
+F 3 "~" H 7550 4850 50  0001 C CNN
+	1    7550 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C127
+U 1 1 5CB3A58B
+P 7750 4850
+F 0 "C127" H 7750 4900 50  0000 R BNN
+F 1 "100n" H 7750 4800 50  0000 R TNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7750 4850 50  0001 C CNN
+F 3 "~" H 7750 4850 50  0001 C CNN
+	1    7750 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C129
+U 1 1 5CB3A591
+P 7950 4850
+F 0 "C129" H 7950 4900 50  0000 R BNN
+F 1 "100n" H 7950 4800 50  0000 R TNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7950 4850 50  0001 C CNN
+F 3 "~" H 7950 4850 50  0001 C CNN
+	1    7950 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C131
+U 1 1 5CB3A597
+P 8150 4850
+F 0 "C131" H 8150 4900 50  0000 R BNN
+F 1 "100n" H 8150 4800 50  0000 R TNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8150 4850 50  0001 C CNN
+F 3 "~" H 8150 4850 50  0001 C CNN
+	1    8150 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C133
+U 1 1 5CB5091D
+P 8350 4850
+F 0 "C133" H 8350 4900 50  0000 R BNN
+F 1 "100n" H 8350 4800 50  0000 R TNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8350 4850 50  0001 C CNN
+F 3 "~" H 8350 4850 50  0001 C CNN
+	1    8350 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C135
+U 1 1 5CB50923
+P 8550 4850
+F 0 "C135" H 8550 4900 50  0000 R BNN
+F 1 "100n" H 8550 4800 50  0000 R TNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8550 4850 50  0001 C CNN
+F 3 "~" H 8550 4850 50  0001 C CNN
+	1    8550 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C137
+U 1 1 5CB50929
+P 8750 4850
+F 0 "C137" H 8750 4900 50  0000 R BNN
+F 1 "100n" H 8750 4800 50  0000 R TNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8750 4850 50  0001 C CNN
+F 3 "~" H 8750 4850 50  0001 C CNN
+	1    8750 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6950 4750 6950 4700
+Wire Wire Line
+	6950 4700 7150 4700
+Wire Wire Line
+	8750 4700 8750 4750
+Wire Wire Line
+	7150 4750 7150 4700
+Connection ~ 7150 4700
+Wire Wire Line
+	7150 4700 7350 4700
+Wire Wire Line
+	7350 4700 7350 4750
+Connection ~ 7350 4700
+Wire Wire Line
+	7350 4700 7550 4700
+Wire Wire Line
+	7550 4750 7550 4700
+Connection ~ 7550 4700
+Wire Wire Line
+	7550 4700 7750 4700
+Wire Wire Line
+	7750 4750 7750 4700
+Wire Wire Line
+	7950 4700 7950 4750
+Wire Wire Line
+	8150 4750 8150 4700
+Connection ~ 7750 4700
+Wire Wire Line
+	7750 4700 7950 4700
+Connection ~ 7950 4700
+Wire Wire Line
+	7950 4700 8150 4700
+Connection ~ 8150 4700
+Wire Wire Line
+	8150 4700 8350 4700
+Wire Wire Line
+	8350 4700 8350 4750
+Wire Wire Line
+	8550 4750 8550 4700
+Connection ~ 8350 4700
+Wire Wire Line
+	8350 4700 8550 4700
+Connection ~ 8550 4700
+Wire Wire Line
+	8550 4700 8750 4700
+Wire Wire Line
+	8750 4950 8750 5000
+Wire Wire Line
+	8750 5000 8550 5000
+Wire Wire Line
+	6950 5000 6950 4950
+Wire Wire Line
+	8550 4950 8550 5000
+Connection ~ 8550 5000
+Wire Wire Line
+	8550 5000 8350 5000
+Wire Wire Line
+	8350 5000 8350 4950
+Connection ~ 8350 5000
+Wire Wire Line
+	8350 5000 8150 5000
+Wire Wire Line
+	8150 4950 8150 5000
+Connection ~ 8150 5000
+Wire Wire Line
+	8150 5000 7950 5000
+Wire Wire Line
+	7950 4950 7950 5000
+Wire Wire Line
+	7750 5000 7750 4950
+Wire Wire Line
+	7550 4950 7550 5000
+Connection ~ 7950 5000
+Wire Wire Line
+	7950 5000 7750 5000
+Connection ~ 7750 5000
+Wire Wire Line
+	7750 5000 7550 5000
+Connection ~ 7550 5000
+Wire Wire Line
+	7550 5000 7350 5000
+Wire Wire Line
+	7350 5000 7350 4950
+Wire Wire Line
+	7150 4950 7150 5000
+Connection ~ 7350 5000
+Wire Wire Line
+	7350 5000 7150 5000
+Connection ~ 7150 5000
+Wire Wire Line
+	7150 5000 6950 5000
+$Comp
+L power:GND #PWR0189
+U 1 1 5CC44628
+P 8750 5050
+F 0 "#PWR0189" H 8750 4800 50  0001 C CNN
+F 1 "GND" H 8755 4877 50  0000 C CNN
+F 2 "" H 8750 5050 50  0001 C CNN
+F 3 "" H 8750 5050 50  0001 C CNN
+	1    8750 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8750 5050 8750 5000
+Connection ~ 8750 5000
+Text Label 6950 4700 0    50   ~ 0
+VDDC
+$Comp
+L Device:C_Small C139
+U 1 1 5CD2561E
+P 8950 4850
+F 0 "C139" H 8950 4900 50  0000 R BNN
+F 1 "10u" H 8950 4800 50  0000 R TNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8950 4850 50  0001 C CNN
+F 3 "~" H 8950 4850 50  0001 C CNN
+	1    8950 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C141
+U 1 1 5CD25624
+P 9150 4850
+F 0 "C141" H 9150 4900 50  0000 R BNN
+F 1 "100n" H 9150 4800 50  0000 R TNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 9150 4850 50  0001 C CNN
+F 3 "~" H 9150 4850 50  0001 C CNN
+	1    9150 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C143
+U 1 1 5CD2562A
+P 9350 4850
+F 0 "C143" H 9350 4900 50  0000 R BNN
+F 1 "100n" H 9350 4800 50  0000 R TNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 9350 4850 50  0001 C CNN
+F 3 "~" H 9350 4850 50  0001 C CNN
+	1    9350 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8950 4750 8950 4700
+Wire Wire Line
+	8950 4700 9150 4700
+Wire Wire Line
+	9150 4750 9150 4700
+Connection ~ 9150 4700
+Wire Wire Line
+	9150 4700 9350 4700
+Wire Wire Line
+	9350 4700 9350 4750
+Wire Wire Line
+	8950 5000 8950 4950
+Wire Wire Line
+	9350 5000 9350 4950
+Wire Wire Line
+	9150 4950 9150 5000
+Wire Wire Line
+	9350 5000 9150 5000
+Connection ~ 9150 5000
+Wire Wire Line
+	9150 5000 8950 5000
+Text Label 8950 4700 0    50   ~ 0
+VDDCAUX
+$Comp
+L power:GND #PWR0190
+U 1 1 5CD5D4B6
+P 9350 5050
+F 0 "#PWR0190" H 9350 4800 50  0001 C CNN
+F 1 "GND" H 9355 4877 50  0000 C CNN
+F 2 "" H 9350 5050 50  0001 C CNN
+F 3 "" H 9350 5050 50  0001 C CNN
+	1    9350 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9350 5050 9350 5000
+Connection ~ 9350 5000
+$Comp
+L Device:C_Small C145
+U 1 1 5CD7B5BF
+P 9550 4850
+F 0 "C145" H 9550 4900 50  0000 R BNN
+F 1 "10u" H 9550 4800 50  0000 R TNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 9550 4850 50  0001 C CNN
+F 3 "~" H 9550 4850 50  0001 C CNN
+	1    9550 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C147
+U 1 1 5CD7B5C5
+P 9750 4850
+F 0 "C147" H 9750 4900 50  0000 R BNN
+F 1 "100n" H 9750 4800 50  0000 R TNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 9750 4850 50  0001 C CNN
+F 3 "~" H 9750 4850 50  0001 C CNN
+	1    9750 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C149
+U 1 1 5CD7B5CB
+P 9950 4850
+F 0 "C149" H 9950 4900 50  0000 R BNN
+F 1 "100n" H 9950 4800 50  0000 R TNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 9950 4850 50  0001 C CNN
+F 3 "~" H 9950 4850 50  0001 C CNN
+	1    9950 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C150
+U 1 1 5CD7B5D1
+P 10150 4850
+F 0 "C150" H 10150 4900 50  0000 R BNN
+F 1 "100n" H 10150 4800 50  0000 R TNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 10150 4850 50  0001 C CNN
+F 3 "~" H 10150 4850 50  0001 C CNN
+	1    10150 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9550 4750 9550 4700
+Wire Wire Line
+	9550 4700 9750 4700
+Wire Wire Line
+	9750 4750 9750 4700
+Connection ~ 9750 4700
+Wire Wire Line
+	9750 4700 9950 4700
+Wire Wire Line
+	9950 4700 9950 4750
+Connection ~ 9950 4700
+Wire Wire Line
+	9950 4700 10150 4700
+Wire Wire Line
+	10150 4750 10150 4700
+Wire Wire Line
+	9550 5000 9550 4950
+Wire Wire Line
+	10150 4950 10150 5000
+Wire Wire Line
+	10150 5000 9950 5000
+Wire Wire Line
+	9950 5000 9950 4950
+Wire Wire Line
+	9750 4950 9750 5000
+Connection ~ 9950 5000
+Wire Wire Line
+	9950 5000 9750 5000
+Connection ~ 9750 5000
+Wire Wire Line
+	9750 5000 9550 5000
+$Comp
+L power:GND #PWR0192
+U 1 1 5CDB6FC6
+P 10150 5050
+F 0 "#PWR0192" H 10150 4800 50  0001 C CNN
+F 1 "GND" H 10155 4877 50  0000 C CNN
+F 2 "" H 10150 5050 50  0001 C CNN
+F 3 "" H 10150 5050 50  0001 C CNN
+	1    10150 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10150 5050 10150 5000
+Text Label 9550 4700 0    50   ~ 0
+CVDDR
+$Comp
+L Device:C_Small C120
+U 1 1 5CDD8398
+P 6950 5500
+F 0 "C120" H 6950 5550 50  0000 R BNN
+F 1 "10u" H 6950 5450 50  0000 R TNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6950 5500 50  0001 C CNN
+F 3 "~" H 6950 5500 50  0001 C CNN
+	1    6950 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C122
+U 1 1 5CDD839E
+P 7150 5500
+F 0 "C122" H 7150 5550 50  0000 R BNN
+F 1 "100n" H 7150 5450 50  0000 R TNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7150 5500 50  0001 C CNN
+F 3 "~" H 7150 5500 50  0001 C CNN
+	1    7150 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C124
+U 1 1 5CDD83A4
+P 7350 5500
+F 0 "C124" H 7350 5550 50  0000 R BNN
+F 1 "100n" H 7350 5450 50  0000 R TNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7350 5500 50  0001 C CNN
+F 3 "~" H 7350 5500 50  0001 C CNN
+	1    7350 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C126
+U 1 1 5CDD83AA
+P 7550 5500
+F 0 "C126" H 7550 5550 50  0000 R BNN
+F 1 "100n" H 7550 5450 50  0000 R TNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7550 5500 50  0001 C CNN
+F 3 "~" H 7550 5500 50  0001 C CNN
+	1    7550 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C128
+U 1 1 5CDD83B0
+P 7750 5500
+F 0 "C128" H 7750 5550 50  0000 R BNN
+F 1 "100n" H 7750 5450 50  0000 R TNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7750 5500 50  0001 C CNN
+F 3 "~" H 7750 5500 50  0001 C CNN
+	1    7750 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C130
+U 1 1 5CDD83B6
+P 7950 5500
+F 0 "C130" H 7950 5550 50  0000 R BNN
+F 1 "100n" H 7950 5450 50  0000 R TNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7950 5500 50  0001 C CNN
+F 3 "~" H 7950 5500 50  0001 C CNN
+	1    7950 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6950 5400 6950 5350
+Wire Wire Line
+	6950 5350 7150 5350
+Wire Wire Line
+	7150 5400 7150 5350
+Connection ~ 7150 5350
+Wire Wire Line
+	7150 5350 7350 5350
+Wire Wire Line
+	7350 5350 7350 5400
+Connection ~ 7350 5350
+Wire Wire Line
+	7350 5350 7550 5350
+Wire Wire Line
+	7550 5400 7550 5350
+Connection ~ 7550 5350
+Wire Wire Line
+	7550 5350 7750 5350
+Wire Wire Line
+	7750 5400 7750 5350
+Wire Wire Line
+	7950 5350 7950 5400
+Connection ~ 7750 5350
+Wire Wire Line
+	7750 5350 7950 5350
+Wire Wire Line
+	6950 5650 6950 5600
+Wire Wire Line
+	7950 5600 7950 5650
+Wire Wire Line
+	7750 5650 7750 5600
+Wire Wire Line
+	7550 5600 7550 5650
+Wire Wire Line
+	7950 5650 7750 5650
+Connection ~ 7750 5650
+Wire Wire Line
+	7750 5650 7550 5650
+Connection ~ 7550 5650
+Wire Wire Line
+	7550 5650 7350 5650
+Wire Wire Line
+	7350 5650 7350 5600
+Wire Wire Line
+	7150 5600 7150 5650
+Connection ~ 7350 5650
+Wire Wire Line
+	7350 5650 7150 5650
+Connection ~ 7150 5650
+Wire Wire Line
+	7150 5650 6950 5650
+Text Label 6950 5350 0    50   ~ 0
+VDDR
+$Comp
+L power:GND #PWR0187
+U 1 1 5CE1B744
+P 7950 5700
+F 0 "#PWR0187" H 7950 5450 50  0001 C CNN
+F 1 "GND" H 7955 5527 50  0000 C CNN
+F 2 "" H 7950 5700 50  0001 C CNN
+F 3 "" H 7950 5700 50  0001 C CNN
+	1    7950 5700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7950 5700 7950 5650
+$Comp
+L Device:C_Small C132
+U 1 1 5CE3FDA1
+P 8150 5500
+F 0 "C132" H 8150 5550 50  0000 R BNN
+F 1 "10u" H 8150 5450 50  0000 R TNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8150 5500 50  0001 C CNN
+F 3 "~" H 8150 5500 50  0001 C CNN
+	1    8150 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C134
+U 1 1 5CE3FDA7
+P 8350 5500
+F 0 "C134" H 8350 5550 50  0000 R BNN
+F 1 "100n" H 8350 5450 50  0000 R TNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8350 5500 50  0001 C CNN
+F 3 "~" H 8350 5500 50  0001 C CNN
+	1    8350 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C136
+U 1 1 5CE3FDAD
+P 8550 5500
+F 0 "C136" H 8550 5550 50  0000 R BNN
+F 1 "100n" H 8550 5450 50  0000 R TNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8550 5500 50  0001 C CNN
+F 3 "~" H 8550 5500 50  0001 C CNN
+	1    8550 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8150 5400 8150 5350
+Wire Wire Line
+	8150 5350 8350 5350
+Wire Wire Line
+	8350 5400 8350 5350
+Connection ~ 8350 5350
+Wire Wire Line
+	8350 5350 8550 5350
+Wire Wire Line
+	8550 5350 8550 5400
+Wire Wire Line
+	8150 5650 8150 5600
+Wire Wire Line
+	8550 5650 8550 5600
+Wire Wire Line
+	8350 5600 8350 5650
+Wire Wire Line
+	8550 5650 8350 5650
+Connection ~ 8350 5650
+Wire Wire Line
+	8350 5650 8150 5650
+Text Label 8300 5350 2    50   ~ 0
+VAUX
+$Comp
+L power:GND #PWR0188
+U 1 1 5CE3FDC0
+P 8550 5700
+F 0 "#PWR0188" H 8550 5450 50  0001 C CNN
+F 1 "GND" H 8555 5527 50  0000 C CNN
+F 2 "" H 8550 5700 50  0001 C CNN
+F 3 "" H 8550 5700 50  0001 C CNN
+	1    8550 5700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8550 5700 8550 5650
+Connection ~ 8550 5650
+Text Label 8400 5350 0    50   ~ 0
+AVDDH
+$Comp
+L Device:C_Small C138
+U 1 1 5CE65514
+P 8750 5500
+F 0 "C138" H 8750 5550 50  0000 R BNN
+F 1 "10u" H 8750 5450 50  0000 R TNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8750 5500 50  0001 C CNN
+F 3 "~" H 8750 5500 50  0001 C CNN
+	1    8750 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C140
+U 1 1 5CE6551A
+P 8950 5500
+F 0 "C140" H 8950 5550 50  0000 R BNN
+F 1 "100n" H 8950 5450 50  0000 R TNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8950 5500 50  0001 C CNN
+F 3 "~" H 8950 5500 50  0001 C CNN
+	1    8950 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C142
+U 1 1 5CE65520
+P 9150 5500
+F 0 "C142" H 9150 5550 50  0000 R BNN
+F 1 "100n" H 9150 5450 50  0000 R TNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 9150 5500 50  0001 C CNN
+F 3 "~" H 9150 5500 50  0001 C CNN
+	1    9150 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C144
+U 1 1 5CE65526
+P 9350 5500
+F 0 "C144" H 9350 5550 50  0000 R BNN
+F 1 "100n" H 9350 5450 50  0000 R TNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 9350 5500 50  0001 C CNN
+F 3 "~" H 9350 5500 50  0001 C CNN
+	1    9350 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C146
+U 1 1 5CE6552C
+P 9550 5500
+F 0 "C146" H 9550 5550 50  0000 R BNN
+F 1 "100n" H 9550 5450 50  0000 R TNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 9550 5500 50  0001 C CNN
+F 3 "~" H 9550 5500 50  0001 C CNN
+	1    9550 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C148
+U 1 1 5CE65532
+P 9750 5500
+F 0 "C148" H 9750 5550 50  0000 R BNN
+F 1 "100n" H 9750 5450 50  0000 R TNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 9750 5500 50  0001 C CNN
+F 3 "~" H 9750 5500 50  0001 C CNN
+	1    9750 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8750 5400 8750 5350
+Wire Wire Line
+	8750 5350 8950 5350
+Wire Wire Line
+	8950 5400 8950 5350
+Connection ~ 8950 5350
+Wire Wire Line
+	8950 5350 9150 5350
+Wire Wire Line
+	9150 5350 9150 5400
+Connection ~ 9150 5350
+Wire Wire Line
+	9150 5350 9350 5350
+Wire Wire Line
+	9350 5400 9350 5350
+Connection ~ 9350 5350
+Wire Wire Line
+	9350 5350 9550 5350
+Wire Wire Line
+	9550 5400 9550 5350
+Wire Wire Line
+	9750 5350 9750 5400
+Connection ~ 9550 5350
+Wire Wire Line
+	9550 5350 9750 5350
+Wire Wire Line
+	8750 5650 8750 5600
+Wire Wire Line
+	9750 5600 9750 5650
+Wire Wire Line
+	9550 5650 9550 5600
+Wire Wire Line
+	9350 5600 9350 5650
+Wire Wire Line
+	9750 5650 9550 5650
+Connection ~ 9550 5650
+Wire Wire Line
+	9550 5650 9350 5650
+Connection ~ 9350 5650
+Wire Wire Line
+	9350 5650 9150 5650
+Wire Wire Line
+	9150 5650 9150 5600
+Wire Wire Line
+	8950 5600 8950 5650
+Connection ~ 9150 5650
+Wire Wire Line
+	9150 5650 8950 5650
+Connection ~ 8950 5650
+Wire Wire Line
+	8950 5650 8750 5650
+$Comp
+L power:GND #PWR0191
+U 1 1 5CE65557
+P 9750 5700
+F 0 "#PWR0191" H 9750 5450 50  0001 C CNN
+F 1 "GND" H 9755 5527 50  0000 C CNN
+F 2 "" H 9750 5700 50  0001 C CNN
+F 3 "" H 9750 5700 50  0001 C CNN
+	1    9750 5700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9750 5700 9750 5650
+Text Label 8750 5350 0    50   ~ 0
+AVDD
 $EndSCHEMATC
