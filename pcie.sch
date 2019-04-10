@@ -533,9 +533,9 @@ Text HLabel 1650 3500 0    50   Output ~ 0
 PCIE_X1_RX_P
 Text HLabel 1650 3600 0    50   Output ~ 0
 PCIE_X1_RX_N
-Text HLabel 1650 3800 0    50   Input ~ 0
-PCIE_X1_CLK_P
 Text HLabel 1650 3700 0    50   Input ~ 0
+PCIE_X1_CLK_P
+Text HLabel 1650 3800 0    50   Input ~ 0
 PCIE_X1_CLK_N
 Text Label 1650 3800 0    50   ~ 0
 PCIE_X1_CLK_N
