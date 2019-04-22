@@ -377,7 +377,7 @@ U 1 1 5D19DF15
 P 7900 1900
 F 0 "U8" H 7900 2050 50  0000 L CNN
 F 1 "LTC3633" H 7900 1950 50  0000 L CNN
-F 2 "Package_DFN_QFN:QFN-28-1EP_4x5mm_P0.5mm_EP2.65x3.65mm_ThermalVias" H 7800 1950 50  0001 C CNN
+F 2 "pimouss-motherboard:QFN-28-1EP_4x5mm_P0.5mm_EP2.65x3.65mm_ThermalVias" H 7800 1950 50  0001 C CNN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/3633fd.pdf" H 7900 2050 50  0001 C CNN
 	1    7900 1900
 	1    0    0    -1  
