@@ -72,6 +72,11 @@ D 4-Port 4-Lane PCIe Switch
 K pcie switch
 $ENDCMP
 #
+$CMP RJSAE-5x8
+D 4 Port 2x2 stacked RJ45 jack
+F https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/rjsaex38x04x.pdf
+$ENDCMP
+#
 $CMP TMS-105-57-GD
 D Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers)
 K connector
