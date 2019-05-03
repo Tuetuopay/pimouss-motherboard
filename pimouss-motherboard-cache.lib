@@ -973,6 +973,20 @@ X GND 95 1900 -400 100 U 25 50 4 1 W
 ENDDRAW
 ENDDEF
 #
+# pimouss-motherboard_Pimouss
+#
+DEF pimouss-motherboard_Pimouss SoM 0 40 Y Y 1 F N
+F0 "SoM" 0 150 50 H V L CNN
+F1 "pimouss-motherboard_Pimouss" 0 50 50 H V L CNN
+F2 "pimouss-motherboard:Pimouss" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S 0 0 300 -300 0 1 0 f
+X SHLD 1 100 -400 100 U 25 50 1 1 P
+X SHLD 2 200 -400 100 U 25 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # pimouss-motherboard_QSH-060-01-L-D-A
 #
 DEF pimouss-motherboard_QSH-060-01-L-D-A P 0 40 Y N 3 L N

@@ -1466,4 +1466,15 @@ Connection ~ 3000 1800
 Wire Wire Line
 	3000 1800 3400 1800
 Connection ~ 7100 4400
+$Comp
+L pimouss-motherboard:Pimouss SoM1
+U 1 1 5DBDBE10
+P 2450 5700
+F 0 "SoM1" H 2778 5538 50  0000 L CNN
+F 1 "Pimouss" H 2778 5447 50  0000 L CNN
+F 2 "pimouss-motherboard:Pimouss" H 2450 5700 50  0001 C CNN
+F 3 "" H 2450 5700 50  0001 C CNN
+	1    2450 5700
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
