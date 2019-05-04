@@ -902,91 +902,9 @@ Text Label 1750 4800 2    50   ~ 0
 VDDC
 Text Label 1750 5900 2    50   ~ 0
 VDDCAUX
-$Comp
-L Device:C_Small C17
-U 1 1 5D745604
-P 1400 7200
-F 0 "C17" H 1309 7246 50  0000 R CNN
-F 1 "1u" H 1309 7155 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 1400 7200 50  0001 C CNN
-F 3 "~" H 1400 7200 50  0001 C CNN
-	1    1400 7200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C14
-U 1 1 5D74560B
-P 900 7200
-F 0 "C14" H 809 7246 50  0000 R CNN
-F 1 "1u" H 809 7155 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 900 7200 50  0001 C CNN
-F 3 "~" H 900 7200 50  0001 C CNN
-	1    900  7200
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	1300 7000 1400 7000
-Wire Wire Line
-	1400 7100 1400 7000
-Connection ~ 1400 7000
-Wire Wire Line
-	1400 7000 1750 7000
-Wire Wire Line
-	900  7100 900  7000
-Wire Wire Line
-	900  7000 1000 7000
-$Comp
-L Device:L L3
-U 1 1 5D745618
-P 1150 7000
-F 0 "L3" V 1340 7000 50  0000 C CNN
-F 1 "600@100M" V 1249 7000 50  0000 C CNN
-F 2 "Inductor_SMD:L_0603_1608Metric" H 1150 7000 50  0001 C CNN
-F 3 "~" H 1150 7000 50  0001 C CNN
-	1    1150 7000
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:GND #PWR039
-U 1 1 5D74561F
-P 900 7400
-F 0 "#PWR039" H 900 7150 50  0001 C CNN
-F 1 "GND" H 905 7227 50  0000 C CNN
-F 2 "" H 900 7400 50  0001 C CNN
-F 3 "" H 900 7400 50  0001 C CNN
-	1    900  7400
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR042
-U 1 1 5D745625
-P 1400 7400
-F 0 "#PWR042" H 1400 7150 50  0001 C CNN
-F 1 "GND" H 1405 7227 50  0000 C CNN
-F 2 "" H 1400 7400 50  0001 C CNN
-F 3 "" H 1400 7400 50  0001 C CNN
-	1    1400 7400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	900  7300 900  7400
-Wire Wire Line
-	1400 7300 1400 7400
-$Comp
-L power:+1V0 #PWR038
-U 1 1 5D74562D
-P 900 6800
-F 0 "#PWR038" H 900 6650 50  0001 C CNN
-F 1 "+1V0" H 915 6973 50  0000 C CNN
-F 2 "" H 900 6800 50  0001 C CNN
-F 3 "" H 900 6800 50  0001 C CNN
-	1    900  6800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	900  7000 900  6800
-Connection ~ 900  7000
-Text Label 1750 7000 2    50   ~ 0
+	1400 5800 1750 5800
+Text Label 1750 5800 2    50   ~ 0
 AVDD
 $Comp
 L Device:C_Small C23
@@ -1016,7 +934,7 @@ Wire Wire Line
 	2700 4900 2700 4800
 Connection ~ 2700 4800
 Wire Wire Line
-	2700 4800 3050 4800
+	2700 4500 3050 4500
 Wire Wire Line
 	2200 4900 2200 4800
 Wire Wire Line
@@ -1058,160 +976,18 @@ Wire Wire Line
 	2200 5100 2200 5200
 Wire Wire Line
 	2700 5100 2700 5200
-$Comp
-L Device:C_Small C24
-U 1 1 5D797183
-P 2700 6100
-F 0 "C24" H 2609 6146 50  0000 R CNN
-F 1 "1u" H 2609 6055 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 2700 6100 50  0001 C CNN
-F 3 "~" H 2700 6100 50  0001 C CNN
-	1    2700 6100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C21
-U 1 1 5D79718A
-P 2200 6100
-F 0 "C21" H 2109 6146 50  0000 R CNN
-F 1 "1u" H 2109 6055 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 2200 6100 50  0001 C CNN
-F 3 "~" H 2200 6100 50  0001 C CNN
-	1    2200 6100
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	2600 5900 2700 5900
-Wire Wire Line
-	2700 6000 2700 5900
-Connection ~ 2700 5900
-Wire Wire Line
-	2700 5900 3050 5900
-Wire Wire Line
-	2200 6000 2200 5900
-Wire Wire Line
-	2200 5900 2300 5900
-$Comp
-L Device:L L5
-U 1 1 5D797197
-P 2450 5900
-F 0 "L5" V 2640 5900 50  0000 C CNN
-F 1 "600@100M" V 2549 5900 50  0000 C CNN
-F 2 "Inductor_SMD:L_0603_1608Metric" H 2450 5900 50  0001 C CNN
-F 3 "~" H 2450 5900 50  0001 C CNN
-	1    2450 5900
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:GND #PWR048
-U 1 1 5D79719E
-P 2200 6300
-F 0 "#PWR048" H 2200 6050 50  0001 C CNN
-F 1 "GND" H 2205 6127 50  0000 C CNN
-F 2 "" H 2200 6300 50  0001 C CNN
-F 3 "" H 2200 6300 50  0001 C CNN
-	1    2200 6300
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR052
-U 1 1 5D7971A4
-P 2700 6300
-F 0 "#PWR052" H 2700 6050 50  0001 C CNN
-F 1 "GND" H 2705 6127 50  0000 C CNN
-F 2 "" H 2700 6300 50  0001 C CNN
-F 3 "" H 2700 6300 50  0001 C CNN
-	1    2700 6300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2200 6200 2200 6300
-Wire Wire Line
-	2700 6200 2700 6300
+	2700 4600 3050 4600
 Wire Wire Line
 	2200 4600 2200 4800
 Connection ~ 2200 4800
-Wire Wire Line
-	2200 5900 2200 5700
-Connection ~ 2200 5900
-Text Label 3050 4800 2    50   ~ 0
+Text Label 3050 4500 2    50   ~ 0
 VDDR
-Text Label 3050 5900 2    50   ~ 0
+Text Label 3050 4600 2    50   ~ 0
 CVDDR
-$Comp
-L Device:C_Small C25
-U 1 1 5D7971BE
-P 2700 7200
-F 0 "C25" H 2609 7246 50  0000 R CNN
-F 1 "1u" H 2609 7155 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 2700 7200 50  0001 C CNN
-F 3 "~" H 2700 7200 50  0001 C CNN
-	1    2700 7200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C22
-U 1 1 5D7971C5
-P 2200 7200
-F 0 "C22" H 2109 7246 50  0000 R CNN
-F 1 "1u" H 2109 7155 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 2200 7200 50  0001 C CNN
-F 3 "~" H 2200 7200 50  0001 C CNN
-	1    2200 7200
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	2600 7000 2700 7000
-Wire Wire Line
-	2700 7100 2700 7000
-Connection ~ 2700 7000
-Wire Wire Line
-	2700 7000 3050 7000
-Wire Wire Line
-	2200 7100 2200 7000
-Wire Wire Line
-	2200 7000 2300 7000
-$Comp
-L Device:L L6
-U 1 1 5D7971D2
-P 2450 7000
-F 0 "L6" V 2640 7000 50  0000 C CNN
-F 1 "600@100M" V 2549 7000 50  0000 C CNN
-F 2 "Inductor_SMD:L_0603_1608Metric" H 2450 7000 50  0001 C CNN
-F 3 "~" H 2450 7000 50  0001 C CNN
-	1    2450 7000
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:GND #PWR050
-U 1 1 5D7971D9
-P 2200 7400
-F 0 "#PWR050" H 2200 7150 50  0001 C CNN
-F 1 "GND" H 2205 7227 50  0000 C CNN
-F 2 "" H 2200 7400 50  0001 C CNN
-F 3 "" H 2200 7400 50  0001 C CNN
-	1    2200 7400
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR053
-U 1 1 5D7971DF
-P 2700 7400
-F 0 "#PWR053" H 2700 7150 50  0001 C CNN
-F 1 "GND" H 2705 7227 50  0000 C CNN
-F 2 "" H 2700 7400 50  0001 C CNN
-F 3 "" H 2700 7400 50  0001 C CNN
-	1    2700 7400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2200 7300 2200 7400
-Wire Wire Line
-	2700 7300 2700 7400
-Wire Wire Line
-	2200 7000 2200 6800
-Connection ~ 2200 7000
-Text Label 3050 7000 2    50   ~ 0
+	2700 4800 3050 4800
+Text Label 3050 4800 2    50   ~ 0
 AVDDH
 $Comp
 L power:+3V3 #PWR045
@@ -1224,33 +1000,9 @@ F 3 "" H 2200 4600 50  0001 C CNN
 	1    2200 4600
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:+3V3 #PWR047
-U 1 1 5D7B2C55
-P 2200 5700
-F 0 "#PWR047" H 2200 5550 50  0001 C CNN
-F 1 "+3V3" H 2215 5873 50  0000 C CNN
-F 2 "" H 2200 5700 50  0001 C CNN
-F 3 "" H 2200 5700 50  0001 C CNN
-	1    2200 5700
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3V3 #PWR049
-U 1 1 5D7B2CA0
-P 2200 6800
-F 0 "#PWR049" H 2200 6650 50  0001 C CNN
-F 1 "+3V3" H 2215 6973 50  0000 C CNN
-F 2 "" H 2200 6800 50  0001 C CNN
-F 3 "" H 2200 6800 50  0001 C CNN
-	1    2200 6800
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	2700 7000 2700 6900
-Wire Wire Line
-	2700 6900 3050 6900
-Text Label 3050 6900 2    50   ~ 0
+	2700 4700 3050 4700
+Text Label 3050 4700 2    50   ~ 0
 VAUX
 $Comp
 L Device:C_Small C18
@@ -1655,78 +1407,17 @@ F 3 "" H 1400 4800 50  0001 C CNN
 $EndComp
 $Comp
 L pimouss-motherboard:DummySupply #DS?
-U 1 1 5E407473
-P 1400 5900
-AR Path="/5D0C4621/5E407473" Ref="#DS?"  Part="1" 
-AR Path="/5D05A5E3/5E407473" Ref="#DS?"  Part="1" 
-AR Path="/5E407473" Ref="#DS?"  Part="1" 
-AR Path="/5C91A44F/5D5418D5/5E407473" Ref="#DS06"  Part="1" 
-F 0 "#DS06" H 1400 5900 50  0001 C CNN
-F 1 "DummySupply" H 1400 5900 50  0001 C CNN
-F 2 "" H 1400 5900 50  0001 C CNN
-F 3 "" H 1400 5900 50  0001 C CNN
-	1    1400 5900
-	1    0    0    -1  
-$EndComp
-$Comp
-L pimouss-motherboard:DummySupply #DS?
-U 1 1 5E407C3E
-P 1400 7000
-AR Path="/5D0C4621/5E407C3E" Ref="#DS?"  Part="1" 
-AR Path="/5D05A5E3/5E407C3E" Ref="#DS?"  Part="1" 
-AR Path="/5E407C3E" Ref="#DS?"  Part="1" 
-AR Path="/5C91A44F/5D5418D5/5E407C3E" Ref="#DS07"  Part="1" 
-F 0 "#DS07" H 1400 7000 50  0001 C CNN
-F 1 "DummySupply" H 1400 7000 50  0001 C CNN
-F 2 "" H 1400 7000 50  0001 C CNN
-F 3 "" H 1400 7000 50  0001 C CNN
-	1    1400 7000
-	1    0    0    -1  
-$EndComp
-$Comp
-L pimouss-motherboard:DummySupply #DS?
-U 1 1 5E40880E
-P 2700 6900
-AR Path="/5D0C4621/5E40880E" Ref="#DS?"  Part="1" 
-AR Path="/5D05A5E3/5E40880E" Ref="#DS?"  Part="1" 
-AR Path="/5E40880E" Ref="#DS?"  Part="1" 
-AR Path="/5C91A44F/5D5418D5/5E40880E" Ref="#DS010"  Part="1" 
-F 0 "#DS010" H 2700 6900 50  0001 C CNN
-F 1 "DummySupply" H 2700 6900 50  0001 C CNN
-F 2 "" H 2700 6900 50  0001 C CNN
-F 3 "" H 2700 6900 50  0001 C CNN
-	1    2700 6900
-	1    0    0    -1  
-$EndComp
-Connection ~ 2700 6900
-$Comp
-L pimouss-motherboard:DummySupply #DS?
-U 1 1 5E40910D
-P 2700 5900
-AR Path="/5D0C4621/5E40910D" Ref="#DS?"  Part="1" 
-AR Path="/5D05A5E3/5E40910D" Ref="#DS?"  Part="1" 
-AR Path="/5E40910D" Ref="#DS?"  Part="1" 
-AR Path="/5C91A44F/5D5418D5/5E40910D" Ref="#DS09"  Part="1" 
-F 0 "#DS09" H 2700 5900 50  0001 C CNN
-F 1 "DummySupply" H 2700 5900 50  0001 C CNN
-F 2 "" H 2700 5900 50  0001 C CNN
-F 3 "" H 2700 5900 50  0001 C CNN
-	1    2700 5900
-	1    0    0    -1  
-$EndComp
-$Comp
-L pimouss-motherboard:DummySupply #DS?
 U 1 1 5E409AA0
-P 2700 4800
+P 2700 4500
 AR Path="/5D0C4621/5E409AA0" Ref="#DS?"  Part="1" 
 AR Path="/5D05A5E3/5E409AA0" Ref="#DS?"  Part="1" 
 AR Path="/5E409AA0" Ref="#DS?"  Part="1" 
 AR Path="/5C91A44F/5D5418D5/5E409AA0" Ref="#DS08"  Part="1" 
-F 0 "#DS08" H 2700 4800 50  0001 C CNN
-F 1 "DummySupply" H 2700 4800 50  0001 C CNN
-F 2 "" H 2700 4800 50  0001 C CNN
-F 3 "" H 2700 4800 50  0001 C CNN
-	1    2700 4800
+F 0 "#DS08" H 2700 4500 50  0001 C CNN
+F 1 "DummySupply" H 2700 4500 50  0001 C CNN
+F 2 "" H 2700 4500 50  0001 C CNN
+F 3 "" H 2700 4500 50  0001 C CNN
+	1    2700 4500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -2553,4 +2244,31 @@ Wire Wire Line
 	9750 5700 9750 5650
 Text Label 8750 5350 0    50   ~ 0
 AVDD
+$Comp
+L pimouss-motherboard:DummySupply #DS?
+U 1 1 5E407473
+P 1400 5800
+AR Path="/5D0C4621/5E407473" Ref="#DS?"  Part="1" 
+AR Path="/5D05A5E3/5E407473" Ref="#DS?"  Part="1" 
+AR Path="/5E407473" Ref="#DS?"  Part="1" 
+AR Path="/5C91A44F/5D5418D5/5E407473" Ref="#DS06"  Part="1" 
+F 0 "#DS06" H 1400 5800 50  0001 C CNN
+F 1 "DummySupply" H 1400 5800 50  0001 C CNN
+F 2 "" H 1400 5800 50  0001 C CNN
+F 3 "" H 1400 5800 50  0001 C CNN
+	1    1400 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1400 5900 1400 5800
+Connection ~ 1400 5800
+Wire Wire Line
+	2700 4500 2700 4600
+Connection ~ 2700 4500
+Wire Wire Line
+	2700 4700 2700 4600
+Connection ~ 2700 4600
+Wire Wire Line
+	2700 4700 2700 4800
+Connection ~ 2700 4700
 $EndSCHEMATC

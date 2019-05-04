@@ -978,30 +978,6 @@ Wire Wire Line
 	3100 6800 3100 6900
 Connection ~ 3100 6900
 $Comp
-L pimouss-motherboard:DMP2040USS Q1
-U 1 1 5D2E0A7B
-P 3700 6800
-F 0 "Q1" V 4043 6800 50  0000 C CNN
-F 1 "DMP2040USS" V 3952 6800 50  0000 C CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 3900 6900 50  0001 C CNN
-F 3 "https://www.diodes.com/assets/Datasheets/DMP2040USS.pdf" H 3700 6800 50  0001 C CNN
-	1    3700 6800
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:GND #PWR0160
-U 1 1 5D2EFEF0
-P 3700 7100
-F 0 "#PWR0160" H 3700 6850 50  0001 C CNN
-F 1 "GND" H 3705 6927 50  0000 C CNN
-F 2 "" H 3700 7100 50  0001 C CNN
-F 3 "" H 3700 7100 50  0001 C CNN
-	1    3700 7100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3700 7000 3700 7100
-$Comp
 L Device:CP_Small C103
 U 1 1 5D306FC4
 P 4200 6900
@@ -1440,8 +1416,6 @@ Wire Wire Line
 	9400 2800 9900 2800
 Wire Wire Line
 	7300 2800 7800 2800
-Wire Wire Line
-	3900 6700 4050 6700
 $Comp
 L pimouss-motherboard:DummySupply #DS?
 U 1 1 5DE84E2B
@@ -1455,11 +1429,8 @@ F 3 "" H 4050 6700 50  0001 C CNN
 	1    4050 6700
 	1    0    0    -1  
 $EndComp
-Connection ~ 4050 6700
 Wire Wire Line
 	4050 6700 4200 6700
-Wire Wire Line
-	3000 6700 3500 6700
 Connection ~ 3100 6800
 $Comp
 L Device:C_Small C151
@@ -1527,4 +1498,7 @@ F 3 "" H 7200 2000 50  0001 C CNN
 	1    7200 2000
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	3000 6700 4050 6700
+Connection ~ 4050 6700
 $EndSCHEMATC
