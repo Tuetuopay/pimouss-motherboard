@@ -101,13 +101,13 @@ TX_O1_P
 Text HLabel 6200 1800 2    50   Output ~ 0
 TX_O1_N
 Text HLabel 6200 1900 2    50   Output ~ 0
-CLK_O1_P
+CLK_O2_P
 Text HLabel 6200 2000 2    50   Output ~ 0
-CLK_O1_N
+CLK_O2_N
 Text Label 5150 1900 2    50   ~ 0
-CLK_O1_P
+CLK_O2_P
 Text Label 5150 2000 2    50   ~ 0
-CLK_O1_N
+CLK_O2_N
 Wire Wire Line
 	6200 2100 3800 2100
 Text HLabel 6200 2100 2    50   Output ~ 0
@@ -139,13 +139,11 @@ TX_O2_P
 Text HLabel 5450 2600 2    50   Output ~ 0
 TX_O2_N
 Text HLabel 5450 2700 2    50   Output ~ 0
-CLK_O2_P
+CLK_O1_P
 Text HLabel 5450 2800 2    50   Output ~ 0
-CLK_O2_N
+CLK_O1_N
 Text Label 5150 2700 2    50   ~ 0
-CLK_O2_P
-Text Label 5150 2800 2    50   ~ 0
-CLK_O2_N
+CLK_O1_P
 Wire Wire Line
 	5450 2900 3800 2900
 Text HLabel 5450 2900 2    50   Output ~ 0
@@ -1056,28 +1054,6 @@ Wire Wire Line
 	4350 2500 3800 2500
 Wire Wire Line
 	3800 2600 4350 2600
-$Comp
-L Device:R_Small R22
-U 1 1 5D930A7A
-P 5250 3200
-F 0 "R22" V 5150 3250 50  0000 L CNN
-F 1 "49r9" V 5150 3200 50  0000 R CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 5250 3200 50  0001 C CNN
-F 3 "~" H 5250 3200 50  0001 C CNN
-	1    5250 3200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small R23
-U 1 1 5D9310A8
-P 5350 3200
-F 0 "R23" V 5250 3250 50  0000 L CNN
-F 1 "49r9" V 5250 3200 50  0000 R CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 5350 3200 50  0001 C CNN
-F 3 "~" H 5350 3200 50  0001 C CNN
-	1    5350 3200
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	5250 3100 5250 2800
 Wire Wire Line
@@ -1103,28 +1079,6 @@ F 2 "" H 5300 3500 50  0001 C CNN
 F 3 "" H 5300 3500 50  0001 C CNN
 	1    5300 3500
 	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small R24
-U 1 1 5D99029B
-P 6000 2400
-F 0 "R24" V 5950 2500 50  0000 L CNN
-F 1 "49r9" V 5950 2300 50  0000 R CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 6000 2400 50  0001 C CNN
-F 3 "~" H 6000 2400 50  0001 C CNN
-	1    6000 2400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small R25
-U 1 1 5D9902A2
-P 6100 2400
-F 0 "R25" V 6050 2500 50  0000 L CNN
-F 1 "49r9" V 6050 2300 50  0000 R CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 6100 2400 50  0001 C CNN
-F 3 "~" H 6100 2400 50  0001 C CNN
-	1    6100 2400
-	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	6000 2300 6000 2000
@@ -2271,4 +2225,52 @@ Connection ~ 2700 4600
 Wire Wire Line
 	2700 4700 2700 4800
 Connection ~ 2700 4700
+$Comp
+L Device:R_Small R23
+U 1 1 5D9310A8
+P 5350 3200
+F 0 "R23" V 5250 3250 50  0000 L CNN
+F 1 "49r9" V 5250 3200 50  0000 R CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 5350 3200 50  0001 C CNN
+F 3 "~" H 5350 3200 50  0001 C CNN
+	1    5350 3200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R22
+U 1 1 5D930A7A
+P 5250 3200
+F 0 "R22" V 5150 3250 50  0000 L CNN
+F 1 "49r9" V 5150 3200 50  0000 R CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 5250 3200 50  0001 C CNN
+F 3 "~" H 5250 3200 50  0001 C CNN
+	1    5250 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R25
+U 1 1 5D9902A2
+P 6100 2400
+F 0 "R25" V 6050 2500 50  0000 L CNN
+F 1 "49r9" V 6050 2300 50  0000 R CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 6100 2400 50  0001 C CNN
+F 3 "~" H 6100 2400 50  0001 C CNN
+	1    6100 2400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R24
+U 1 1 5D99029B
+P 6000 2400
+F 0 "R24" V 5950 2500 50  0000 L CNN
+F 1 "49r9" V 5950 2300 50  0000 R CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 6000 2400 50  0001 C CNN
+F 3 "~" H 6000 2400 50  0001 C CNN
+	1    6000 2400
+	1    0    0    -1  
+$EndComp
+Text Label 5150 2800 2    50   ~ 0
+CLK_O1_N
+Text Notes 5150 1300 0    50   ~ 0
+For routing reasons, REFCLKO_1\nand REFCLKO_2 are swapped
 $EndSCHEMATC

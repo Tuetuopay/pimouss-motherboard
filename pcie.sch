@@ -384,25 +384,17 @@ F9 "SMBUS_DAT" B R 5050 4500 50
 F10 "nRST" I R 5050 4900 50 
 $EndSheet
 Wire Wire Line
-	3400 3300 4150 3300
+	3400 3400 4000 3400
 Wire Wire Line
-	3400 3400 4150 3400
-Wire Wire Line
-	3400 3500 4150 3500
-Wire Wire Line
-	3400 3600 4150 3600
+	3400 3600 4000 3600
 Wire Wire Line
 	3400 3700 4150 3700
 Wire Wire Line
 	3400 3800 4150 3800
 Wire Wire Line
-	3400 4400 4150 4400
+	3400 4500 4000 4500
 Wire Wire Line
-	3400 4500 4150 4500
-Wire Wire Line
-	3400 4600 4150 4600
-Wire Wire Line
-	3400 4700 4150 4700
+	3400 4700 4000 4700
 Wire Wire Line
 	3400 4800 4150 4800
 Wire Wire Line
@@ -701,14 +693,8 @@ Text Label 2200 1200 2    50   ~ 0
 SMB_CLK
 Text Label 2200 1300 2    50   ~ 0
 SMB_DATA
-Text Label 3950 3500 2    50   ~ 0
-RX_O1_P
 Text Label 3950 3600 2    50   ~ 0
 RX_O1_N
-Text Label 3950 3300 2    50   ~ 0
-TX_O1_P
-Text Label 3950 3400 2    50   ~ 0
-TX_O1_N
 Text Label 3950 3700 2    50   ~ 0
 CLK_O1_P
 Text Label 3950 3800 2    50   ~ 0
@@ -725,4 +711,66 @@ Text Label 3950 4800 2    50   ~ 0
 CLK_O2_P
 Text Label 3950 4900 2    50   ~ 0
 CLK_O2_N
+Text Label 3950 3500 2    50   ~ 0
+RX_O1_P
+Text Label 3950 3400 2    50   ~ 0
+TX_O1_N
+Text Label 3950 3300 2    50   ~ 0
+TX_O1_P
+Wire Wire Line
+	4050 3300 4050 3400
+Wire Wire Line
+	4050 3400 4150 3400
+Wire Wire Line
+	3400 3300 4050 3300
+Wire Wire Line
+	4000 3400 4000 3350
+Wire Wire Line
+	4000 3350 4100 3350
+Wire Wire Line
+	4100 3350 4100 3300
+Wire Wire Line
+	4100 3300 4150 3300
+Wire Wire Line
+	4050 3500 4050 3600
+Wire Wire Line
+	4050 3600 4150 3600
+Wire Wire Line
+	3400 3500 4050 3500
+Wire Wire Line
+	4050 4400 4050 4500
+Wire Wire Line
+	4050 4500 4150 4500
+Wire Wire Line
+	3400 4400 4050 4400
+Wire Wire Line
+	4050 4600 4050 4700
+Wire Wire Line
+	4050 4700 4150 4700
+Wire Wire Line
+	3400 4600 4050 4600
+Wire Wire Line
+	4000 4700 4000 4650
+Wire Wire Line
+	4000 4650 4100 4650
+Wire Wire Line
+	4100 4650 4100 4600
+Wire Wire Line
+	4100 4600 4150 4600
+Wire Wire Line
+	4000 3600 4000 3550
+Wire Wire Line
+	4000 3550 4100 3550
+Wire Wire Line
+	4100 3550 4100 3500
+Wire Wire Line
+	4100 3500 4150 3500
+Wire Wire Line
+	4000 4500 4000 4450
+Wire Wire Line
+	4000 4450 4100 4450
+Wire Wire Line
+	4100 4450 4100 4400
+Wire Wire Line
+	4100 4400 4150 4400
 $EndSCHEMATC
