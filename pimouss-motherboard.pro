@@ -1,4 +1,4 @@
-update=22/04/2019 23:44:05
+update=05/09/19 23:59:06
 version=1
 last_client=kicad
 [general]
@@ -38,12 +38,15 @@ MinViaDrill=0.2
 MinMicroViaDiameter=0.2
 MinMicroViaDrill=0.09999999999999999
 MinHoleToHole=0.25
-TrackWidth1=0.1016
+TrackWidth1=0.1
 TrackWidth2=0.1
 TrackWidth3=0.1016
 TrackWidth4=0.2
 TrackWidth5=0.25
 TrackWidth6=0.3
+TrackWidth7=0.6
+TrackWidth8=0.7
+TrackWidth9=1.4
 ViaDiameter1=0.45
 ViaDrill1=0.2
 ViaDiameter2=0.45
@@ -109,7 +112,7 @@ dPairGap=0.127
 dPairViaGap=0.25
 [pcbnew/Netclasses/3]
 Name=Power
-Clearance=0.127
+Clearance=0.1
 TrackWidth=0.25
 ViaDiameter=0.5
 ViaDrill=0.25
@@ -120,7 +123,7 @@ dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/4]
 Name=Power PCIe sw
-Clearance=0.127
+Clearance=0.1
 TrackWidth=0.2
 ViaDiameter=0.45
 ViaDrill=0.2
