@@ -1,4 +1,4 @@
-update=05/09/19 23:59:06
+update=25/05/2019 12:28:34
 version=1
 last_client=kicad
 [general]
@@ -90,14 +90,14 @@ Type=1
 [pcbnew/Netclasses]
 [pcbnew/Netclasses/1]
 Name=100r differential
-Clearance=0.127
-TrackWidth=0.1016
+Clearance=0.1
+TrackWidth=0.09
 ViaDiameter=0.45
 ViaDrill=0.2
 uViaDiameter=0.3
 uViaDrill=0.1
-dPairWidth=0.1016
-dPairGap=0.127
+dPairWidth=0.09
+dPairGap=0.1
 dPairViaGap=0.25
 [pcbnew/Netclasses/2]
 Name=90r differential
