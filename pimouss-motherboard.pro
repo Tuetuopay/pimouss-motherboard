@@ -1,4 +1,4 @@
-update=25/05/2019 12:28:34
+update=01/06/2019 23:01:24
 version=1
 last_client=kicad
 [general]
@@ -101,14 +101,14 @@ dPairGap=0.1
 dPairViaGap=0.25
 [pcbnew/Netclasses/2]
 Name=90r differential
-Clearance=0.127
-TrackWidth=0.1313
+Clearance=0.1
+TrackWidth=0.117
 ViaDiameter=0.45
 ViaDrill=0.2
 uViaDiameter=0.3
 uViaDrill=0.1
-dPairWidth=0.1313
-dPairGap=0.127
+dPairWidth=0.117
+dPairGap=0.1
 dPairViaGap=0.25
 [pcbnew/Netclasses/3]
 Name=Power

@@ -33,7 +33,7 @@ U 1 1 5D2790CD
 P 6400 3500
 F 0 "U3" H 6400 2350 50  0000 L CNN
 F 1 "CH340C" H 7400 2350 50  0000 R CNN
-F 2 "Package_SO:SSOP-20_5.3x7.2mm_P0.65mm" H 7300 1950 50  0001 C CNN
+F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 7300 1950 50  0001 C CNN
 F 3 "https://cdn.sparkfun.com/datasheets/Dev/Arduino/Other/CH340DS1.PDF" H 6400 3650 50  0001 C CNN
 	1    6400 3500
 	1    0    0    -1  
