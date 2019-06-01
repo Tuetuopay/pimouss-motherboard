@@ -1023,7 +1023,7 @@ U 1 1 5CE43F9B
 P 5450 4950
 F 0 "U7" H 5750 5100 50  0000 C CNN
 F 1 "TPS74401_VQFN" H 5750 5000 50  0000 C CNN
-F 2 "Package_DFN_QFN:Texas_S-PVQFN-N20_EP3.15x3.15mm_ThermalVias" H 6250 4350 50  0001 C CNN
+F 2 "pimouss-motherboard:Texas_S-PVQFN-N20_EP3.15x3.15mm_ThermalVias" H 6250 4350 50  0001 C CNN
 F 3 "http://www.ti.com/general/docs/lit/getliterature.tsp?genericPartNumber=tps74401&fileType=pdf" H 5450 5450 50  0001 C CNN
 	1    5450 4950
 	1    0    0    -1  
