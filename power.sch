@@ -1002,21 +1002,21 @@ $EndComp
 $Comp
 L power:+12V #PWR0161
 U 1 1 5D3076B1
-P 4200 6600
-F 0 "#PWR0161" H 4200 6450 50  0001 C CNN
-F 1 "+12V" H 4215 6773 50  0000 C CNN
-F 2 "" H 4200 6600 50  0001 C CNN
-F 3 "" H 4200 6600 50  0001 C CNN
-	1    4200 6600
+P 6200 6600
+F 0 "#PWR0161" H 6200 6450 50  0001 C CNN
+F 1 "+12V" H 6215 6773 50  0000 C CNN
+F 2 "" H 6200 6600 50  0001 C CNN
+F 3 "" H 6200 6600 50  0001 C CNN
+	1    6200 6600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4200 6700 4200 6600
+	6200 6700 6200 6600
 Wire Wire Line
 	4200 6700 4200 6800
 Connection ~ 4200 6700
 Wire Wire Line
-	4200 7000 4200 7100
+	4200 7000 4200 7050
 $Comp
 L pimouss-motherboard:TPS74401_VQFN U7
 U 1 1 5CE43F9B
@@ -1419,18 +1419,16 @@ Wire Wire Line
 $Comp
 L pimouss-motherboard:DummySupply #DS?
 U 1 1 5DE84E2B
-P 4050 6700
+P 4200 6700
 AR Path="/5DE84E2B" Ref="#DS?"  Part="1" 
 AR Path="/5D0C4621/5DE84E2B" Ref="#DS018"  Part="1" 
-F 0 "#DS018" H 4050 6700 50  0001 C CNN
-F 1 "DummySupply" H 4050 6700 50  0001 C CNN
-F 2 "" H 4050 6700 50  0001 C CNN
-F 3 "" H 4050 6700 50  0001 C CNN
-	1    4050 6700
+F 0 "#DS018" H 4200 6700 50  0001 C CNN
+F 1 "DummySupply" H 4200 6700 50  0001 C CNN
+F 2 "" H 4200 6700 50  0001 C CNN
+F 3 "" H 4200 6700 50  0001 C CNN
+	1    4200 6700
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4050 6700 4200 6700
 Connection ~ 3100 6800
 $Comp
 L Device:C_Small C151
@@ -1498,7 +1496,115 @@ F 3 "" H 7200 2000 50  0001 C CNN
 	1    7200 2000
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:C_Small C14
+U 1 1 5D08FF87
+P 4600 6900
+F 0 "C14" H 4692 6946 50  0000 L CNN
+F 1 "100u" H 4692 6855 50  0000 L CNN
+F 2 "Capacitor_SMD:C_2220_5650Metric" H 4600 6900 50  0001 C CNN
+F 3 "~" H 4600 6900 50  0001 C CNN
+	1    4600 6900
+	1    0    0    -1  
+$EndComp
+Text Notes 4500 6600 0    50   ~ 0
+Extra decoupling caps in case the\nelectrolytic is not enough
+$Comp
+L Device:C_Small C17
+U 1 1 5D0934B1
+P 5000 6900
+F 0 "C17" H 5092 6946 50  0000 L CNN
+F 1 "100u" H 5092 6855 50  0000 L CNN
+F 2 "Capacitor_SMD:C_2220_5650Metric" H 5000 6900 50  0001 C CNN
+F 3 "~" H 5000 6900 50  0001 C CNN
+	1    5000 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C21
+U 1 1 5D093DB2
+P 5400 6900
+F 0 "C21" H 5492 6946 50  0000 L CNN
+F 1 "100u" H 5492 6855 50  0000 L CNN
+F 2 "Capacitor_SMD:C_2220_5650Metric" H 5400 6900 50  0001 C CNN
+F 3 "~" H 5400 6900 50  0001 C CNN
+	1    5400 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C22
+U 1 1 5D09430E
+P 5800 6900
+F 0 "C22" H 5892 6946 50  0000 L CNN
+F 1 "100u" H 5892 6855 50  0000 L CNN
+F 2 "Capacitor_SMD:C_2220_5650Metric" H 5800 6900 50  0001 C CNN
+F 3 "~" H 5800 6900 50  0001 C CNN
+	1    5800 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C24
+U 1 1 5D094AB5
+P 6200 6900
+F 0 "C24" H 6292 6946 50  0000 L CNN
+F 1 "100u" H 6292 6855 50  0000 L CNN
+F 2 "Capacitor_SMD:C_2220_5650Metric" H 6200 6900 50  0001 C CNN
+F 3 "~" H 6200 6900 50  0001 C CNN
+	1    6200 6900
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	3000 6700 4050 6700
-Connection ~ 4050 6700
+	4200 6700 4600 6700
+Wire Wire Line
+	6200 6700 6200 6800
+Wire Wire Line
+	4600 6800 4600 6700
+Connection ~ 4600 6700
+Wire Wire Line
+	4600 6700 5000 6700
+Wire Wire Line
+	5000 6800 5000 6700
+Connection ~ 5000 6700
+Wire Wire Line
+	5000 6700 5400 6700
+Wire Wire Line
+	5400 6800 5400 6700
+Connection ~ 5400 6700
+Wire Wire Line
+	5400 6700 5800 6700
+Wire Wire Line
+	5800 6800 5800 6700
+Connection ~ 5800 6700
+Wire Wire Line
+	5800 6700 6200 6700
+Wire Wire Line
+	4200 7050 4600 7050
+Wire Wire Line
+	6200 7050 6200 7000
+Connection ~ 4200 7050
+Wire Wire Line
+	4200 7050 4200 7100
+Wire Wire Line
+	4600 7000 4600 7050
+Connection ~ 4600 7050
+Wire Wire Line
+	4600 7050 5000 7050
+Wire Wire Line
+	5000 7000 5000 7050
+Connection ~ 5000 7050
+Wire Wire Line
+	5000 7050 5400 7050
+Wire Wire Line
+	5400 7000 5400 7050
+Connection ~ 5400 7050
+Wire Wire Line
+	5400 7050 5800 7050
+Wire Wire Line
+	5800 7000 5800 7050
+Connection ~ 5800 7050
+Wire Wire Line
+	5800 7050 6200 7050
+Connection ~ 6200 6700
+Wire Wire Line
+	3000 6700 4200 6700
 $EndSCHEMATC
