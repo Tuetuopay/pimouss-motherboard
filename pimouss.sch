@@ -819,12 +819,12 @@ $EndComp
 $Comp
 L power:GND #PWR025
 U 1 1 5DAB4CAB
-P 10350 2550
-F 0 "#PWR025" H 10350 2300 50  0001 C CNN
-F 1 "GND" H 10355 2377 50  0000 C CNN
-F 2 "" H 10350 2550 50  0001 C CNN
-F 3 "" H 10350 2550 50  0001 C CNN
-	1    10350 2550
+P 10350 2650
+F 0 "#PWR025" H 10350 2400 50  0001 C CNN
+F 1 "GND" H 10355 2477 50  0000 C CNN
+F 2 "" H 10350 2650 50  0001 C CNN
+F 3 "" H 10350 2650 50  0001 C CNN
+	1    10350 2650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -863,8 +863,6 @@ Wire Wire Line
 Wire Wire Line
 	10150 2450 10350 2450
 Connection ~ 10350 2450
-Wire Wire Line
-	10350 2450 10350 2550
 Text Notes 10400 2950 2    50   ~ 0
 Pimouss SoM power connector
 Text Notes 4200 6850 0    50   ~ 0
@@ -1477,4 +1475,16 @@ F 3 "" H 2450 5700 50  0001 C CNN
 	1    2450 5700
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	10350 2450 10350 2550
+Wire Wire Line
+	10150 2550 10350 2550
+Connection ~ 10350 2550
+Wire Wire Line
+	10350 2550 10350 2650
+Wire Wire Line
+	9650 2550 9450 2550
+Wire Wire Line
+	9450 2550 9450 2450
+Connection ~ 9450 2450
 $EndSCHEMATC
