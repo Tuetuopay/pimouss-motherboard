@@ -251,9 +251,9 @@ Wire Wire Line
 	8700 4700 8700 4800
 Connection ~ 8700 4800
 Wire Wire Line
-	7500 3600 8200 3600
+	7500 3600 8100 3600
 Wire Wire Line
-	8200 3700 7500 3700
+	8200 3700 8000 3700
 Text Label 7650 3600 0    50   ~ 0
 TXD
 Text Label 7650 3700 0    50   ~ 0
@@ -407,4 +407,60 @@ F 3 "" H 5200 3150 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Connection ~ 5200 3150
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5D3F5908
+P 8200 3450
+AR Path="/5D05A5E1/5D3F5908" Ref="TP?"  Part="1" 
+AR Path="/5CE77C37/5D3F5908" Ref="TP?"  Part="1" 
+AR Path="/5D2774DB/5D3F5908" Ref="TP18"  Part="1" 
+F 0 "TP18" V 8200 3638 50  0000 L CNN
+F 1 "TestPoint" V 8245 3638 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 8400 3450 50  0001 C CNN
+F 3 "~" H 8400 3450 50  0001 C CNN
+	1    8200 3450
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5D3F64DD
+P 8200 3350
+AR Path="/5D05A5E1/5D3F64DD" Ref="TP?"  Part="1" 
+AR Path="/5CE77C37/5D3F64DD" Ref="TP?"  Part="1" 
+AR Path="/5D2774DB/5D3F64DD" Ref="TP17"  Part="1" 
+F 0 "TP17" V 8200 3538 50  0000 L CNN
+F 1 "TestPoint" V 8245 3538 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 8400 3350 50  0001 C CNN
+F 3 "~" H 8400 3350 50  0001 C CNN
+	1    8200 3350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8200 3450 8100 3450
+Wire Wire Line
+	8100 3450 8100 3600
+Connection ~ 8100 3600
+Wire Wire Line
+	8100 3600 8200 3600
+Wire Wire Line
+	8200 3350 8000 3350
+Wire Wire Line
+	8000 3350 8000 3700
+Connection ~ 8000 3700
+Wire Wire Line
+	8000 3700 7500 3700
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5D3F8607
+P 5200 3150
+AR Path="/5D05A5E1/5D3F8607" Ref="TP?"  Part="1" 
+AR Path="/5CE77C37/5D3F8607" Ref="TP?"  Part="1" 
+AR Path="/5D2774DB/5D3F8607" Ref="TP16"  Part="1" 
+F 0 "TP16" V 5200 3338 50  0000 L CNN
+F 1 "TestPoint" V 5245 3338 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 5400 3150 50  0001 C CNN
+F 3 "~" H 5400 3150 50  0001 C CNN
+	1    5200 3150
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC

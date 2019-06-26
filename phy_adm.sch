@@ -737,4 +737,17 @@ F 3 "" H 3600 5300 50  0001 C CNN
 	1    3600 5300
 	1    0    0    -1  
 $EndComp
+$Comp
+L Connector:TestPoint TP19
+U 1 1 5D405B46
+P 3850 5300
+AR Path="/5D05A5E1/5D405B46" Ref="TP19"  Part="1" 
+AR Path="/5CE77C37/5D405B46" Ref="TP?"  Part="1" 
+F 0 "TP19" V 3850 5488 50  0000 L CNN
+F 1 "TestPoint" V 3895 5488 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 4050 5300 50  0001 C CNN
+F 3 "~" H 4050 5300 50  0001 C CNN
+	1    3850 5300
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

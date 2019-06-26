@@ -773,4 +773,38 @@ Wire Wire Line
 	4100 4450 4100 4400
 Wire Wire Line
 	4100 4400 4150 4400
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5D34022F
+P 5250 3800
+AR Path="/5D05A5E1/5D34022F" Ref="TP?"  Part="1" 
+AR Path="/5CE77C37/5D34022F" Ref="TP?"  Part="1" 
+AR Path="/5C91A44F/5D34022F" Ref="TP11"  Part="1" 
+F 0 "TP11" V 5250 3988 50  0000 L CNN
+F 1 "TestPoint" V 5295 3988 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 5450 3800 50  0001 C CNN
+F 3 "~" H 5450 3800 50  0001 C CNN
+	1    5250 3800
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5D348793
+P 5250 4900
+AR Path="/5D05A5E1/5D348793" Ref="TP?"  Part="1" 
+AR Path="/5CE77C37/5D348793" Ref="TP?"  Part="1" 
+AR Path="/5C91A44F/5D348793" Ref="TP12"  Part="1" 
+F 0 "TP12" V 5250 5088 50  0000 L CNN
+F 1 "TestPoint" V 5295 5088 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 5450 4900 50  0001 C CNN
+F 3 "~" H 5450 4900 50  0001 C CNN
+	1    5250 4900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5150 3800 5250 3800
+Connection ~ 5150 3800
+Wire Wire Line
+	5150 4900 5250 4900
+Connection ~ 5150 4900
 $EndSCHEMATC

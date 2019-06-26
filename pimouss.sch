@@ -421,10 +421,6 @@ PCIE_X4_RX3_P
 Text Label 7550 3200 2    50   ~ 0
 PCIE_X4_RX3_N
 Wire Wire Line
-	3650 2600 2900 2600
-Wire Wire Line
-	3650 2700 2900 2700
-Wire Wire Line
 	3650 2100 2900 2100
 $Comp
 L power:+3V3 #PWR05
@@ -530,14 +526,6 @@ NoConn ~ 6200 1900
 NoConn ~ 6200 2000
 NoConn ~ 6200 2200
 NoConn ~ 6200 2300
-Wire Wire Line
-	7550 1600 6800 1600
-Wire Wire Line
-	7550 1700 6800 1700
-Text Label 7550 1600 2    50   ~ 0
-BSTRAP_L
-Text Label 7550 1700 2    50   ~ 0
-BSTRAP_H
 NoConn ~ 6800 2900
 NoConn ~ 6800 2600
 Wire Wire Line
@@ -1413,9 +1401,9 @@ Text HLabel 3650 4400 2    50   BiDi ~ 0
 SD_D1
 Text HLabel 3650 4500 2    50   BiDi ~ 0
 SD_D0
-Text HLabel 3650 2600 2    50   Output ~ 0
+Text HLabel 3950 2600 2    50   Output ~ 0
 MIIM_MDC
-Text HLabel 3650 2700 2    50   BiDi ~ 0
+Text HLabel 3950 2700 2    50   BiDi ~ 0
 MIIM_MDIO
 Text HLabel 1550 1800 0    50   Output ~ 0
 PCIE_X1_TX_N
@@ -1487,4 +1475,95 @@ Wire Wire Line
 Wire Wire Line
 	9450 2550 9450 2450
 Connection ~ 9450 2450
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5D19D3D1
+P 3950 2400
+AR Path="/5D05A5E1/5D19D3D1" Ref="TP?"  Part="1" 
+AR Path="/5CE77C37/5D19D3D1" Ref="TP7"  Part="1" 
+F 0 "TP7" V 3950 2588 50  0000 L CNN
+F 1 "TestPoint" V 3995 2588 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 4150 2400 50  0001 C CNN
+F 3 "~" H 4150 2400 50  0001 C CNN
+	1    3950 2400
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5D1B314D
+P 3950 2500
+AR Path="/5D05A5E1/5D1B314D" Ref="TP?"  Part="1" 
+AR Path="/5CE77C37/5D1B314D" Ref="TP8"  Part="1" 
+F 0 "TP8" V 3950 2688 50  0000 L CNN
+F 1 "TestPoint" V 3995 2688 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 4150 2500 50  0001 C CNN
+F 3 "~" H 4150 2500 50  0001 C CNN
+	1    3950 2500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2900 2600 3850 2600
+Wire Wire Line
+	2900 2700 3750 2700
+Wire Wire Line
+	3950 2500 3850 2500
+Wire Wire Line
+	3850 2500 3850 2600
+Connection ~ 3850 2600
+Wire Wire Line
+	3850 2600 3950 2600
+Wire Wire Line
+	3950 2400 3750 2400
+Wire Wire Line
+	3750 2400 3750 2700
+Connection ~ 3750 2700
+Wire Wire Line
+	3750 2700 3950 2700
+Text Label 7550 1700 2    50   ~ 0
+BSTRAP_H
+Text Label 7550 1600 2    50   ~ 0
+BSTRAP_L
+Wire Wire Line
+	7550 1600 6800 1600
+Wire Wire Line
+	7550 1700 6800 1700
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5D2A7F76
+P 7550 1600
+AR Path="/5D05A5E1/5D2A7F76" Ref="TP?"  Part="1" 
+AR Path="/5CE77C37/5D2A7F76" Ref="TP9"  Part="1" 
+F 0 "TP9" V 7550 1788 50  0000 L CNN
+F 1 "TestPoint" V 7595 1788 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 7750 1600 50  0001 C CNN
+F 3 "~" H 7750 1600 50  0001 C CNN
+	1    7550 1600
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5D2A76E3
+P 7550 1700
+AR Path="/5D05A5E1/5D2A76E3" Ref="TP?"  Part="1" 
+AR Path="/5CE77C37/5D2A76E3" Ref="TP10"  Part="1" 
+F 0 "TP10" V 7550 1888 50  0000 L CNN
+F 1 "TestPoint" V 7595 1888 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 7750 1700 50  0001 C CNN
+F 3 "~" H 7750 1700 50  0001 C CNN
+	1    7550 1700
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5D3350DF
+P 3650 2200
+AR Path="/5D05A5E1/5D3350DF" Ref="TP?"  Part="1" 
+AR Path="/5CE77C37/5D3350DF" Ref="TP6"  Part="1" 
+F 0 "TP6" V 3650 2388 50  0000 L CNN
+F 1 "TestPoint" V 3695 2388 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 3850 2200 50  0001 C CNN
+F 3 "~" H 3850 2200 50  0001 C CNN
+	1    3650 2200
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC

@@ -2273,4 +2273,46 @@ Text Label 5150 2800 2    50   ~ 0
 CLK_O1_N
 Text Notes 5150 1300 0    50   ~ 0
 For routing reasons, REFCLKO_1\nand REFCLKO_2 are swapped
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5D386A61
+P 1750 5900
+AR Path="/5D05A5E1/5D386A61" Ref="TP?"  Part="1" 
+AR Path="/5CE77C37/5D386A61" Ref="TP?"  Part="1" 
+AR Path="/5C91A44F/5D5418D5/5D386A61" Ref="TP14"  Part="1" 
+F 0 "TP14" V 1750 6088 50  0000 L CNN
+F 1 "TestPoint" V 1795 6088 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 1950 5900 50  0001 C CNN
+F 3 "~" H 1950 5900 50  0001 C CNN
+	1    1750 5900
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5D3AA306
+P 1750 4800
+AR Path="/5D05A5E1/5D3AA306" Ref="TP?"  Part="1" 
+AR Path="/5CE77C37/5D3AA306" Ref="TP?"  Part="1" 
+AR Path="/5C91A44F/5D5418D5/5D3AA306" Ref="TP13"  Part="1" 
+F 0 "TP13" V 1750 4988 50  0000 L CNN
+F 1 "TestPoint" V 1795 4988 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 1950 4800 50  0001 C CNN
+F 3 "~" H 1950 4800 50  0001 C CNN
+	1    1750 4800
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5D3CD98D
+P 3050 4800
+AR Path="/5D05A5E1/5D3CD98D" Ref="TP?"  Part="1" 
+AR Path="/5CE77C37/5D3CD98D" Ref="TP?"  Part="1" 
+AR Path="/5C91A44F/5D5418D5/5D3CD98D" Ref="TP15"  Part="1" 
+F 0 "TP15" V 3050 4988 50  0000 L CNN
+F 1 "TestPoint" V 3095 4988 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 3250 4800 50  0001 C CNN
+F 3 "~" H 3250 4800 50  0001 C CNN
+	1    3050 4800
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
