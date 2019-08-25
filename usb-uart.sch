@@ -252,12 +252,10 @@ Wire Wire Line
 Connection ~ 8700 4800
 Wire Wire Line
 	7500 3600 8100 3600
-Wire Wire Line
-	8200 3700 8000 3700
 Text Label 7650 3600 0    50   ~ 0
-TXD
+TX
 Text Label 7650 3700 0    50   ~ 0
-RXD
+RX
 Wire Wire Line
 	3900 3450 4400 3450
 Wire Wire Line
@@ -391,9 +389,9 @@ F 3 "~" H 8700 4600 50  0001 C CNN
 	1    8700 4600
 	1    0    0    -1  
 $EndComp
-Text HLabel 8200 3600 2    50   Output ~ 0
+Text HLabel 9450 3600 2    50   Output ~ 0
 TXD
-Text HLabel 8200 3700 2    50   Input ~ 0
+Text HLabel 9450 3700 2    50   Input ~ 0
 RXD
 $Comp
 L pimouss-motherboard:DummySupply #DS011
@@ -441,8 +439,6 @@ Wire Wire Line
 	8100 3450 8100 3600
 Connection ~ 8100 3600
 Wire Wire Line
-	8100 3600 8200 3600
-Wire Wire Line
 	8200 3350 8000 3350
 Wire Wire Line
 	8000 3350 8000 3700
@@ -462,5 +458,50 @@ F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 5400 3150 50  0001 C CNN
 F 3 "~" H 5400 3150 50  0001 C CNN
 	1    5200 3150
 	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8700 3700 8700 3950
+Wire Wire Line
+	9250 3950 9250 3700
+Wire Wire Line
+	9250 3700 9450 3700
+Wire Wire Line
+	8000 3700 8700 3700
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5D6A370C
+P 8950 3850
+AR Path="/5D0A0558/5D6A370C" Ref="#PWR?"  Part="1" 
+AR Path="/5D2774DB/5D6A370C" Ref="#PWR0160"  Part="1" 
+F 0 "#PWR0160" H 8950 3700 50  0001 C CNN
+F 1 "+3V3" H 8965 4023 50  0000 C CNN
+F 2 "" H 8950 3850 50  0001 C CNN
+F 3 "" H 8950 3850 50  0001 C CNN
+	1    8950 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0195
+U 1 1 5D6A4790
+P 8950 4050
+F 0 "#PWR0195" H 8950 3800 50  0001 C CNN
+F 1 "GND" H 8955 3877 50  0000 C CNN
+F 2 "" H 8950 4050 50  0001 C CNN
+F 3 "" H 8950 4050 50  0001 C CNN
+	1    8950 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8100 3600 9450 3600
+$Comp
+L 74xGxx:74LVC1G17 U9
+U 1 1 5D6876B8
+P 8950 3950
+F 0 "U9" H 8700 3850 50  0000 R CNN
+F 1 "74LVC1G17" H 8700 3750 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 8950 3950 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 8950 3950 50  0001 C CNN
+	1    8950 3950
+	-1   0    0    -1  
 $EndComp
 $EndSCHEMATC
