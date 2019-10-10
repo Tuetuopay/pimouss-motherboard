@@ -168,9 +168,9 @@ Wire Wire Line
 Wire Wire Line
 	8950 3550 9700 3550
 Text Label 8950 3450 0    50   ~ 0
-MIIM_MDC
-Text Label 8950 3550 0    50   ~ 0
 MIIM_MDIO
+Text Label 8950 3550 0    50   ~ 0
+MIIM_MDC
 Text Label 8950 3250 0    50   ~ 0
 nRST
 Wire Wire Line
