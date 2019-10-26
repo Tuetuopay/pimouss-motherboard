@@ -61,6 +61,12 @@ K oscillator
 F http://ww1.microchip.com/downloads/en/DeviceDoc/DSC1102%20DSC1122%20Datasheet%20MKQBPD11041002-6.pdf
 $ENDCMP
 #
+$CMP FT230XS
+D USB to UART IC
+K usb, uart, ftdi
+F https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT230X.pdf
+$ENDCMP
+#
 $CMP ISL8033A
 D Dual 3A Low Quiescent Current Synchronous Buck Regulator
 K regulator buck
