@@ -1529,32 +1529,6 @@ Wire Wire Line
 	7550 1700 6800 1700
 $Comp
 L Connector:TestPoint TP?
-U 1 1 5D2A7F76
-P 7550 1600
-AR Path="/5D05A5E1/5D2A7F76" Ref="TP?"  Part="1" 
-AR Path="/5CE77C37/5D2A7F76" Ref="TP9"  Part="1" 
-F 0 "TP9" V 7550 1788 50  0000 L CNN
-F 1 "TestPoint" V 7595 1788 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 7750 1600 50  0001 C CNN
-F 3 "~" H 7750 1600 50  0001 C CNN
-	1    7550 1600
-	0    1    1    0   
-$EndComp
-$Comp
-L Connector:TestPoint TP?
-U 1 1 5D2A76E3
-P 7550 1700
-AR Path="/5D05A5E1/5D2A76E3" Ref="TP?"  Part="1" 
-AR Path="/5CE77C37/5D2A76E3" Ref="TP10"  Part="1" 
-F 0 "TP10" V 7550 1888 50  0000 L CNN
-F 1 "TestPoint" V 7595 1888 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 7750 1700 50  0001 C CNN
-F 3 "~" H 7750 1700 50  0001 C CNN
-	1    7550 1700
-	0    1    1    0   
-$EndComp
-$Comp
-L Connector:TestPoint TP?
 U 1 1 5D3350DF
 P 3650 2200
 AR Path="/5D05A5E1/5D3350DF" Ref="TP?"  Part="1" 
