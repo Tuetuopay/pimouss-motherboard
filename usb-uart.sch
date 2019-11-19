@@ -49,8 +49,6 @@ Text Label 5800 3800 0    50   ~ 0
 USB_IC_P
 Text Label 5800 3900 0    50   ~ 0
 USB_IC_N
-Text Label 4000 3800 0    50   ~ 0
-USB_P
 Text Label 4000 3900 0    50   ~ 0
 USB_N
 NoConn ~ 3800 4200
@@ -81,28 +79,6 @@ Wire Wire Line
 	3300 4500 3300 4550
 Wire Wire Line
 	3000 4550 3000 4500
-Wire Wire Line
-	3800 3400 3900 3400
-Wire Wire Line
-	3900 3400 3900 3450
-Wire Wire Line
-	3800 3500 3900 3500
-Wire Wire Line
-	3900 3500 3900 3450
-Connection ~ 3900 3450
-$Comp
-L power:GND #PWR081
-U 1 1 5D280DF4
-P 4400 3550
-F 0 "#PWR081" H 4400 3300 50  0001 C CNN
-F 1 "GND" H 4405 3377 50  0000 C CNN
-F 2 "" H 4400 3550 50  0001 C CNN
-F 3 "" H 4400 3550 50  0001 C CNN
-	1    4400 3550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4400 3450 4400 3550
 $Comp
 L Device:L L?
 U 1 1 5D2813FA
@@ -191,8 +167,6 @@ Wire Wire Line
 Connection ~ 8750 4700
 Wire Wire Line
 	7550 3500 8150 3500
-Wire Wire Line
-	3900 3450 4400 3450
 Wire Wire Line
 	3000 4550 3150 4550
 $Comp
@@ -475,4 +449,56 @@ NoConn ~ 7550 4000
 NoConn ~ 7550 4100
 NoConn ~ 7550 4200
 NoConn ~ 7550 4300
+$Comp
+L Device:R_Small R84
+U 1 1 5DFFAFC5
+P 4050 3400
+F 0 "R84" V 4246 3400 50  0000 C CNN
+F 1 "5k1" V 4155 3400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4050 3400 50  0001 C CNN
+F 3 "~" H 4050 3400 50  0001 C CNN
+	1    4050 3400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small R85
+U 1 1 5DFFAFCB
+P 4050 3500
+F 0 "R85" V 3946 3500 50  0000 C CNN
+F 1 "5k1" V 3855 3500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4050 3500 50  0001 C CNN
+F 3 "~" H 4050 3500 50  0001 C CNN
+	1    4050 3500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3800 3400 3950 3400
+Wire Wire Line
+	3800 3500 3950 3500
+Wire Wire Line
+	4150 3400 4250 3400
+Wire Wire Line
+	4250 3400 4250 3450
+Wire Wire Line
+	4250 3500 4150 3500
+Connection ~ 4250 3450
+Wire Wire Line
+	4250 3450 4250 3500
+Text Label 4000 3800 0    50   ~ 0
+USB_P
+Wire Wire Line
+	4250 3450 4400 3450
+Wire Wire Line
+	4400 3450 4400 3550
+$Comp
+L power:GND #PWR081
+U 1 1 5D280DF4
+P 4400 3550
+F 0 "#PWR081" H 4400 3300 50  0001 C CNN
+F 1 "GND" H 4405 3377 50  0000 C CNN
+F 2 "" H 4400 3550 50  0001 C CNN
+F 3 "" H 4400 3550 50  0001 C CNN
+	1    4400 3550
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
