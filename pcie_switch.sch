@@ -252,17 +252,6 @@ Wire Wire Line
 Connection ~ 7800 3500
 Wire Wire Line
 	7800 3500 7800 3600
-$Comp
-L Connector:Conn_01x03_Male J4
-U 1 1 5D55B632
-P 7350 4000
-F 0 "J4" H 7456 4278 50  0000 C CNN
-F 1 "Conn_01x03_Male" H 7456 4187 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 7350 4000 50  0001 C CNN
-F 3 "~" H 7350 4000 50  0001 C CNN
-	1    7350 4000
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7550 3900 8000 3900
 Wire Wire Line
@@ -2314,5 +2303,38 @@ F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 3250 4800 50  0001 C CNN
 F 3 "~" H 3250 4800 50  0001 C CNN
 	1    3050 4800
 	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP9
+U 1 1 5E4195E3
+P 7550 3900
+F 0 "TP9" V 7550 4550 50  0000 C CNN
+F 1 "TestPoint" V 7550 4250 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 7750 3900 50  0001 C CNN
+F 3 "~" H 7750 3900 50  0001 C CNN
+	1    7550 3900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP10
+U 1 1 5E41B0B3
+P 7550 4000
+F 0 "TP10" V 7550 4650 50  0000 C CNN
+F 1 "TestPoint" V 7550 4350 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 7750 4000 50  0001 C CNN
+F 3 "~" H 7750 4000 50  0001 C CNN
+	1    7550 4000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP32
+U 1 1 5E41B2C8
+P 7550 4100
+F 0 "TP32" V 7550 4750 50  0000 C CNN
+F 1 "TestPoint" V 7550 4450 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 7750 4100 50  0001 C CNN
+F 3 "~" H 7750 4100 50  0001 C CNN
+	1    7550 4100
+	0    -1   -1   0   
 $EndComp
 $EndSCHEMATC
