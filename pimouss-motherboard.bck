@@ -61,10 +61,22 @@ K oscillator
 F http://ww1.microchip.com/downloads/en/DeviceDoc/DSC1102%20DSC1122%20Datasheet%20MKQBPD11041002-6.pdf
 $ENDCMP
 #
+$CMP FT230XS
+D USB to UART IC
+K usb, uart, ftdi
+F https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT230X.pdf
+$ENDCMP
+#
 $CMP ISL8033A
 D Dual 3A Low Quiescent Current Synchronous Buck Regulator
 K regulator buck
 F https://www.renesas.com/eu/en/doc/datasheet/isl8033-a.pdf
+$ENDCMP
+#
+$CMP KUSBX-SL-CS1N14-B
+D USB TYPE C 14 PIN UPRIGHT JACK, G/F RoHS	
+K usb universal serial bus type-C full-featured
+F https://www.usb.org/sites/default/files/documents/usb_type-c.zip
 $ENDCMP
 #
 $CMP PI7C9X2G404SL
@@ -72,10 +84,26 @@ D 4-Port 4-Lane PCIe Switch
 K pcie switch
 $ENDCMP
 #
+$CMP Pimouss
+D pimouss
+K pimouss
+$ENDCMP
+#
+$CMP RJSAE-5x8
+D 4 Port 2x2 stacked RJ45 jack
+F https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/rjsaex38x04x.pdf
+$ENDCMP
+#
 $CMP TMS-105-57-GD
 D Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers)
 K connector
 F ~
+$ENDCMP
+#
+$CMP TPS74401_VQFN
+D 0.8 to 3.6V adjustable, 3.0-A, Ultra-LDO with Programmable Soft-Start
+K LDO, Voltage Regulator
+F http://www.ti.com/general/docs/lit/getliterature.tsp?genericPartNumber=tps74401&fileType=pdf
 $ENDCMP
 #
 $CMP USB-C-2.0-FEMALE

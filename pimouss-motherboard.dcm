@@ -73,6 +73,12 @@ K regulator buck
 F https://www.renesas.com/eu/en/doc/datasheet/isl8033-a.pdf
 $ENDCMP
 #
+$CMP KUSBX-SL-CS1N14-B
+D USB TYPE C 14 PIN UPRIGHT JACK, G/F RoHS	
+K usb universal serial bus type-C full-featured
+F https://www.usb.org/sites/default/files/documents/usb_type-c.zip
+$ENDCMP
+#
 $CMP PI7C9X2G404SL
 D 4-Port 4-Lane PCIe Switch
 K pcie switch
