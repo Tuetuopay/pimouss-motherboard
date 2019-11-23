@@ -14,17 +14,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L pimouss-motherboard:USB-C-2.0-FEMALE P5
-U 1 1 5D27BBAF
-P 2800 3100
-F 0 "P5" H 3306 3265 50  0000 C CNN
-F 1 "USB-C-2.0-FEMALE" H 3306 3174 50  0000 C CNN
-F 2 "pimouss-motherboard:USB-C-FEMALE" H 3550 1600 50  0001 C CNN
-F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 3450 2600 50  0001 C CNN
-	1    2800 3100
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5550 3800 6300 3800
 Wire Wire Line
@@ -51,8 +40,6 @@ Text Label 5800 3900 0    50   ~ 0
 USB_IC_N
 Text Label 4000 3900 0    50   ~ 0
 USB_N
-NoConn ~ 3800 4200
-NoConn ~ 3800 4300
 Wire Wire Line
 	5100 4000 5100 3800
 Connection ~ 5100 3800
@@ -76,9 +63,9 @@ Wire Wire Line
 Wire Wire Line
 	5100 4200 5100 4250
 Wire Wire Line
-	3300 4500 3300 4550
+	3300 4300 3300 4350
 Wire Wire Line
-	3000 4550 3000 4500
+	3000 4350 3000 4300
 $Comp
 L Device:L L?
 U 1 1 5D2813FA
@@ -168,24 +155,24 @@ Connection ~ 8750 4700
 Wire Wire Line
 	7550 3500 8150 3500
 Wire Wire Line
-	3000 4550 3150 4550
+	3000 4350 3150 4350
 $Comp
 L power:GND #PWR080
 U 1 1 5D29968A
-P 3150 4600
-F 0 "#PWR080" H 3150 4350 50  0001 C CNN
-F 1 "GND" H 3155 4427 50  0000 C CNN
-F 2 "" H 3150 4600 50  0001 C CNN
-F 3 "" H 3150 4600 50  0001 C CNN
-	1    3150 4600
+P 3150 4400
+F 0 "#PWR080" H 3150 4150 50  0001 C CNN
+F 1 "GND" H 3155 4227 50  0000 C CNN
+F 2 "" H 3150 4400 50  0001 C CNN
+F 3 "" H 3150 4400 50  0001 C CNN
+	1    3150 4400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3150 4600 3150 4550
-Connection ~ 3150 4550
+	3150 4400 3150 4350
+Connection ~ 3150 4350
 Wire Wire Line
-	3150 4550 3300 4550
-Text Notes 3500 5100 0    50   ~ 0
+	3150 4350 3300 4350
+Text Notes 3500 4900 0    50   ~ 0
 Connect both USB data pins despite\nthe stubs it will create: at USB 2.0\nspeeds, this is not really an issue
 $Comp
 L Device:R_Small R44
@@ -499,6 +486,17 @@ F 1 "GND" H 4405 3377 50  0000 C CNN
 F 2 "" H 4400 3550 50  0001 C CNN
 F 3 "" H 4400 3550 50  0001 C CNN
 	1    4400 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L pimouss-motherboard:KUSBX-SL-CS1N14-B P6
+U 1 1 5DF126C5
+P 2800 3000
+F 0 "P6" H 3308 3165 50  0000 C CNN
+F 1 "KUSBX-SL-CS1N14-B" H 3308 3074 50  0000 C CNN
+F 2 "pimouss-motherboard:KUSBX-SL-CS1N14-B" H 3550 1600 50  0001 C CNN
+F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 3450 2600 50  0001 C CNN
+	1    2800 3000
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
