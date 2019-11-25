@@ -849,7 +849,7 @@ AR Path="/5C98325D/5CA02A54" Ref="J?"  Part="1"
 AR Path="/5CE77C37/5CA02A54" Ref="J3"  Part="1" 
 F 0 "J3" H 10300 6217 50  0000 C CNN
 F 1 "Conn_02x10_Odd_Even" H 10300 6126 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical" H 10250 5600 50  0001 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_2x10_P1.27mm_Vertical_SMD" H 10250 5600 50  0001 C CNN
 F 3 "~" H 10250 5600 50  0001 C CNN
 	1    10250 5600
 	1    0    0    -1  
