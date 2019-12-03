@@ -33,6 +33,12 @@ pipeline:
     commands:
       - kiplot -b pimouss-motherboard.kicad_pcb -c /opt/etc/kiplot/generic_plot.kiplot.yaml -v -d out
 
+  pos:
+    image: kicad-automation:4layers
+    group: fabrication-outputs
+    commands:
+      - scripts/generate-pos-file pimouss-motherboard.kicad_pcb > out/layout/pimouss-motherboard.pos
+
   zip-gerbers:
     image: kramos/alpine-zip
     commands:
