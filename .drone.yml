@@ -17,6 +17,7 @@ pipeline:
     group: fabrication-outputs
     commands:
       - sh /opt/InteractiveHtmlBom/make-interactive-bom pimouss-motherboard.kicad_pcb
+      - mv /output/bom/interactive/ibom.html out/bom/interactive/
 
   schematic:
     image: kicad-automation:4layers
